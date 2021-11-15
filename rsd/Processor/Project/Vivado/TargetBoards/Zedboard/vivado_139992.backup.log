@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Nov 14 19:29:18 2021
+# Process ID: 139992
+# Current directory: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard
+# Command line: vivado -mode batch -source scripts/synthesis/create_project.tcl
+# Log file: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/vivado.log
+# Journal file: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/vivado.jou
+#-----------------------------------------------------------
+source scripts/synthesis/create_project.tcl
+no such variable
+    (read trace on "env(RSD_ROOT)")
+    invoked from within
+"set origin_dir "$env(RSD_ROOT)/Processor/Project/Vivado/TargetBoards/Zedboard/""
+    (file "scripts/synthesis/create_project.tcl" line 36)
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 14 19:29:23 2021...

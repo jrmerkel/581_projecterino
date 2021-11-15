@@ -1,0 +1,3142 @@
+Package: alien-arena
+Version: 7.53+dfsg-3
+Installed-Size: 1267
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libcurl3-gnutls (>= 7.16.2), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.4.0), libjpeg8 (>= 8c), libogg0 (>= 1.0rc3), libstdc++6 (>= 4.4.0), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libx11-6, libxxf86dga1, libxxf86vm1, libopenal1, alien-arena-data
+Description: Standalone 3D first person online deathmatch shooter
+Homepage: http://red.planetarena.org
+Description-md5: 47823b2859eb6b755a4964a82d53d164
+Tag: game::fps, hardware::input:keyboard, hardware::input:mouse,
+ hardware::opengl, implemented-in::c, interface::3d, interface::x11,
+ network::client, role::program, uitoolkit::sdl, use::gameplaying,
+ x11::application
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/a/alien-arena/alien-arena_7.53+dfsg-3_armhf.deb
+Size: 711028
+MD5sum: a18f3f979449d86bdc837fbb39b8696c
+SHA1: 123c9667258b9b0cb1917b7ecd06ae7045ad8c82
+SHA256: d26ec3544b5ec51500e91cf8bb5b9145f8f44d6ed4efbb4ec5333150af0c71b8
+
+Package: alien-arena-server
+Source: alien-arena
+Version: 7.53+dfsg-3
+Installed-Size: 412
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libjpeg8 (>= 8c), ruby, alien-arena-data
+Description: Dedicated server for Alien Arena
+Homepage: http://red.planetarena.org
+Description-md5: f4a775dfc909f96d9fd86524249092dc
+Tag: game::fps, implemented-in::c, implemented-in::ruby,
+ implemented-in::shell, interface::commandline, interface::daemon,
+ network::server, role::program, use::gameplaying
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/a/alien-arena/alien-arena-server_7.53+dfsg-3_armhf.deb
+Size: 227112
+MD5sum: 0408edfa3597d94ab5278efb646339cb
+SHA1: e5bec699db5bd160d00c1b2a18cff3c8effce507
+SHA256: a7682957cdc2d38c3c855579ef486edacd7374878c74e3611bd6a17f898819be
+
+Package: alsa-firmware-loaders
+Source: alsa-tools
+Version: 1.0.25-2
+Installed-Size: 171
+Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: fxload, udev, libasound2 (>= 1.0.16), libc6 (>= 2.13-28)
+Description: ALSA software loaders for specific hardware
+Homepage: http://www.alsa-project.org/
+Description-md5: 631dd818c28b45f8af844a1ba49ddcd6
+Tag: role::program, use::driver, works-with::audio
+Section: contrib/sound
+Priority: extra
+Filename: pool/contrib/a/alsa-tools/alsa-firmware-loaders_1.0.25-2_armhf.deb
+Size: 33456
+MD5sum: 5f166962a4125b7a02a8b79563bd79e6
+SHA1: ab650b099bde9c364c9807eadef635791967a8e6
+SHA256: 459d50daae82a1958588423d6e39b1db3b7b65c788bb904cd8cfe8d7620c5286
+
+Package: amoeba
+Version: 1.1-26
+Installed-Size: 164
+Maintainer: Steinar H. Gunderson <sesse@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libglu1-mesa | libglu1, libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.3.0), libvorbisfile3 (>= 1.1.2), libx11-6, libxxf86vm1, zlib1g (>= 1:1.1.4), amoeba-data
+Recommends: libgtk2.0-0
+Conflicts: mesag3
+Description: fast-paced, polished OpenGL demonstration by Excess
+Description-md5: d79071f380a0fcf700f7b1ed1856dab1
+Tag: game::demos, hardware::opengl, implemented-in::c++, interface::x11,
+ role::program, uitoolkit::gtk, use::entertaining, x11::application
+Section: contrib/x11
+Priority: optional
+Filename: pool/contrib/a/amoeba/amoeba_1.1-26_armhf.deb
+Size: 80788
+MD5sum: 841824654c99d180747e5bc820d97d94
+SHA1: d7274621bc926cf89db3fa8fad1dbf82b9e57e37
+SHA256: 0170097fd862014e8b5c219b8eb25260269cffe26f50c544c8ec77ad44e4f736
+
+Package: assaultcube
+Version: 1.1.0.4+dfsg2-1
+Installed-Size: 1354
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libopenal1, libsdl-image1.2 (>= 1.2.10), libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.4.0), libvorbisfile3 (>= 1.1.2), libx11-6, zlib1g (>= 1:1.1.4), assaultcube-data (>= 1.1.0.4+repack1)
+Description: realistic first-person-shooter
+Homepage: http://assault.cubers.net/
+Description-md5: ed5648b8bfb9d111317f191f649a1035
+Tag: game::fps, hardware::input:keyboard, hardware::input:mouse,
+ hardware::opengl, implemented-in::c++, interface::3d, interface::x11,
+ network::client, network::server, role::program, scope::application,
+ uitoolkit::sdl, use::gameplaying, x11::application
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/a/assaultcube/assaultcube_1.1.0.4+dfsg2-1_armhf.deb
+Size: 795580
+MD5sum: 50da2b7680abbe5b291fb91575f721eb
+SHA1: e9ce0dcbb14615b656c12460157e095fde9768c5
+SHA256: f740abb827b328f763e048d66e06ea244585bff75ca9eee9442d56733c0cc737
+
+Package: atari800
+Version: 2.2.1-2
+Installed-Size: 773
+Maintainer: Antonin Kral <A.Kral@sh.cvut.cz>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libpng12-0 (>= 1.2.13-4), libreadline6 (>= 6.0), libsdl1.2debian (>= 1.2.11), zlib1g (>= 1:1.2.3.3)
+Description: Atari emulator for SDL
+Description-md5: 76a64554427ff1a53c8bb5afb1c50bee
+Tag: hardware::emulation, role::program, uitoolkit::ncurses, uitoolkit::sdl
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/a/atari800/atari800_2.2.1-2_armhf.deb
+Size: 419212
+MD5sum: c777072422729b0845fbb1f40cda1630
+SHA1: 5c6bac61e9f240b5d692c8dd777d6722f41eeeb5
+SHA256: a0e10f320a98f599dacbe1ff3a2e27b2724c75d17538ef5d3b23d9e466b11204
+
+Package: b43-fwcutter
+Version: 1:015-14.1
+Installed-Size: 70
+Maintainer: Fabrizio Regalli <fabreg@fabreg.it>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28)
+Description: Utility for extracting Broadcom 43xx firmware
+Homepage: http://wireless.kernel.org/en/users/Drivers/b43
+Description-md5: 57dfe30ea83181cf6914c4780bc152e5
+Tag: implemented-in::c, role::program, scope::utility
+Section: contrib/utils
+Priority: optional
+Filename: pool/contrib/b/b43-fwcutter/b43-fwcutter_015-14.1_armhf.deb
+Size: 22562
+MD5sum: aef4db534758550824c109e15f02ec92
+SHA1: 3b1bce50b53dfbdbb2b13ccaaf2172ea71693e49
+SHA256: 71d4902c61459a4d297788eb5cd16a7e398fe5db370cfe87d7681abe1b65b9b3
+
+Package: firmware-b43-installer
+Source: b43-fwcutter
+Version: 1:015-14.1
+Installed-Size: 52
+Maintainer: Fabrizio Regalli <fabreg@fabreg.it>
+Architecture: all
+Depends: b43-fwcutter (>= 1:015-14.1), bzip2, wget
+Recommends: linux-image
+Conflicts: firmware-b43-lpphy-installer
+Description: Installer package for firmware for the b43 driver
+Homepage: http://wireless.kernel.org/en/users/Drivers/b43
+Description-md5: 97312c6d9c7624888f4e31a1f191c9ed
+Section: contrib/kernel
+Priority: optional
+Filename: pool/contrib/b/b43-fwcutter/firmware-b43-installer_015-14.1_all.deb
+Size: 9768
+MD5sum: 4e17906fe65b3fce405c9bd52fc69575
+SHA1: 96f0c4ded926e306d766d23580282f7565ccaad0
+SHA256: 94ada72117a68bbd3ab6692e5883f87ecd199ff8d7aaabb326c643ecedd40c9d
+
+Package: firmware-b43-lpphy-installer
+Source: b43-fwcutter
+Version: 1:015-14.1
+Installed-Size: 50
+Maintainer: Fabrizio Regalli <fabreg@fabreg.it>
+Architecture: all
+Depends: b43-fwcutter (>= 1:015-14.1), bzip2, wget
+Recommends: linux-image
+Conflicts: firmware-b43-installer
+Description: Installer package for firmware for the b43 driver (LP-PHY version)
+Homepage: http://wireless.kernel.org/en/users/Drivers/b43
+Description-md5: ee82dc00ef78e27ab9c1cd152589e105
+Section: contrib/kernel
+Priority: optional
+Filename: pool/contrib/b/b43-fwcutter/firmware-b43-lpphy-installer_015-14.1_all.deb
+Size: 9690
+MD5sum: 83a04484c30879a47f7376804cdd70bf
+SHA1: dce46898b6db1e4b83f97bed5198dda767de2673
+SHA256: b15fb486f66ab275869d15182dad72667586ffd02dcc432c0a8c5a550874a810
+
+Package: firmware-b43legacy-installer
+Source: b43-fwcutter
+Version: 1:015-14.1
+Installed-Size: 50
+Maintainer: Fabrizio Regalli <fabreg@fabreg.it>
+Architecture: all
+Depends: b43-fwcutter (>= 1:015-14.1), wget
+Recommends: linux-image
+Description: Installer package for firmware for the b43legacy driver
+Homepage: http://wireless.kernel.org/en/users/Drivers/b43
+Description-md5: c54e2aaccf31d6bfa0b2ccfc1ce67886
+Section: contrib/kernel
+Priority: optional
+Filename: pool/contrib/b/b43-fwcutter/firmware-b43legacy-installer_015-14.1_all.deb
+Size: 9330
+MD5sum: 004503ea9d0a36dde925a7e4f70900a0
+SHA1: 65c76fe601d659b37db4441fcbda1e3e5750bed9
+SHA256: fcfdc30c68a9cbfb3695d7673ebba5870cf4bf8c4a44723f7a9925e090188b4d
+
+Package: bgoffice-dict-downloader
+Version: 0.09
+Installed-Size: 26
+Maintainer: Debian Add-ons Bulgaria Project <debian-addons-bg-maintainers@openfmi.net>
+Architecture: all
+Depends: curl, debconf (>= 0.5) | debconf-2.0, perl, liburi-perl, libwww-mechanize-perl
+Recommends: gbgoffice
+Description: download dictionaries for gbgoffice
+Description-md5: 4999911e18e26881818d162507bf0e44
+Tag: implemented-in::perl, role::program, use::downloading,
+ works-with::dictionary
+Section: contrib/text
+Priority: extra
+Filename: pool/contrib/b/bgoffice-dict-downloader/bgoffice-dict-downloader_0.09_all.deb
+Size: 15894
+MD5sum: 22fa878cdc0d27148afd477ef1468352
+SHA1: 108dc17dc08e3673b066ac513d17383ea32b2723
+SHA256: 84dcab05ba002aa62e4f56b7f7434a69d1b6c35180296ba8762c861bc9a204fe
+
+Package: biomaj-watcher
+Version: 1.2.1-1
+Installed-Size: 214620
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, default-jdk, tomcat6 (>= 6.0.32-3), biomaj (>= 1.2.1), debconf, liblog4j1.2-java, libjsch-java (>= 0.1.42), libjdom1-java (>= 1.1), libcommons-lang-java (>= 2.4), libcommons-logging-java (>= 1.1), libquartz-java (>= 1.6), libxerces2-java, unzip, zip, libgnumail-java
+Description: biological data-bank updater - web interface
+Homepage: http://biomaj.genouest.org
+Description-md5: 46975822bee8ad1988f6ff1295acba53
+Tag: implemented-in::java, interface::web, role::program, web::application
+Section: contrib/science
+Priority: optional
+Filename: pool/contrib/b/biomaj-watcher/biomaj-watcher_1.2.1-1_all.deb
+Size: 33978026
+MD5sum: b33d56b92ce1d8aa9fc2b3cdb3afd9bd
+SHA1: e20ee6448b166c6643b9e526656642fe56ee18a7
+SHA256: 3c9abf871772e13c13ba7c7e4973f9fac7dd6479995926607339255b408125e3
+
+Package: cbedic
+Version: 4.0-3
+Installed-Size: 59
+Maintainer: Anton Zinoviev <zinoviev@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.3.0)
+Suggests: kbedic
+Description: Text-mode Bulgarian/English Dictionary
+Description-md5: 56a857f9100ac90cb66b2b50caddba94
+Tag: role::program, works-with::dictionary
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/c/cbedic/cbedic_4.0-3_armhf.deb
+Size: 23174
+MD5sum: e93123bac5cdf0b80bb9e8feb7eb7c3d
+SHA1: fe3cdcd5e546b9d104a5820c68707c189dc18cb9
+SHA256: 5140bab36f2a6020c19caec55579b62bc5b1aa6424df63839963db1761b09fa7
+
+Package: chocolate-doom
+Version: 1.7.0-3
+Installed-Size: 626
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Provides: doom-engine
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libsdl-mixer1.2, libsdl-net1.2, libsdl1.2debian (>= 1.2.11), doom-wad
+Conflicts: freedm (<< 0.6.4-4), freedoom (<< 0.6.4-4)
+Description: Doom engine closely-compatible with vanilla doom
+Homepage: http://chocolate-doom.org/
+Description-md5: 999e7caafea133272b13ba0f29f3bb3a
+Tag: game::fps, implemented-in::c, interface::3d, interface::x11,
+ role::program, uitoolkit::sdl, use::gameplaying, x11::application
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/c/chocolate-doom/chocolate-doom_1.7.0-3_armhf.deb
+Size: 377586
+MD5sum: f252c4ada3dc264f4e19820b728bed9c
+SHA1: 093aa611789b3eb4cb9473f6c3c9c12b58e9cb66
+SHA256: fc61bb8db4cbee861d9bafb84c48135640660b1b8868686a15b4be6c6085dc9a
+
+Package: cicero
+Version: 0.7.2-2
+Installed-Size: 200
+Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Architecture: all
+Depends: python (>= 2.3), mbrola-fr4, sox, oss-compat
+Description: French and English Text-To-Speech for MBROLA
+Homepage: http://pages.infinit.net/fluxnic/cicero/
+Description-md5: fc49eb778e57e68629157bb32fd19f99
+Tag: accessibility::speech, culture::british, culture::french, role::program
+Section: contrib/sound
+Priority: optional
+Filename: pool/contrib/c/cicero/cicero_0.7.2-2_all.deb
+Size: 94406
+MD5sum: 9138300cf35b4b3b2707f34d6604fc73
+SHA1: 475c8cddf9a8a47592ba916e9c18869b3f4ac4c4
+SHA256: 16d9b836629bd9bc5d1e6b4085c260c90643617a6baf59212eee51caa4388d5c
+
+Package: cl-sql-oracle
+Source: cl-sql
+Version: 6.2.0-1
+Installed-Size: 110
+Maintainer: Kevin M. Rosenberg <kmr@debian.org>
+Architecture: all
+Provides: cl-sql-backend
+Depends: cl-sql (= 6.2.0-1), cl-sql-uffi (>= 6.2.0-1)
+Description: CLSQL database backend, Oracle
+Homepage: http://clsql.b9.com/
+Description-md5: e2fa54c009744a1533f5486a15f863e6
+Tag: devel::lang:lisp, devel::lang:sql, implemented-in::lisp, works-with::db
+Section: contrib/lisp
+Priority: extra
+Filename: pool/contrib/c/cl-sql/cl-sql-oracle_6.2.0-1_all.deb
+Size: 34530
+MD5sum: a850d7f05f3ad3a05f80279415540c2e
+SHA1: 0b0197f08907c8c48d78955bf0578538de064386
+SHA256: 00fa172d043474b5fddeb4ca8bf9da1b1aa8d9ce657e42cc15d599d38de8a095
+
+Package: cl-umlisp
+Version: 1:2007ac.2-6
+Installed-Size: 212
+Maintainer: Kevin M. Rosenberg <kmr@debian.org>
+Architecture: all
+Depends: cl-kmrcl, cl-sql, cl-sql-mysql, cl-hyperobject
+Description: Common Lisp interface for the Unified Medical Language System
+Homepage: http://files.b9.com/umlisp/
+Description-md5: 862801106fe3fce0392e1fbafafe4f06
+Tag: devel::lang:lisp
+Section: contrib/lisp
+Priority: optional
+Filename: pool/contrib/c/cl-umlisp/cl-umlisp_2007ac.2-6_all.deb
+Size: 37490
+MD5sum: 17c3cb6d480ebc6f3cf8958415d02017
+SHA1: c786cb0fd62b20d9bb3140745f454ffed6e64175
+SHA256: f0a121cb3b67f7d00ffcd9ea728468629a1556d5719237933122f836ca8639e0
+
+Package: cl-umlisp-orf
+Version: 3.3.2-3
+Installed-Size: 12
+Maintainer: Kevin M. Rosenberg <kmr@debian.org>
+Architecture: all
+Depends: cl-kmrcl, cl-sql, cl-hyperobject
+Description: Common Lisp Unified Medical Language System Interface, ORF
+Homepage: http://files.b9.com/umlisp-orf/
+Description-md5: 56177717a37fb571fe11ae0e6d490b77
+Tag: devel::lang:lisp, implemented-in::lisp
+Section: contrib/lisp
+Priority: optional
+Filename: pool/contrib/c/cl-umlisp-orf/cl-umlisp-orf_3.3.2-3_all.deb
+Size: 3814
+MD5sum: 9bce770b4306f5cc175eb38d23e6548d
+SHA1: b83738d3a717e00ec140e465094c041a995496ee
+SHA256: 32e6fab3791e5818c56372920c9232528215d07360d8ab128a9bb7fd4e215197
+
+Package: cltl
+Version: 1.0.26
+Installed-Size: 92
+Maintainer: Debian Common Lisp Team <pkg-common-lisp-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, wget
+Suggests: ilisp
+Description: Common Lisp the Language, second edition, book (Pre-ANSI)
+Description-md5: 981097f297a723afe41afec3b96d5a27
+Tag: devel::lang:lisp, implemented-in::lisp
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/c/cltl/cltl_1.0.26_all.deb
+Size: 8874
+MD5sum: 49b6d1731b8bfc5d588197d4519783d3
+SHA1: 27bf3fd75af585c481b04b23a3ab2f2845767e51
+SHA256: 0d723504f16bc8c0ae01a8a5d0ed23574a32ed043d45fccfe5e27bdeaa8db2fb
+
+Package: conky-all
+Version: 1.9.0-2
+Installed-Size: 938
+Maintainer: Vincent Cheng <Vincentc1208@gmail.com>
+Architecture: armhf
+Replaces: conky-cli, conky-std
+Depends: libaudclient2 (>= 2.3), libc6 (>= 2.13-28), libcairo2 (>= 1.8.0), libcurl3-gnutls (>= 7.16.2), libdbus-glib-1-2 (>= 0.78), libgcc1 (>= 1:4.4.0), libglib2.0-0 (>= 2.12.0), libimlib2, libiw30 (>= 30~pre1), liblua5.1-0, libncurses5 (>= 5.5-5~), libtinfo5, libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxft2 (>> 2.1.1), libxml2 (>= 2.7.4), libxmmsclient6 (>= 0.7DrNo)
+Suggests: apcupsd, audacious, moc, mpd, xmms2
+Conflicts: conky-cli, conky-std
+Description: highly configurable system monitor (all features enabled)
+Homepage: http://conky.sourceforge.net/
+Description-md5: aa81d22501ae8b7d1ae2f17d146f84b5
+Tag: admin::monitoring, implemented-in::c, interface::x11, role::program,
+ scope::utility, uitoolkit::xlib, use::monitor, x11::applet
+Section: contrib/utils
+Priority: optional
+Filename: pool/contrib/c/conky-all/conky-all_1.9.0-2_armhf.deb
+Size: 365838
+MD5sum: 172e84a1e8472827a903cb1b552cc6ef
+SHA1: c38b8d534a6f538aade74bd87d24ec00e543f179
+SHA256: 002671ecac9241be29edfe682e323a8af4891c7e4a36378d29441edc3cebe4e7
+
+Package: libcplgasgano20
+Source: cpl
+Version: 6.1.1-2
+Installed-Size: 210
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libcext0, libcplcore20, libcpldfs20, libcplui20, libgomp1 (>= 4.2.1), libltdl7 (>= 2.4.2)
+Pre-Depends: multiarch-support
+Recommends: gasgano
+Description: CPL Java Native Interface library
+Multi-Arch: same
+Homepage: http://www.eso.org/sci/software/cpl/
+Description-md5: f2ac9ec8249050341be0c8feacf02c6d
+Tag: implemented-in::c, role::shared-lib
+Section: contrib/libs
+Priority: optional
+Filename: pool/contrib/c/cpl/libcplgasgano20_6.1.1-2_armhf.deb
+Size: 164836
+MD5sum: 6b439f608e853a4482db172a0aecf2f7
+SHA1: d6b2085732a4dbdb9b328f080defd963847131f2
+SHA256: cbf1d92de6663d5192cf01dc22ce223c2cc56c81a1d9be9bca892bda3a59ebff
+
+Package: crafty-bitmaps
+Version: 1.0-1
+Installed-Size: 144
+Maintainer: Oliver Korff <ok@xynyx.de>
+Architecture: all
+Enhances: crafty (>= 23.4-3)
+Description: bitmap images for crafty chess game annotation mode
+Description-md5: fc82f8f8f4819d64151c66bfa09cbf92
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/c/crafty-bitmaps/crafty-bitmaps_1.0-1_all.deb
+Size: 8460
+MD5sum: 02bcfabd9a9af6dc8626de0c55851b82
+SHA1: eccd8c4b1b8dbf1c7f28ec9c1b58b6187f657e32
+SHA256: be10f110b411c625401969902d9e7ac1304c71ca581abd0b2355555636b7dfba
+
+Package: crafty-books-medium
+Version: 1.0.debian1-2
+Installed-Size: 25592
+Maintainer: Oliver Korff <ok@xynyx.de>
+Architecture: all
+Depends: crafty (>= 23.1)
+Conflicts: crafty-books-large, crafty-books-medium, crafty-books-small
+Description: Medium size opening books for the crafty chess engine
+Description-md5: 45b811e83f4d2d1ec04cb992131cabac
+Tag: game::board, game::board:chess, role::app-data, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/c/crafty-books-medium/crafty-books-medium_1.0.debian1-2_all.deb
+Size: 12891934
+MD5sum: ec8d271e3c77decab7d092a5f83bace3
+SHA1: c3f2985c47d144e13b4839566f83ea7353cc0842
+SHA256: 21486e25a65bb8462131b7c867d5297fb037af2d44581272897915e2fe9f6146
+
+Package: crafty-books-medtosmall
+Version: 1.0.debian1-2
+Installed-Size: 3724
+Maintainer: Oliver Korff <ok@xynyx.de>
+Architecture: all
+Depends: crafty (>= 23.1)
+Conflicts: crafty-books-large, crafty-books-medium, crafty-books-small
+Description: Medium-to-small size opening books for crafty chess engine
+Description-md5: 125f4ba5d111686d0dfc99ebdcf6acee
+Tag: game::board, game::board:chess, role::app-data, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/c/crafty-books-medtosmall/crafty-books-medtosmall_1.0.debian1-2_all.deb
+Size: 1900208
+MD5sum: b2ade0dfa02106c9e1404023fbabe98d
+SHA1: 7b88aeddcd213519ac88a42632dc155be097dc61
+SHA256: 9ff0a85e4702d3924628cc2b0229a50c0fbe2ec7e75dce632ac5ac12040ccaa5
+
+Package: crafty-books-small
+Version: 1.0.debian1-2
+Installed-Size: 1224
+Maintainer: Oliver Korff <ok@xynyx.de>
+Architecture: all
+Depends: crafty (>= 23.1)
+Conflicts: crafty-books-large, crafty-books-medium, crafty-books-medtosmall
+Description: Small-size opening books for crafty chess engine
+Description-md5: b9b430941f6902c05294f3ad6b6b0a67
+Tag: game::board, game::board:chess, role::app-data, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/c/crafty-books-small/crafty-books-small_1.0.debian1-2_all.deb
+Size: 529228
+MD5sum: a94204c04c72ff14363afa65683de998
+SHA1: e3845ae913250cea7e54c3812d9480c940c7e552
+SHA256: 8c8669fc03a56f0261ed99cd551d543e0488246925a6c4f0281a60e4cee09069
+
+Package: cytadela
+Version: 1.0.1-2
+Installed-Size: 193
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libglu1-mesa | libglu1, libsdl-mixer1.2, libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.6), libvlc5 (>= 1.1.1), cytadela-data (= 1.0.1-2), vlc-nox
+Description: old-school first person shooter game
+Homepage: http://cytadela.sf.net/
+Description-md5: 06371ef209751b4f0339346902aea658
+Tag: game::fps, role::program, uitoolkit::sdl, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/c/cytadela/cytadela_1.0.1-2_armhf.deb
+Size: 91454
+MD5sum: 0a7aa9d60e4e15651cf35f6915e51b06
+SHA1: 485d0a02bb6a87ad9d18ac8c1fbda5a63e786fdd
+SHA256: e034530d1052b2650a25a0bf78e8ae476310e2b7ac566f7c3214d0aec1b5eaab
+
+Package: cytadela-data
+Source: cytadela
+Version: 1.0.1-2
+Installed-Size: 118677
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Suggests: fareditor
+Description: game data for cytadela
+Homepage: http://cytadela.sf.net/
+Description-md5: 84a23110edcb1420ece53cbbb06c852e
+Tag: role::app-data
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/c/cytadela/cytadela-data_1.0.1-2_all.deb
+Size: 73034028
+MD5sum: 395487fde4a22037cffe59d233ce662e
+SHA1: 4e124bbdcbd834610b98523c5d0fa0dd9a612de2
+SHA256: eefdb5dbd5ecf984808d5cdc233382ef508b936c60aabca39afb78587d49d574
+
+Package: cytadela-dbg
+Source: cytadela
+Version: 1.0.1-2
+Installed-Size: 1199
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: cytadela (= 1.0.1-2), cytadela-data
+Description: debugging symbols for cytadela
+Homepage: http://cytadela.sf.net/
+Description-md5: 15ca801c5f6d1885788711e7e1cb3c44
+Tag: devel::library, role::debug-symbols
+Section: contrib/debug
+Priority: extra
+Filename: pool/contrib/c/cytadela/cytadela-dbg_1.0.1-2_armhf.deb
+Size: 454226
+MD5sum: a91011b18ff14c0b2ea6f45dee282123
+SHA1: ed3a66042876b0c520f29313289aeafb880194e9
+SHA256: 02a6551f4fc1253efa007871e1aa6a7aa38581d4cb0b59afe32e223c370bb5e1
+
+Package: dynagen
+Version: 0.11.0-6
+Installed-Size: 1688
+Maintainer: Erik Wenzel <erik@debian.org>
+Architecture: all
+Depends: python, python-support (>= 0.90.0), dynamips (>= 0.2.7-0.2.8RC1), python-configobj (>= 4.3.2)
+Description: Cisco 7200 Router Emulator Command Line Interface
+Homepage: http://dynagen.org/
+Description-md5: b36424aad41209138c5bed60b19d5b72
+Tag: admin::configuring, admin::monitoring, implemented-in::python,
+ interface::shell, network::routing, protocol::TODO, protocol::ip,
+ role::program, scope::utility, use::checking, use::configuring,
+ use::monitor, use::routing
+Section: contrib/net
+Priority: optional
+Filename: pool/contrib/d/dynagen/dynagen_0.11.0-6_all.deb
+Size: 821156
+MD5sum: bd8b135ea1eee767bf19d9ecfcd3ce74
+SHA1: da304137f0e918a8c9b3e60c8a7b6feb0ce8a7dd
+SHA256: 2e780ae681bb1078fa1f7cfb722f4cbaccd2f7ce0e1978034893c6e0bc4dabdf
+
+Package: dynare-matlab
+Source: dynare
+Version: 4.3.0-2
+Installed-Size: 13815
+Maintainer: Debian Octave Group <pkg-octave-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: dynare, libboost-graph-dev (>= 1.36), gfortran, matlab-support, make
+Description: MATLAB support for Dynare
+Homepage: http://www.dynare.org/
+Description-md5: 90e8fcabb135fcf60e09f0be51774946
+Tag: role::plugin
+Section: contrib/math
+Priority: optional
+Filename: pool/contrib/d/dynare/dynare-matlab_4.3.0-2_all.deb
+Size: 2696260
+MD5sum: bc2f01b6de115e148296a3c3c4c4455b
+SHA1: acbaf73b89dd3053f4f0418b4077f2b232357e45
+SHA256: f0128f00181e99d2be12e1fd1f2ab122f8c0b19e3d5f00d2f456e09de63ce296
+
+Package: e-uae
+Version: 0.8.29-WIP4-10
+Installed-Size: 2120
+Maintainer: Stephan Sürken <absurd@debian.org>
+Architecture: armhf
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.0), libsdl1.2debian (>= 1.2.10-1), zlib1g (>= 1:1.1.4)
+Description: The Egalitarian Ubiquitous Amiga Emulator
+Homepage: http://www.rcdrummond.net/uae
+Description-md5: 2417be5248eed836c8412034ce4c16aa
+Tag: hardware::emulation, role::program, uitoolkit::gtk, uitoolkit::sdl
+Section: contrib/otherosfs
+Priority: extra
+Filename: pool/contrib/e/e-uae/e-uae_0.8.29-WIP4-10_armhf.deb
+Size: 806572
+MD5sum: 9436988da8b330167437916b4bdde3c8
+SHA1: 0cbba3eac3701d077ff7097024aa17b8c16b0fb0
+SHA256: b3b3c82fc785aa953a1fc9b836b45eb9615fb12d766c24a054b9729e98932f9e
+
+Package: e-uae-dbg
+Source: e-uae
+Version: 0.8.29-WIP4-10
+Installed-Size: 11188
+Maintainer: Stephan Sürken <absurd@debian.org>
+Architecture: armhf
+Depends: e-uae (= 0.8.29-WIP4-10)
+Description: The Egalitarian Ubiquitous Amiga Emulator (debugging)
+Homepage: http://www.rcdrummond.net/uae
+Description-md5: 02c82b363371995b39c22207f1d31efe
+Tag: hardware::emulation, role::debug-symbols
+Section: contrib/debug
+Priority: extra
+Filename: pool/contrib/e/e-uae/e-uae-dbg_0.8.29-WIP4-10_armhf.deb
+Size: 3595374
+MD5sum: 51a1fb8fb84a3b02610e19a90985c906
+SHA1: 09e1513e6016add5e41424874d15fd8f816afd28
+SHA256: c144f497952583adbd13928e39bc0b8fcf8304a4020b5b53e25fae2979ba6ec4
+
+Package: easyspice
+Version: 0.6.8-2
+Installed-Size: 192
+Maintainer: Gudjon I. Gudjonsson <gudjon@gudjon.org>
+Architecture: armhf
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.0), geda-gschem, geda-gnetlist, xterm
+Suggests: ngspice
+Description: A graphical frontend to the Spice simulator
+Homepage: http://easy-spice.sourceforge.net
+Description-md5: e3bf95b7d200e92a4729519ae2d78807
+Tag: field::electronics, role::program, uitoolkit::gtk, use::simulating
+Section: contrib/electronics
+Priority: optional
+Filename: pool/contrib/e/easyspice/easyspice_0.6.8-2_armhf.deb
+Size: 63194
+MD5sum: 127510c67b4ae7ef8d371bd43329ba5a
+SHA1: 191e42978b2bcf3200648e7ef8ba6ccf3af139d4
+SHA256: 4bd5e601247088963b49ff7ed31684ca874006f722514a43dba72027b8e8b5ae
+
+Package: esix
+Version: 1-2
+Installed-Size: 137
+Maintainer: Vince Mulhollon <vlm@debian.org>
+Architecture: all
+Recommends: simh
+Description: PDP-8 Engineering and Scientific Interpreter eXtended
+Description-md5: 7dac5366e554fbd3ae3feb620991c6c0
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/e/esix/esix_1-2_all.deb
+Size: 47044
+MD5sum: df6399f75fd692af6b9432d5877017de
+SHA1: b106d04706c396a8361419d9dfa863e80e74886c
+SHA256: b645d4ff74ddcfc11650efc913e0f06abcf29812b2de33c8c893011492a394a0
+
+Package: exult
+Version: 1.2-15.2
+Installed-Size: 1542
+Maintainer: Jordà Polo <jorda@ettin.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libsdl-mixer1.2, libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.6), libx11-6, zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, timidity
+Description: engine for Ultima VII (BG, FOV, SI, SS)
+Homepage: http://exult.sourceforge.net/
+Description-md5: 9c39d06a3da0bc0cfd896163aa1493f5
+Tag: game::rpg, interface::x11, role::program, scope::utility,
+ uitoolkit::sdl, use::gameplaying
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/e/exult/exult_1.2-15.2_armhf.deb
+Size: 916318
+MD5sum: aaa8a7b00516fdc8adfed8317a5efe16
+SHA1: 7e46e7a7f089d6179bda800e011ee411a3a1441d
+SHA256: 075885e42f06f536447c863efc8bdd17fe2dd4290816da2e6b4627974d858f04
+
+Package: exult-studio
+Source: exult
+Version: 1.2-15.2
+Installed-Size: 1439
+Maintainer: Jordà Polo <jorda@ettin.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgimp2.0 (>= 2.4.0), libglade2-0 (>= 1:2.6.1), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.8.0), libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.4.0), exult
+Recommends: gimp
+Description: tools for editing and viewing exult games
+Homepage: http://exult.sourceforge.net/
+Description-md5: b96426a2aeff3b728a587ea2ed27257f
+Tag: game::rpg, interface::x11, role::program, scope::utility,
+ uitoolkit::gtk, use::editing, x11::application
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/e/exult/exult-studio_1.2-15.2_armhf.deb
+Size: 517482
+MD5sum: 0593994e39cb4960e92bb91deaccad95
+SHA1: ff3f3760863c028dd68f361697be84e7494df552
+SHA256: efeaa365f066137f2bc3774bc6da62c169b42856eb4e9fa5f308f553209f7645
+
+Package: festvox-don
+Version: 1.4.0-4
+Installed-Size: 836
+Maintainer: Matthias Urlichs <smurf@debian.org>
+Architecture: all
+Provides: festival-voice
+Depends: festival (>= 1.4.3-9), festlex-poslex (>= 1.3.0), festlex-oald (>= 1.3.0)
+Description: minimal British English male speaker for festival
+Description-md5: ec2f52602c5371ea1881eb5978a812ca
+Tag: accessibility::speech, culture::british, role::app-data
+Section: contrib/sound
+Priority: extra
+Filename: pool/contrib/f/festvox-don/festvox-don_1.4.0-4_all.deb
+Size: 646986
+MD5sum: ec0153267ac3ec91ef53327ffd6be1e7
+SHA1: 44636bb06fea135b20c5b827cc21de44de727034
+SHA256: 8901c5cd4a503f05b155aba6721dae3da919e50cf5952d46622c06ce6c8a71eb
+
+Package: festvox-en1
+Source: festvox-mbrola
+Version: 1.95-1
+Installed-Size: 72
+Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Architecture: all
+Provides: festival-voice
+Depends: mbrola-en1, festival, festlex-oald
+Description: mbrola-en1 voice support for festival
+Homepage: http://www.cstr.ed.ac.uk/downloads/festival/1.95/festival-1.95-beta.tar.gz
+Description-md5: 73113a75020377d4b66a5e0015a9b80f
+Tag: accessibility::speech, role::app-data
+Section: contrib/sound
+Priority: optional
+Filename: pool/contrib/f/festvox-mbrola/festvox-en1_1.95-1_all.deb
+Size: 5416
+MD5sum: 31c7b2d8b02331877240c81469771c11
+SHA1: 595b1009a79bc25639379ae8dfa4b6d8b4475218
+SHA256: a604aec2567576524eeeca1ef99dacc10fee829063c78988c77e61aeee0f3ab6
+
+Package: festvox-us1
+Source: festvox-mbrola
+Version: 1.95-1
+Installed-Size: 108
+Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Architecture: all
+Provides: festival-voice
+Depends: mbrola-us1, festival
+Description: mbrola-us1 voice support for festival
+Homepage: http://www.cstr.ed.ac.uk/downloads/festival/1.95/festival-1.95-beta.tar.gz
+Description-md5: 4a88a1475767423d39383d867ca65c2e
+Section: contrib/sound
+Priority: optional
+Filename: pool/contrib/f/festvox-mbrola/festvox-us1_1.95-1_all.deb
+Size: 14114
+MD5sum: 7e233f2a90c32b17896f52d45635980c
+SHA1: d1fcd203ed557e9b6cda63d7818c66f00d2992b5
+SHA256: 5310ffbb3483b4a880c82f7eb771e8b84638199c46dc30880e975d5db9f3cdc8
+
+Package: festvox-us2
+Source: festvox-mbrola
+Version: 1.95-1
+Installed-Size: 108
+Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Architecture: all
+Provides: festival-voice
+Depends: mbrola-us2, festival
+Description: mbrola-us2 voice support for festival
+Homepage: http://www.cstr.ed.ac.uk/downloads/festival/1.95/festival-1.95-beta.tar.gz
+Description-md5: 0d83ae1061b439701a1d7bd8443b18ca
+Section: contrib/sound
+Priority: optional
+Filename: pool/contrib/f/festvox-mbrola/festvox-us2_1.95-1_all.deb
+Size: 13160
+MD5sum: 485b8cb435be8423ab164f190e430013
+SHA1: 031db80905bc3386b57bac4a1981e509d042d056
+SHA256: 2ffd2f6865aa9c2eb30e17673bd4bf2913c53418df1f87a9917d5578346de976
+
+Package: festvox-us3
+Source: festvox-mbrola
+Version: 1.95-1
+Installed-Size: 112
+Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Architecture: all
+Provides: festival-voice
+Depends: mbrola-us3, festival
+Description: mbrola-us3 voice support for festival
+Homepage: http://www.cstr.ed.ac.uk/downloads/festival/1.95/festival-1.95-beta.tar.gz
+Description-md5: 9f9fed2c3cca5ca1d4d49b1a99c0e678
+Section: contrib/sound
+Priority: optional
+Filename: pool/contrib/f/festvox-mbrola/festvox-us3_1.95-1_all.deb
+Size: 13272
+MD5sum: 172ec23d3f9d210a416191c67ff07f10
+SHA1: 5aac4452b538c110ea16da6380b880234de3f901
+SHA256: fe28c42320d1eb3aef2e0ad364864c1f37976f2c46e191cd475149ea2421b129
+
+Package: festvox-rablpc16k
+Version: 1.4.0-2
+Installed-Size: 7488
+Maintainer: Matthias Urlichs <smurf@smurf.noris.de>
+Architecture: all
+Replaces: festvox-16k
+Provides: festvox-16k, festival-voice
+Depends: festival (>= 1.4.3-9), festlex-poslex (>= 1.3.0), festlex-oald (>= 1.3.1)
+Conflicts: festvox-16k, festvox-rablpc8k
+Description: British English male speaker for festival, 16khz sample rate
+Description-md5: 99e8d97789e3898957461eff03184d83
+Tag: accessibility::speech, culture::british, role::app-data
+Section: contrib/sound
+Priority: extra
+Filename: pool/contrib/f/festvox-rablpc16k/festvox-rablpc16k_1.4.0-2_all.deb
+Size: 5359618
+MD5sum: 9eccc673b8ce6be810ad2894159494af
+SHA1: 413ad63f2caca26253061c4422b174c93bb0674d
+SHA256: 19f6f6de9547905a8d975f30662bd68b5b11187a6ac9f41c99f8784d87dfd905
+
+Package: festvox-rablpc8k
+Version: 1.4.0-2
+Installed-Size: 4380
+Maintainer: Matthias Urlichs <smurf@smurf.noris.de>
+Architecture: all
+Replaces: festvox-8k
+Provides: festvox-8k, festival-voice
+Depends: festival (>= 1.4.3-9), festlex-poslex (>= 1.3.0), festlex-oald (>= 1.3.0)
+Conflicts: festvox-8k, festvox-rablpc16k
+Description: British English male speaker for festival, 8khz sample rate
+Description-md5: 9b1f2a5e2a99a3c150568f2f60feb229
+Tag: accessibility::speech, culture::british, role::app-data
+Section: contrib/sound
+Priority: extra
+Filename: pool/contrib/f/festvox-rablpc8k/festvox-rablpc8k_1.4.0-2_all.deb
+Size: 3115688
+MD5sum: d369d3a56b37c3259749bb7d663dddc0
+SHA1: 0e8c83dfc7dfa6575d3d2380cb25b620c18ecf74
+SHA256: ea717cff0ff49feb10e05821caaa42f1ac67b2d9291f80d9f64b92f081812d8e
+
+Package: frogatto
+Version: 1.2+dfsg-1
+Installed-Size: 3280
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Architecture: armhf
+Depends: libboost-regex1.49.0 (>= 1.49.0-1), libboost-system1.49.0 (>= 1.49.0-1), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libglew1.7 (>= 1.7.0), libglu1-mesa | libglu1, libpng12-0 (>= 1.2.13-4), libsdl-image1.2 (>= 1.2.10), libsdl-mixer1.2, libsdl-ttf2.0-0, libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.6), frogatto-data (>= 1.2)
+Description: 2D platformer game starring a quixotic frog
+Homepage: http://www.frogatto.com/
+Description-md5: 53484fcad72c00cc156b54442e976787
+Tag: game::platform, implemented-in::c++, interface::x11, role::program,
+ uitoolkit::sdl, use::gameplaying, x11::application
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/f/frogatto/frogatto_1.2+dfsg-1_armhf.deb
+Size: 1635836
+MD5sum: cdc03eb97289ad03a641c7cdb94dc44f
+SHA1: 30c9f2e34bafa2abd75c349e840c4d78dc461925
+SHA256: acaf2ca32cc5484f7b910f41dc99f12b98d131b1a150fc2c0452c372722f0210
+
+Package: game-data-packager
+Version: 30
+Installed-Size: 196
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Replaces: doom-package
+Provides: doom-package
+Depends: fakeroot, unzip | p7zip-full, dynamite (>= 0.1.1-2)
+Suggests: lhasa | jlha-utils | lhz-archiver
+Conflicts: doom-package
+Description: Installer for game data files
+Homepage: http://wiki.debian.org/Games/GameDataPackager
+Description-md5: 46ff3b3d7ba70b0f52358e258fd09975
+Tag: implemented-in::shell, interface::commandline, role::program,
+ scope::utility, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/g/game-data-packager/game-data-packager_30_all.deb
+Size: 114742
+MD5sum: 186a15c46767c45e556c6cda424515d5
+SHA1: 3dfea6a5dcc1a09d8d760e18fc381d9f372cf152
+SHA256: ad2bb4f650596dffddb9753aba358c1e20765f0cca209906716e493df2846a1b
+
+Package: cpp-doc
+Source: gcc-doc-defaults
+Version: 5:4
+Installed-Size: 47
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Replaces: cpp (<< 4:4.1.1-7)
+Depends: cpp-4.6-doc (>= 4.6.3-1)
+Breaks: cpp (<< 4:4.1.1-7)
+Description: documentation for the GNU C preprocessor (cpp)
+Homepage: http://gcc.gnu.org/
+Description-md5: 9214885ed7215843bb04315d3a252cb5
+Tag: devel::doc, devel::lang:c, role::documentation
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/g/gcc-doc-defaults/cpp-doc_4_armhf.deb
+Size: 3596
+MD5sum: fcb42e59911ec3fa25c473b9eec4729d
+SHA1: 1e458bcc02bcb791a0641fd6177cf908e7204e07
+SHA256: 47f1414061d9faefa49f5ea392da0974da285d1605b064f192a5188c27fe461b
+
+Package: gcc-doc
+Source: gcc-doc-defaults
+Version: 5:4
+Installed-Size: 47
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Replaces: g++ (<< 4:4.1.1-7), gcc (<< 4:4.1.1-7)
+Depends: gcc-4.6-doc (>= 4.6.3-1)
+Breaks: g++ (<< 4:4.1.1-7), gcc (<< 4:4.1.1-7)
+Description: documentation for the GNU compilers (gcc, gobjc, g++)
+Homepage: http://gcc.gnu.org/
+Description-md5: 5c7b4ceecbb8f4546afea54849cba957
+Tag: devel::doc, devel::lang:c, devel::lang:c++, devel::lang:objc,
+ role::documentation, role::metapackage
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/g/gcc-doc-defaults/gcc-doc_4_armhf.deb
+Size: 3666
+MD5sum: eb3d36bdc0a884056e9e493732810f91
+SHA1: 02034973404edda469831cf4b6b162e606fe49c1
+SHA256: 5f6c4db8ca6014fe5be68325c36debecbf3abedf77717a348024f5631bba836b
+
+Package: gcj-doc
+Source: gcc-doc-defaults
+Version: 5:4
+Installed-Size: 47
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Replaces: gcj (<< 4:4.3.1-2)
+Depends: gcj-4.7-doc (>= 4.7.2-1)
+Breaks: gcj (<< 4:4.3.1-2)
+Description: documentation for the GNU Java tools (gcj, gij)
+Homepage: http://gcc.gnu.org/
+Description-md5: 93115164878a0098d22e2568d01edc7a
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/g/gcc-doc-defaults/gcj-doc_4_armhf.deb
+Size: 3694
+MD5sum: e085b9a8ccc56b209ad299694b8013b8
+SHA1: 3adc2e59327820daf18b2c3667afd2b0b1efefe7
+SHA256: b53980507b8696e933ae98d5c1c3387ae6ccde3533a56203d27ca5be7880d28e
+
+Package: gfortran-doc
+Source: gcc-doc-defaults
+Version: 5:4
+Installed-Size: 47
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Replaces: gfortran (<< 4:4.1.1-7)
+Depends: gfortran-4.6-doc (>= 4.6.3-1)
+Breaks: gfortran (<< 4:4.1.1-7)
+Description: documentation for the GNU Fortran Compiler (gfortran)
+Homepage: http://gcc.gnu.org/
+Description-md5: 19f6059939e948fad2f88eca70ddb7fc
+Tag: devel::compiler, implemented-in::fortran, role::dummy
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/g/gcc-doc-defaults/gfortran-doc_4_armhf.deb
+Size: 3582
+MD5sum: 282a3920dbe073e1977a8d51c6e1ea47
+SHA1: e9c535aed6cf885a81e2a430412ffa3daf2352a7
+SHA256: 5ff68438c5e9e27305d54b28b018b61114ee481bebea4ab9476fa5e5b789e6c6
+
+Package: gnat-doc
+Source: gcc-doc-defaults
+Version: 5:4
+Installed-Size: 39
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Depends: gnat-4.6-doc (>= 4.6.3-1)
+Description: documentation for the GNU Ada Compiler (gnat)
+Homepage: http://gcc.gnu.org/
+Description-md5: 5b644ec82e0c0c89da6803e4917b819a
+Tag: devel::doc, devel::lang:ada, role::documentation, suite::gnu
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/g/gcc-doc-defaults/gnat-doc_4_armhf.deb
+Size: 3542
+MD5sum: 1b183ce313f3cf4793b75bb9f22b6c0d
+SHA1: e63c439dea31a0a2734a51d02a63144e0b9a8447
+SHA256: 4c3219e8e7622affd9165bb6eaedc9cb72c98bcf4e6772770ca7283eaef0d249
+
+Package: geoip-database-contrib
+Version: 1.8
+Installed-Size: 63
+Maintainer: Ludovico Cavedon <cavedon@debian.org>
+Architecture: all
+Replaces: geoip-database
+Provides: geoip-database
+Depends: wget, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0
+Suggests: cron
+Conflicts: geoip-database
+Description: GeoLite binary database (downloader)
+Homepage: http://www.maxmind.com/app/ip-location
+Description-md5: f76ffcd9fc290ee0035cdb21ec3a2287
+Section: contrib/net
+Priority: optional
+Filename: pool/contrib/g/geoip-database-contrib/geoip-database-contrib_1.8_all.deb
+Size: 10406
+MD5sum: 7dc6b56548671b6e7e41087a675786fc
+SHA1: d4cb433cabe10b65cc46f2d8d3990c30302d5886
+SHA256: 793436cb2d070dc342d27d2ed7ad5204e776d35ca7f7d8a8ea14fa6b7b442682
+
+Package: gnome-video-arcade
+Version: 0.8.3-1
+Installed-Size: 3311
+Maintainer: Jordi Mallach <jordi@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgstreamer0.10-0 (>= 0.10.11), libgtk-3-0 (>= 3.0.0), libpango1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.33.92), libsqlite3-0 (>= 3.5.9), libwnck-3-0 (>= 2.91.6), dconf-gsettings-backend | gsettings-backend, mame, gsettings-desktop-schemas
+Suggests: devhelp
+Description: Simple MAME frontend
+Homepage: http://live.gnome.org/GnomeVideoArcade
+Description-md5: bed94081ba898fde01a74dc81a3f91bf
+Tag: uitoolkit::gtk
+Section: contrib/gnome
+Priority: optional
+Filename: pool/contrib/g/gnome-video-arcade/gnome-video-arcade_0.8.3-1_armhf.deb
+Size: 1720418
+MD5sum: 5c9a042c6385ae248f7a0f8e5bf7efad
+SHA1: ee6190a2fd0f568b2ca1e4637c40f0514299e912
+SHA256: f79d459185cceb5d949c384a5ccec722e340bcab131aa4ceb0f8b4997a4cce77
+
+Package: gns3
+Version: 0.7.4-1
+Installed-Size: 18020
+Maintainer: Erik Wenzel <erik@debian.org>
+Architecture: all
+Depends: python (>= 2.6), python-support (>= 0.90.0), dynamips (>= 0.2.7-0.2.8RC1), python-qt4 (>= 4.3), ucf
+Description: graphical network simulator
+Homepage: http://www.gns3.net/
+Description-md5: dadd1e047220959aab6776cede6a2f42
+Tag: interface::x11, role::program, uitoolkit::qt, use::simulating,
+ works-with::network-traffic, x11::application
+Section: contrib/net
+Priority: optional
+Filename: pool/contrib/g/gns3/gns3_0.7.4-1_all.deb
+Size: 3855296
+MD5sum: 7b911bb967b46061885a0d51ff3efdb6
+SHA1: 2509a2a9d0eaca28fe46e3ba6296395dea08db5a
+SHA256: 132f41a50524ee14f195080932c92f9514e86bb66f770aa863f674323bbdff97
+
+Package: gnuboy-sdl
+Source: gnuboy
+Version: 1.0.3-6.1
+Installed-Size: 153
+Maintainer: Davide Puricelli (evo) <evo@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libsdl1.2debian (>= 1.2.11)
+Description: SDL binaries for gnuboy - Game Boy Emulator
+Description-md5: d0afd5157478841c7d01808a8cbd6f99
+Tag: hardware::emulation, role::program, uitoolkit::sdl
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/g/gnuboy/gnuboy-sdl_1.0.3-6.1_armhf.deb
+Size: 75876
+MD5sum: 874e24fcc9154c344c3c906cf38394d1
+SHA1: cb56c908f900a96889dcfcdd1217bc54b890855a
+SHA256: 8f3bac6345f41aa42ceed59dd2c9793aa9805c987a1142d46582101eb946854c
+
+Package: gnuboy-x
+Source: gnuboy
+Version: 1.0.3-6.1
+Installed-Size: 155
+Maintainer: Davide Puricelli (evo) <evo@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libx11-6, libxext6
+Description: X binaries for gnuboy - Game Boy Emulator
+Description-md5: 7dc3af652e412edd9627cb088cd2b13d
+Tag: hardware::emulation, role::program
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/g/gnuboy/gnuboy-x_1.0.3-6.1_armhf.deb
+Size: 77302
+MD5sum: 8551c08eeb9e36e192621406a4da860b
+SHA1: 88ec3590b7199504dc98b8a975fe18795eed63ca
+SHA256: 09e48bb6537b69f5d593b05951fd1617376a3ab87652292824de3cfc81c73ce8
+
+Package: gnuvd
+Version: 1.0.11-1
+Installed-Size: 51
+Maintainer: Guus Sliepen <guus@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4)
+Description: Query the online Dutch Van Dale dictionary
+Homepage: http://www.djcbsoftware.nl/code/gnuvd/
+Description-md5: e66be6ce83bd6c2275fd0337582b61bd
+Tag: culture::dutch, field::linguistics, implemented-in::c,
+ interface::commandline, role::program, works-with::dictionary
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/g/gnuvd/gnuvd_1.0.11-1_armhf.deb
+Size: 10688
+MD5sum: 72bb7757a31df137679563991294732a
+SHA1: 4960c794e04af0ba10baa58e3e4264b90a1d9946
+SHA256: d5e054cb0e8bff70a899d1cea02beac26b0c728867dd606036afce9cf1b683a8
+
+Package: gnuvd-gnome
+Source: gnuvd
+Version: 1.0.11-1
+Installed-Size: 76
+Maintainer: Guus Sliepen <guus@debian.org>
+Architecture: all
+Depends: zenity, gnuvd
+Description: Query the online Dutch Van Dale dictionary - GNOME frontend
+Homepage: http://www.djcbsoftware.nl/code/gnuvd/
+Description-md5: 7611696c05376c4c96929bf91db31363
+Tag: culture::dutch, field::linguistics, implemented-in::c, interface::x11,
+ role::program, suite::gnome, uitoolkit::gtk, works-with::dictionary,
+ x11::application
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/g/gnuvd/gnuvd-gnome_1.0.11-1_all.deb
+Size: 5826
+MD5sum: abdc4a13f91ae2ac83ea18595bb2511f
+SHA1: df700d2b5be6421ba0d8921ecc175a4860e78c10
+SHA256: 806c20c828545e8f1ee6ac3ce0359b0181bc6afec2d01bd3f47bdcbb6878b471
+
+Package: gobi-loader
+Version: 0.6-1
+Installed-Size: 48
+Maintainer: Mark Hymers <mhy@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4)
+Description: Firmware loader for Qualcomm Gobi USB chipsets.
+Homepage: http://www.codon.org.uk/~mjg59/gobi_loader/
+Description-md5: 78aca8ec3f7e9197eb7418bab58057e9
+Section: contrib/admin
+Priority: extra
+Filename: pool/contrib/g/gobi-loader/gobi-loader_0.6-1_armhf.deb
+Size: 6504
+MD5sum: 2256bde4a92aea369b12433b65d94e87
+SHA1: 944c9f090b686bd1ee780eaa4bca2e0d0750b472
+SHA256: 94c60042958315313b4bdb03b536ef1583ee22bf879e244dbd81c36959587ccc
+
+Package: googleearth-package
+Version: 0.7.0
+Installed-Size: 57
+Maintainer: Adnan Hodzic <adnan@foolcontrol.org>
+Architecture: all
+Depends: wget | curl, dpkg-dev, fakeroot, bzip2, file, x11-common, x11-utils
+Description: utility to automatically build a Debian package of Google Earth
+Homepage: http://earth.google.com
+Description-md5: e554b3d2814994cf586876eacf94bd7b
+Tag: devel::packaging, field::geography, implemented-in::shell,
+ interface::commandline, role::program, scope::utility, use::downloading
+Section: contrib/misc
+Priority: optional
+Filename: pool/contrib/g/googleearth-package/googleearth-package_0.7.0_all.deb
+Size: 12018
+MD5sum: eab9655b710285291d4e002e48463bdf
+SHA1: ae64abf50555eb82cf622cf6e3ef11ca247107b9
+SHA256: bb733a612d894e55855355b521b11f21914b5437bc3f1af53fcb4b3d5ea7d9b3
+
+Package: gtktrain
+Version: 0.9b-13
+Installed-Size: 103
+Maintainer: Masayuki Hatta (mhatta) <mhatta@debian.org>
+Architecture: armhf
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.0), libtrain1
+Description: The train-routing calculator with GTK+ interface
+Description-md5: 85efd86084cbed3d519967c24aaefcba
+Tag: interface::x11, role::program, scope::utility, uitoolkit::gtk,
+ x11::application
+Section: contrib/x11
+Priority: optional
+Filename: pool/contrib/g/gtktrain/gtktrain_0.9b-13_armhf.deb
+Size: 38218
+MD5sum: 1b19cba3bce9582d9fbc1d09d683a997
+SHA1: 2da4ccfd39e6bbc105cf9696947d7fae91186de3
+SHA256: 52b1df7c4baa7459faec14e705a598bf00dac9679546a36a2bf04b7f69a2a634
+
+Package: hannah-foo2zjs
+Version: 1:1
+Installed-Size: 67
+Maintainer: Michael Koch <konqueror@gmx.de>
+Architecture: armhf
+Replaces: foo2zjs (<= 20090301dfsg-4)
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.3.0), foo2zjs, gksu | kdebase-bin (<< 4:4.4.0-1) | kdebase-runtime | ktsuss | sux
+Conflicts: foo2zjs (<= 20090301dfsg-4)
+Description: Graphical firmware downloader for the foo2zjs package
+Description-md5: 17bd5e201d7e7be1fb42ba47260c88bd
+Tag: admin::hardware, hardware::usb, interface::x11, role::program,
+ scope::utility, uitoolkit::qt, x11::application
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/h/hannah-foo2zjs/hannah-foo2zjs_1_armhf.deb
+Size: 16666
+MD5sum: a09fbc9061f9e93f1ab72301521cf06c
+SHA1: 514c778891fffc51c28e2e98c1dd445a2db4c04b
+SHA256: 096ebcea5044eb1f6f3251a472156642d354b16ee10af6cbee20431c31b46a08
+
+Package: horae
+Version: 071~svn536-1
+Installed-Size: 8764
+Maintainer: Carlo Segre <segre@debian.org>
+Architecture: all
+Depends: perl, perl-tk (>= 804), ifeffit (>= 1:1.2.5), libifeffit-perl, libarchive-zip-perl (>= 1.02), libchemistry-elements-perl, libchemistry-formula-perl, libcompress-zlib-perl, libconfig-inifiles-perl, libmath-combinatorics-perl, libmath-derivative-perl, libmath-spline-perl, libmath-round-perl, libparse-recdescent-perl, libpod-escapes-perl, libpod-simple-perl, libspreadsheet-writeexcel-perl, libstatistics-descriptive-perl, libtext-glob-perl, libtie-ixhash-perl, libtime-stopwatch-perl, libtk-gbarr-perl, libtk-histentry-perl, libtk-pod-perl, libtk-splashscreen-perl, libtk-filedialog-perl, libxml-simple-perl, libxray-absorption-perl, libxray-scattering-perl, perlindex, libwwwbrowser-perl
+Recommends: horae-doc
+Suggests: libstar-parser-perl
+Description: interactive graphical processing and analysis of EXAFS data
+Homepage: http://cars9.uchicago.edu/~ravel/software/Welcome.html
+Description-md5: 05d8479ad180769d9adf3591fc732120
+Tag: field::chemistry, field::physics, role::program, x11::application
+Section: contrib/science
+Priority: optional
+Filename: pool/contrib/h/horae/horae_071~svn536-1_all.deb
+Size: 5183556
+MD5sum: 73013be19a3c69454d8af97dd24adfd0
+SHA1: 0fe4945e860e2b0231381e5ae02a7c319e65578d
+SHA256: 43659d79137e856cf92e4f33270082c2420cde1273063508d42f693607e00d35
+
+Package: hts-voice-nitech-jp-atr503-m001
+Version: 1.04-1
+Installed-Size: 1225
+Maintainer: Koichi Akabe <vbkaisetsu@gmail.com>
+Architecture: all
+Description: Japanese male voice data for Open JTalk
+Homepage: http://open-jtalk.sourceforge.net
+Description-md5: 48d0be37845caa6955d6a5f8ce672ba7
+Tag: accessibility::speech, culture::japanese, role::app-data
+Section: contrib/sound
+Priority: extra
+Filename: pool/contrib/h/hts-voice-nitech-jp-atr503-m001/hts-voice-nitech-jp-atr503-m001_1.04-1_all.deb
+Size: 830800
+MD5sum: 326342163fc5c2745932f9c3677c3fe0
+SHA1: 2b86f0d80d5d1b8c94df756e437a32f092b3b299
+SHA256: 25fb0ef84a3c05d05c7acda5675d2d6d33d3acba01f287d3ae5228227be077aa
+
+Package: hyperspec
+Version: 1.30+nmu2
+Installed-Size: 57
+Maintainer: Debian Common Lisp Team <pkg-common-lisp-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, wget
+Description: The Common Lisp ANSI-standard Hyperspec
+Description-md5: 8f6fd3305d179a9b21b38ae68a04a207
+Tag: devel::lang:lisp
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/h/hyperspec/hyperspec_1.30+nmu2_all.deb
+Size: 9510
+MD5sum: 6b3456f6c11504737f0f82d51eeb1c83
+SHA1: 491bb5d56811042e13a088d3eee528012d9f5882
+SHA256: 9609f46e6cc3eca05fb611adf4736374dae06131e84a4a900ca1ba3eb59fbef2
+
+Package: ifeffit
+Version: 2:1.2.11d-8
+Installed-Size: 3388
+Maintainer: Carlo Segre <segre@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libgfortran3 (>= 4.6), libreadline6 (>= 6.0), pgplot5
+Suggests: ifeffit-doc
+Description: Interactive XAFS analysis program
+Homepage: http://cars9.uchicago.edu/ifeffit/
+Description-md5: 359c86ec3f8a236a10df0859864c21ce
+Tag: scope::application, uitoolkit::ncurses, x11::application
+Section: contrib/science
+Priority: optional
+Filename: pool/contrib/i/ifeffit/ifeffit_1.2.11d-8_armhf.deb
+Size: 1957992
+MD5sum: d7d2db37ce28d6ca21a38b9594525ae3
+SHA1: 8d48e0ff6649a3634ceb72943a0ad03365ee4157
+SHA256: af914d7fa0286496b1f0c204611c4043f357b1077d0f29e0a81d8f7ad887ad38
+
+Package: ifeffit-doc
+Source: ifeffit
+Version: 2:1.2.11d-8
+Installed-Size: 4471
+Maintainer: Carlo Segre <segre@debian.org>
+Architecture: all
+Suggests: ifeffit
+Description: IFEFFIT examples and documentation
+Homepage: http://cars9.uchicago.edu/ifeffit/
+Description-md5: 23588aa725d1361238e782379bbed9bc
+Tag: made-of::pdf, role::documentation, role::examples
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/i/ifeffit/ifeffit-doc_1.2.11d-8_all.deb
+Size: 2370106
+MD5sum: 8288a5ec93ff57a6ee97c7863bdcc987
+SHA1: efd30980bd421266640871e95bcb9df1c6636742
+SHA256: ad9d404a67ee50769b45796d2d092ec9d62c8f39c6359e64792145de832a046a
+
+Package: libifeffit-perl
+Source: ifeffit
+Version: 2:1.2.11d-8
+Installed-Size: 470
+Maintainer: Carlo Segre <segre@debian.org>
+Architecture: armhf
+Replaces: perl-ifeffit
+Provides: perl-ifeffit
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libgfortran3 (>= 4.6), pgplot5, perl (>= 5.14.2-6), perlapi-5.14.2
+Conflicts: perl-ifeffit
+Description: Perl extensions for IFEFFIT
+Homepage: http://cars9.uchicago.edu/ifeffit/
+Description-md5: ea8a89869df85ccfb2ec65895dae51f5
+Tag: devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl
+Section: contrib/perl
+Priority: optional
+Filename: pool/contrib/i/ifeffit/libifeffit-perl_1.2.11d-8_armhf.deb
+Size: 276380
+MD5sum: d60bafec4132c6d947d4a09cecbb571c
+SHA1: cd15e999fc6d4eef6b7be39e048c06c49d2943da
+SHA256: 819ed090d73d0af16d8535202b76668989c4315f667f79f7971d4841a30b9fb9
+
+Package: python-ifeffit
+Source: ifeffit
+Version: 2:1.2.11d-8
+Installed-Size: 1005
+Maintainer: Carlo Segre <segre@debian.org>
+Architecture: armhf
+Replaces: python2.3-ifeffit (<< 1.2.9)
+Provides: python2.6-ifeffit, python2.7-ifeffit
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libgfortran3 (>= 4.6), pgplot5, python2.7 | python2.6, python (>= 2.6.6-7~), python (<< 2.8), python-pmw, python-tk, ifeffit
+Conflicts: python2.3-ifeffit (<< 1.2.9)
+Description: Python GUI interface and extensions for IFEFFIT
+Homepage: http://cars9.uchicago.edu/ifeffit/
+Description-md5: d4794e034b9840777fbd187ec13a4041
+Section: contrib/python
+Priority: optional
+Filename: pool/contrib/i/ifeffit/python-ifeffit_1.2.11d-8_armhf.deb
+Size: 526388
+MD5sum: 37fa36b2ee8b6b0866db393ef7045c7d
+SHA1: f7876e0de5575696caeacea974e71f954c0324e6
+SHA256: 72a965b46e7c9ba8e69aac58689748cf206e178b15b1795f16a86f4c74258cd6
+
+Package: imgtex
+Version: 0.20050123-8
+Installed-Size: 68
+Maintainer: Atsuhito KOHDA <kohda@debian.org>
+Architecture: all
+Depends: dvipng (>= 1.5-2), libapache2-mod-fastcgi, libfcgi-perl, perl, texlive-latex-extra
+Description: provides yet another math-on-the-web solution
+Description-md5: 582f844919f596e62587f4c67805318d
+Section: contrib/utils
+Priority: optional
+Filename: pool/contrib/i/imgtex/imgtex_0.20050123-8_all.deb
+Size: 6140
+MD5sum: 9bcfe321ffe5ea9b23b1d0b2c89ae4c9
+SHA1: bfaf57db547dc0a4af16470d34c53b0f0514fb1c
+SHA256: ed53b5dacb2a65356dee98148a4638179bb8f8c8c0b84ff1d4e7ab221b5e4fb3
+
+Package: ivtv-utils
+Version: 1.4.1-2
+Installed-Size: 220
+Maintainer: Debian MythTV Team <pkg-mythtv-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), perl, libconfig-inifiles-perl, libvideo-ivtv-perl, libvideo-capture-v4l-perl, v4l-utils
+Recommends: perl-tk, devscripts, fakeroot, unzip
+Description: utilities for use with the ivtv kernel driver
+Homepage: http://ivtvdriver.org
+Description-md5: b20f643fae1ea98421cfb465d610132b
+Tag: hardware::video, role::program, use::configuring
+Section: contrib/x11
+Priority: extra
+Filename: pool/contrib/i/ivtv-utils/ivtv-utils_1.4.1-2_armhf.deb
+Size: 88028
+MD5sum: b396af01c13c7bdfd067605f2909cc73
+SHA1: 4f20e78cb5feb2fece61b15f31968a07e6c384ab
+SHA256: 05bd10995fc21d622d02371bed664268f4828e5f0d5c8bcdcd24c60a5084a5b3
+
+Package: java-package
+Version: 0.50+nmu2
+Installed-Size: 81
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: debhelper, fakeroot, unzip, libx11-6, libasound2
+Recommends: dpkg-dev, gcc
+Suggests: openjdk-6-jre, openjdk-7-jre
+Description: Utility for creating Java Debian packages
+Description-md5: 2421ac690bde04f56e34ab771ed1767c
+Tag: devel::buildtools, devel::debian, devel::lang:java,
+ implemented-in::shell, role::program, works-with::software:package,
+ works-with::software:source
+Section: contrib/misc
+Priority: optional
+Filename: pool/contrib/j/java-package/java-package_0.50+nmu2_all.deb
+Size: 19486
+MD5sum: 26ddd326899de1992e845b93fb9cdbbc
+SHA1: 335af5cba2f647118f93c39201ac850c94028aa2
+SHA256: 3925d98bbda5ef4199f0b7e18b651185051e18e2b35df739ebe5aa3a8d8b02cb
+
+Package: libjlapack-java
+Source: jlapack
+Version: 0.8~dfsg-1
+Installed-Size: 1032
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Architecture: all
+Depends: libf2j-java
+Description: LAPACK numerical subroutines translated from their Fortran 77 source
+Homepage: http://icl.cs.utk.edu/f2j
+Description-md5: 5a5d5971abb4fde99a9f13bad69cbb33
+Section: contrib/java
+Priority: optional
+Filename: pool/contrib/j/jlapack/libjlapack-java_0.8~dfsg-1_all.deb
+Size: 938690
+MD5sum: ba63d8827be31182136dc7f173149366
+SHA1: a3bb5560f52de27056c29dbfccb18303d7bcea4c
+SHA256: 294db8140e9f9f15f400b68660864f30c0feea613f0328a8272cbc0ddab600c9
+
+Package: kcemu
+Version: 0.5.1+dfsg-5
+Installed-Size: 816
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libcairo2 (>= 1.6.0), libgcc1 (>= 1:4.4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.22.0), libgtk2.0-0 (>= 2.16.0), libogg0 (>= 1.0rc3), libpango1.0-0 (>= 1.14.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 4.6), libtheora0 (>= 1.0), libvncserver0, libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libx11-6, libxmu6, libxt6, libz80ex1 (>= 1.1.18), zlib1g (>= 1:1.1.4), kcemu-common
+Description: KC 85/4 emulator
+Multi-Arch: foreign
+Homepage: http://kcemu.sourceforge.net/
+Description-md5: 2c437f9b0edca3b618e35829a390f9ee
+Tag: role::program, uitoolkit::gtk
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/k/kcemu/kcemu_0.5.1+dfsg-5_armhf.deb
+Size: 400248
+MD5sum: 4f82889b84d324a475be802532571e10
+SHA1: b16ec31fe5afb47ae907ce2d7cba1cadb36bcc77
+SHA256: 0242f98662d0a13b20b63e607c98dea574afa9c0ee742a9de55c6f31099ec309
+
+Package: kcemu-common
+Source: kcemu
+Version: 0.5.1+dfsg-5
+Installed-Size: 6517
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Architecture: all
+Description: KC 85/4 emulator - common files
+Multi-Arch: foreign
+Homepage: http://kcemu.sourceforge.net/
+Description-md5: 7c3ce18196053e10d189f7b0cb465752
+Tag: role::app-data
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/k/kcemu/kcemu-common_0.5.1+dfsg-5_all.deb
+Size: 2155756
+MD5sum: 3e86c0e2eaa85b01b5eb792dc7b8a3c1
+SHA1: 65c92d9eb990cbea31d952a83d618ec6a409b94b
+SHA256: b6269c083c9110442cfdf6a243e13d808e527fa6778253ee39d272ac11a35847
+
+Package: matlab-gdf
+Source: libgdf
+Version: 0.1.2-2
+Installed-Size: 125
+Maintainer: NeuroDebian Team <team@neuro.debian.net>
+Architecture: all
+Depends: libgdf-dev (>= 0.1.2-2), matlab-support
+Description: IO library for the GDF -- Matlab interface
+Homepage: http://sourceforge.net/projects/libgdf
+Description-md5: e6b3ac7570a50044c7b97d7c7cb7550c
+Section: contrib/science
+Priority: extra
+Filename: pool/contrib/libg/libgdf/matlab-gdf_0.1.2-2_all.deb
+Size: 23530
+MD5sum: 91c64394f687da2ea1d53656a77b8a61
+SHA1: 34f20b2420ef23a81fccf97978b7a2531c74e9c5
+SHA256: dff8fecf0316432b7ace4a0ae235527ca429e3a051d8d1e71339bf1e41e1974d
+
+Package: libpgplot-perl
+Version: 1:2.21-3
+Installed-Size: 149
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Depends: perl (>= 5.14.2-6), perlapi-5.14.2, libc6 (>= 2.4), libgfortran3 (>= 4.3), libpng12-0 (>= 1.2.13-4), libx11-6, pgplot5
+Description: perl interface to the pgplot plotting library
+Homepage: http://search.cpan.org/dist/PGPLOT/
+Description-md5: 0cd3248d68c6c65a330a9f76245123a4
+Tag: devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl
+Section: contrib/perl
+Priority: optional
+Filename: pool/contrib/libp/libpgplot-perl/libpgplot-perl_2.21-3_armhf.deb
+Size: 49774
+MD5sum: 06de6a9f2a1861226aef54cba9bcdd9e
+SHA1: da5877a1dfbdc1c099339b14fdfce45b0e648b82
+SHA256: 131227b7c8e9b55d52acc0fcbd8eddd5cbc819d9e2a22936db4997c95042a794
+
+Package: libtrain-bin
+Source: libtrain
+Version: 0.9b-11
+Installed-Size: 34
+Maintainer: Masayuki Hatta (mhatta) <mhatta@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libtrain1
+Description: Command line interface for libtrain
+Description-md5: cdfe14ea87cf0193dd89696d4a67047e
+Tag: devel::library
+Section: contrib/misc
+Priority: optional
+Filename: pool/contrib/libt/libtrain/libtrain-bin_0.9b-11_armhf.deb
+Size: 4650
+MD5sum: e7848f3c210cb6f563f585bebb6539bf
+SHA1: ad846883609f0a04a52d41c22976a9fd6da397bd
+SHA256: 2b2ffd6a0c3721462564ca7e5fa71a916fbdf60c3207f7187fdb4cdc77ac9bd0
+
+Package: libtrain-dev
+Source: libtrain
+Version: 0.9b-11
+Installed-Size: 98
+Maintainer: Masayuki Hatta (mhatta) <mhatta@debian.org>
+Architecture: armhf
+Depends: libtrain1 (= 0.9b-11), libc6-dev
+Description: The train-routing calculator library - development
+Description-md5: c809090ec441fd631b27501c3881cb51
+Tag: devel::library, role::devel-lib
+Section: contrib/libdevel
+Priority: optional
+Filename: pool/contrib/libt/libtrain/libtrain-dev_0.9b-11_armhf.deb
+Size: 32232
+MD5sum: 720f5c9cc6ecf97acbf4e744be0448d6
+SHA1: bcb86bf56e44953acf98fea7f957f12aaae25088
+SHA256: 28985606faacf75fa1b780626750d40ed3a074de163e892503b3294954ec1512
+
+Package: libtrain1
+Source: libtrain
+Version: 0.9b-11
+Installed-Size: 108
+Maintainer: Masayuki Hatta (mhatta) <mhatta@debian.org>
+Architecture: armhf
+Replaces: libtrain0
+Depends: libc6 (>= 2.4)
+Suggests: lha
+Conflicts: libtrain0
+Description: The train-routing calculator library - runtime
+Description-md5: 934d585f4e27e0aac296df23487f2873
+Tag: devel::library, role::shared-lib
+Section: contrib/libs
+Priority: optional
+Filename: pool/contrib/libt/libtrain/libtrain1_0.9b-11_armhf.deb
+Size: 51376
+MD5sum: d160c57e996df32806f0e96e4ed8ac12
+SHA1: 0294d797cc8500bdd1f348f7baa37220241c8f9f
+SHA256: 744dbcf794dfecb4f418f6519f1b2a87ad608ddabb09a90e202ff172bb23e75c
+
+Package: libydpdict2
+Source: libydpdict
+Version: 1.0.2-1
+Installed-Size: 43
+Maintainer: Marcin Owsiany <porridge@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4)
+Description: a library for reading Collins dictionaries
+Homepage: http://toxygen.net/ydpdict/
+Description-md5: d33385148193efd5a01a8bce6b2f55b4
+Tag: culture::british, culture::german, culture::polish, devel::lang:c,
+ devel::library, implemented-in::c, role::shared-lib, use::learning,
+ use::viewing, works-with::dictionary
+Section: contrib/libs
+Priority: optional
+Filename: pool/contrib/liby/libydpdict/libydpdict2_1.0.2-1_armhf.deb
+Size: 9680
+MD5sum: ffd0511997e78f25d56a01b09d7f8d32
+SHA1: b3e1f147e2d4f80cc6537bdab25567c3b1a405c4
+SHA256: e0b56a515c36e2b5746bed08dfcbe84fea1b9559d74b709725df261a70bf8102
+
+Package: libydpdict2-dev
+Source: libydpdict
+Version: 1.0.2-1
+Installed-Size: 56
+Maintainer: Marcin Owsiany <porridge@debian.org>
+Architecture: armhf
+Depends: libydpdict2 (= 1.0.2-1)
+Description: a library for reading Collins dictionaries - development files
+Homepage: http://toxygen.net/ydpdict/
+Description-md5: 0cff54e2761841a5988cb3fd2716ca68
+Tag: culture::british, culture::german, culture::polish, devel::lang:c,
+ devel::library, implemented-in::c, role::devel-lib, use::learning,
+ use::viewing, works-with::dictionary
+Section: contrib/libdevel
+Priority: optional
+Filename: pool/contrib/liby/libydpdict/libydpdict2-dev_1.0.2-1_armhf.deb
+Size: 9354
+MD5sum: bf3857a2f0e3d79d89b2e92516ebee55
+SHA1: 592df77e25ed1b0059c1919f2ff6d9eb0f3dacf3
+SHA256: e3f7ce616ff1ffe48c7299ef65c997522da2fa6728bf18b718949c0b5a3c69d9
+
+Package: linux-wlan-ng-firmware
+Source: linux-wlan-ng
+Version: 0.2.9+dfsg-5
+Installed-Size: 187
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Architecture: all
+Depends: linux-wlan-ng (>= 0.2.9+dfsg-5), build-essential, debhelper, subversion, fakeroot
+Description: firmware files used by the linux-wlan-ng driver
+Description-md5: aca696fa5779cf313c199c5a7790603d
+Tag: admin::hardware, role::data
+Section: contrib/kernel
+Priority: extra
+Filename: pool/contrib/l/linux-wlan-ng/linux-wlan-ng-firmware_0.2.9+dfsg-5_all.deb
+Size: 54342
+MD5sum: 3a6fc09c197362cfd1e405ff20db642d
+SHA1: 194ab0707a0d69ba081165b1407499e17faa0ec0
+SHA256: 83d888ff14d49a450dc03e3896fc428fc6e77c84a8e53de6acca996fe9199fd8
+
+Package: prism2-usb-firmware-installer
+Source: linux-wlan-ng
+Version: 0.2.9+dfsg-5
+Installed-Size: 154
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Architecture: armhf
+Depends: wget, libc6 (>= 2.4)
+Description: firmware files for the prism2_usb kernel driver
+Description-md5: 4a757697db0ef832e39c056901afb941
+Section: contrib/admin
+Priority: extra
+Filename: pool/contrib/l/linux-wlan-ng/prism2-usb-firmware-installer_0.2.9+dfsg-5_armhf.deb
+Size: 43762
+MD5sum: 07e64061b83f691f79a1f053e011b0db
+SHA1: de039ada069f99c76525fa51250a4f0271bc9759
+SHA256: f129c1efbfb2167b3f62bc22256dcee70f97045081bd966f1c19027f440e6e9b
+
+Package: lugaru
+Version: 0~20110520.1+hge4354+dfsg-3
+Installed-Size: 882
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: lugaru-data, libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libglu1-mesa | libglu1, libjpeg8 (>= 8c), libogg0 (>= 1.0rc3), libopenal1, libpng12-0 (>= 1.2.13-4), libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.4.0), libvorbisfile3 (>= 1.1.2), zlib1g (>= 1:1.1.4)
+Description: third-person action game
+Homepage: http://code.google.com/p/lugaru/
+Description-md5: f0663f02316983b4cc8a5d91b68abaaf
+Tag: game::arcade, implemented-in::c++, interface::3d, interface::x11,
+ role::program, uitoolkit::sdl, use::gameplaying, x11::application
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/l/lugaru/lugaru_0~20110520.1+hge4354+dfsg-3_armhf.deb
+Size: 473992
+MD5sum: b301f4555f5afebb7877edc9b820c094
+SHA1: 559e5ead9543e52f0d704f937cf0eb666aed87c3
+SHA256: 7a2d769ab9548da7628eeeaa172d6bd87573cf7bb99f8f990124e7b40c1af94c
+
+Package: mathematica-fonts
+Version: 16
+Installed-Size: 118
+Maintainer: Atsuhito KOHDA <kohda@debian.org>
+Architecture: all
+Replaces: ttf-mathematica4.1 (<< 9)
+Provides: ttf-mathematica4.1
+Depends: unzip
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Conflicts: ttf-mathematica4.1 (<< 9)
+Description: installer for Mathematica fonts
+Description-md5: 3473fc09bdf3312b7a64808648f85588
+Section: contrib/fonts
+Priority: extra
+Filename: pool/contrib/m/mathematica-fonts/mathematica-fonts_16_all.deb
+Size: 28916
+MD5sum: 24d67bfe93f6e6dd5ac1a3f066b31826
+SHA1: 7d4c226133719471941b4872fd2627ba64fa21ba
+SHA256: ffec792440efdbee367a6e4de049c4a5ff41bca45fc90a52e7d0a44314bc0572
+
+Package: ttf-mathematica4.1
+Source: mathematica-fonts
+Version: 16
+Installed-Size: 29
+Maintainer: Atsuhito KOHDA <kohda@debian.org>
+Architecture: all
+Depends: mathematica-fonts
+Description: transitional dummy package
+Description-md5: c2481d28a5f6a5e8343eaae7160e37d1
+Tag: role::dummy
+Section: contrib/fonts
+Priority: extra
+Filename: pool/contrib/m/mathematica-fonts/ttf-mathematica4.1_16_all.deb
+Size: 4078
+MD5sum: ba5d0f033abc42c53c4f3c2860362330
+SHA1: 560b7a3ad3b972b16ff7cbb0e0db10d77ed3fc2d
+SHA256: 56b801cc77fc7be764c1c80d95167a132e0d8e11ab59981b761032b9bddb619f
+
+Package: matlab-support
+Version: 0.0.18
+Installed-Size: 161
+Maintainer: NeuroDebian Team <team@neuro.debian.net>
+Architecture: all
+Replaces: matlab (<= 0.0.14~)
+Depends: debconf (>= 1.3.22) | cdebconf (>= 0.43), debconf (>= 0.5) | debconf-2.0, libxp6, sudo
+Recommends: libstdc++6-4.4-dev | libstdc++-dev
+Conflicts: matlab (<= 0.0.14~)
+Description: distro integration for local MATLAB installations
+Description-md5: 043f431da8db6fad67528f4d0d2174d2
+Section: contrib/devel
+Priority: optional
+Filename: pool/contrib/m/matlab-support/matlab-support_0.0.18_all.deb
+Size: 28788
+MD5sum: 808a5bd1b6dd3a360181c28c829788d8
+SHA1: 3aa43ccaa12784deb3a23cdb9839d0646fc2d9aa
+SHA256: 0b622c82a63c42df11f09ec0eee074ecc2389f8b56c918a071b9adf883216b1c
+
+Package: mess-desktop-entries
+Version: 0.2-2
+Installed-Size: 188
+Maintainer: Jordi Mallach <jordi@debian.org>
+Architecture: all
+Depends: mess
+Enhances: mess
+Description: Desktop entries for MESS ROMs
+Description-md5: 74cd0cee2ecd9ac3fcdfe7225be1c169
+Section: contrib/gnome
+Priority: optional
+Filename: pool/contrib/m/mess-desktop-entries/mess-desktop-entries_0.2-2_all.deb
+Size: 9916
+MD5sum: f539ab391d089e4d8033ae344f0427e6
+SHA1: 8c1903e92fef23f8fbc9c5ea4556223af7a063ae
+SHA256: 4f14c201f26352426cb28aebe1dfeb6c6f2a512451e7b2f1296d1ffeb23c9d0a
+
+Package: ttf-mscorefonts-installer
+Source: msttcorefonts
+Version: 3.4+nmu1
+Installed-Size: 124
+Maintainer: Thijs Kinkhorst <thijs@debian.org>
+Architecture: all
+Provides: msttcorefonts
+Depends: wget, cabextract, xfonts-utils, debconf (>= 0.5) | debconf-2.0
+Recommends: fonts-liberation
+Description: Installer for Microsoft TrueType core fonts
+Description-md5: 3cf2bbaf676bcd51633633514c88751a
+Tag: implemented-in::shell, role::program, use::downloading, works-with::font
+Section: contrib/fonts
+Priority: optional
+Filename: pool/contrib/m/msttcorefonts/ttf-mscorefonts-installer_3.4+nmu1_all.deb
+Size: 33296
+MD5sum: 1ff4a4d1ac91c2643767c64fbbb1411e
+SHA1: 9465db96965fc66e81ab382cbd9b005a391be4aa
+SHA256: 109f755d3f548c671cf2ccce6c34a93f49d5957235aa5a1cd85b5e5cb96c489e
+
+Package: libmtj-java
+Source: mtj
+Version: 0.9.14~dfsg-2
+Installed-Size: 649
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Architecture: all
+Description: Java library for developing numerical applications
+Homepage: http://code.google.com/p/matrix-toolkits-java/
+Description-md5: 83d51bf9bf17c051b3fb647b16f73a89
+Section: contrib/java
+Priority: optional
+Filename: pool/contrib/m/mtj/libmtj-java_0.9.14~dfsg-2_all.deb
+Size: 184252
+MD5sum: 07068be2f8b4716146c50e7a3a87a23d
+SHA1: f671bb42b39a5b6892ea4fc44091bae0b7b637ce
+SHA256: 71066b97de50d24a94273928cb987f2a3ea67ab8b17ddee1f00b7e4d6a6dfbb2
+
+Package: libmtj-java-doc
+Source: mtj
+Version: 0.9.14~dfsg-2
+Installed-Size: 5741
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Architecture: all
+Description: Java library for developing numerical applications (documentation)
+Homepage: http://code.google.com/p/matrix-toolkits-java/
+Description-md5: 380f48555fc36f4067152bb8caad7db7
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/m/mtj/libmtj-java-doc_0.9.14~dfsg-2_all.deb
+Size: 377566
+MD5sum: ca8ba1fb32a40f1630222b85c1376246
+SHA1: 5defa768b4352dfd46b64fffe1c3b8599dc862e5
+SHA256: e77a4aaf1488f9bed682bb75567566f6faaef1a4ca26bc85328f041079d70c44
+
+Package: netdisco-mibs-installer
+Version: 1.7.1
+Installed-Size: 74
+Maintainer: Oliver Gorwits <oliver@cpan.org>
+Architecture: all
+Depends: perl, libwww-perl
+Suggests: netdisco-frontend, netdisco-backend
+Description: Netdisco MIB bundle installer package
+Description-md5: 95408cae30eb5f2d7e9b43ba1a3622af
+Tag: implemented-in::perl, protocol::snmp, role::program, use::downloading
+Section: contrib/net
+Priority: extra
+Filename: pool/contrib/n/netdisco-mibs-installer/netdisco-mibs-installer_1.7.1_all.deb
+Size: 12538
+MD5sum: 0091133bdaa741f3707ce20973790646
+SHA1: 8969f711d96bfc15125972f2d48f0a7b71f12fde
+SHA256: 6991b8de77a3ff712a9f336d5bc2198f4c19bb61a430d725778462f58c847538
+
+Package: libnetlib-java
+Source: netlib-java
+Version: 0.9.3-1
+Installed-Size: 2330
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Architecture: all
+Depends: f2j, libjlapack-java
+Description: collection of mission-critical software components for linear algebra systems
+Homepage: http://code.google.com/p/netlib-java
+Description-md5: 65016fe7e4efe90ed5b9d15484c91570
+Section: contrib/java
+Priority: optional
+Filename: pool/contrib/n/netlib-java/libnetlib-java_0.9.3-1_all.deb
+Size: 226118
+MD5sum: 9ae96b59ce0e2597658887a41fd59fa9
+SHA1: 8ece73f9571f6ce44ce548d92801db680d229ca7
+SHA256: ab01134cacec90ff4d8b2037ef6461b44abcbd1da0fde6b3fe0d8589544b8b47
+
+Package: opendict-plugins-lingvosoft
+Source: opendict-lingvosoft
+Version: 0.8-2
+Installed-Size: 580
+Maintainer: Kęstutis Biliūnas <kebil@kaunas.init.lt>
+Architecture: all
+Depends: python (>= 2.3), python-support (>= 0.7.1), opendict (>= 0.5.7)
+Description: plugins for OpenDict - LingvoSoft Online Dictionaries
+Description-md5: 97e8f0a51326dbc58ba2e335dc7a7858
+Python-Version: 2.4, 2.3, 2.5
+Tag: culture::TODO, culture::russian, field::linguistics,
+ made-of::dictionary, role::app-data, use::browsing, use::checking,
+ use::gameplaying, use::learning, use::searching
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/o/opendict-lingvosoft/opendict-plugins-lingvosoft_0.8-2_all.deb
+Size: 11060
+MD5sum: c38dbe29398cec8b7d20bc833efb6507
+SHA1: 076a8cc14e511bf45b7ef8a4ce9399a272b99868
+SHA256: ac39a4f45135910b90972096dea2c3742a329bf44c9541c097b7b6b7be529859
+
+Package: ora2pg
+Version: 8.11-1
+Installed-Size: 301
+Maintainer: Julián Moreno Patiño <darkjunix@gmail.com>
+Architecture: all
+Depends: libdbd-oracle-perl, libdbd-pg-perl, libdbi-perl, libio-compress-perl, perl
+Recommends: postgresql-client
+Description: Oracle to PostgreSQL database schema converter
+Homepage: http://ora2pg.darold.net/
+Description-md5: 152fa717e1c3b7079884a071e1da9f21
+Tag: implemented-in::perl, role::program, scope::utility, use::converting,
+ works-with::db
+Section: contrib/misc
+Priority: extra
+Filename: pool/contrib/o/ora2pg/ora2pg_8.11-1_all.deb
+Size: 97488
+MD5sum: c02c35f5960ba3bc4450b89b6d4b6b69
+SHA1: 49499ccad0a95ef578142dd060422fa8eb2bf069
+SHA256: 23b6817a9ca5e32198a9700dde5caaaa47d90cb1e8fea276df8d5e3c5ac15986
+
+Package: phoronix-test-suite
+Version: 3.8.0-1
+Installed-Size: 1924
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Depends: php5-cli, php5-gd
+Description: comprehensive testing and benchmarking platform
+Homepage: http://www.phoronix-test-suite.com/
+Description-md5: e504bf5770439d0c37a92aa9af330882
+Section: contrib/utils
+Priority: optional
+Filename: pool/contrib/p/phoronix-test-suite/phoronix-test-suite_3.8.0-1_all.deb
+Size: 474818
+MD5sum: 91378c3f26fb2a6e6c826ed9ab54a2b1
+SHA1: 236cc21a5e3224c0bdb34bcaf4255e1909e70e02
+SHA256: a82fad13b18b6fecda78da74c22684fa07ce4e3c1423a02538d919494052f12f
+
+Package: playonlinux
+Version: 4.1.1-1
+Installed-Size: 3516
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: python (>= 2.6.6-7~), wine | wine-unstable, unzip, wget, xterm | x-terminal-emulator, python-wxgtk2.8, imagemagick, cabextract, mesa-utils, gettext-base, binutils, gnupg, icoutils, x11-utils
+Suggests: ttf-mscorefonts-installer
+Description: front-end for Wine
+Homepage: http://www.playonlinux.com/
+Description-md5: db0c8caa2b53bca0fcef15d3ee31ef10
+Tag: implemented-in::python, implemented-in::shell, role::program,
+ x11::application
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/p/playonlinux/playonlinux_4.1.1-1_all.deb
+Size: 1742740
+MD5sum: 1bbccc935aa41f20b557991d7508d756
+SHA1: 7c67666e7cf0cac0e490510ee5bb0d16c83576b8
+SHA256: d3e1e5799939a8d4e15a1c01d0a8c64dad410419d34ec99e2d4db11b46abc984
+
+Package: premail
+Version: 0.46-9
+Installed-Size: 344
+Maintainer: Steve Kostecke <steve@debian.org>
+Architecture: all
+Depends: pgp, mail-reader
+Description: An e-mail privacy package.
+Description-md5: cdff33449c02bfa48b12b82ea9924368
+Tag: security::cryptography
+Section: contrib/mail
+Priority: optional
+Filename: pool/contrib/p/premail/premail_0.46-9_all.deb
+Size: 108676
+MD5sum: 074fb7849a47f94200fc4c65a226c8e2
+SHA1: e86850eab409c9c187191f7fe5d90ecde2de2eb4
+SHA256: 1c1adcbc8ab2da5a9d3e6bcc01bbeb1fafde4e8cca0efd793c85d3e313ee3279
+
+Package: pvpgn
+Source: pvpgn (1.8.1-2.1)
+Version: 1.8.1-2.1+b1
+Installed-Size: 1571
+Maintainer: Radu Spineanu <radu@debian.org>
+Architecture: armhf
+Provides: bnetd
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmysqlclient18 (>= 5.5.24+dfsg-1), libpq5, zlib1g (>= 1:1.1.4)
+Suggests: fortune, mysql-server-5.1
+Conflicts: bnetd
+Description: Gaming server that emulates Battle.net(R)
+Homepage: http://freshmeat.net/projects/pvpgn
+Description-md5: 779ee7fd5919b2ea82232b9c00ea0f3a
+Tag: interface::daemon, network::server, role::program, use::gameplaying
+Section: contrib/net
+Priority: optional
+Filename: pool/contrib/p/pvpgn/pvpgn_1.8.1-2.1+b1_armhf.deb
+Size: 741862
+MD5sum: a4fff9fccca1397b1064d8e45b681c9a
+SHA1: 8ef6fbadea98938e287aaeb691a4d2cd2c5a699a
+SHA256: 3586773dcc029ccb7e281a20189520d9384d6e2325e2d5d2024f170d8cbd6f95
+
+Package: python-pycuda-doc
+Source: pycuda
+Version: 2012.1-1
+Installed-Size: 782
+Maintainer: Tomasz Rybak <tomasz.rybak@post.pl>
+Architecture: all
+Depends: libjs-sphinxdoc (>= 1.0)
+Recommends: python-pycuda, nvidia-cuda-doc
+Description: module to access Nvidia‘s CUDA parallel computation API (documentation)
+Homepage: http://mathema.tician.de/software/pycuda
+Description-md5: 84b605056aff156bd9240ab28abde6ff
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/p/pycuda/python-pycuda-doc_2012.1-1_all.deb
+Size: 147654
+MD5sum: e17e35a38f5b8a93790df6b90e5c2786
+SHA1: 72394b0fcb72233950fadf0796f87b39b4af2bd8
+SHA256: d7fbf9f76e4df4074c666a7272d84e181280c023e575bb05ff3d97afb99ebaef
+
+Package: python-pycuda-headers
+Source: pycuda
+Version: 2012.1-1
+Installed-Size: 74
+Maintainer: Tomasz Rybak <tomasz.rybak@post.pl>
+Architecture: all
+Replaces: python-pycuda (<< 2011.2.2+git20120523-1)
+Recommends: python-pycuda-doc, python-pycuda, python3-pycuda
+Breaks: python-pycuda (<< 2012.1-1), python3-pycuda (<< 2012.1-1)
+Description: headers for Python module to access Nvidia‘s CUDA parallel computation API
+Homepage: http://mathema.tician.de/software/pycuda
+Description-md5: dca8b65d1017572ca991858bebee0ff3
+Section: contrib/python
+Priority: optional
+Filename: pool/contrib/p/pycuda/python-pycuda-headers_2012.1-1_all.deb
+Size: 10072
+MD5sum: 89ad13bb87c9c4b76d0465a57be4dcc8
+SHA1: b501af541028f8deeb4e79b7aa16e5f21ce1eaa5
+SHA256: 2d91c3f342c3c49f80285e7b682bb1453d66872a4522e98837484ad2272e7673
+
+Package: python-pyopencl-doc
+Source: pyopencl
+Version: 2012.1.dfsg-1
+Installed-Size: 742
+Maintainer: Tomasz Rybak <tomasz.rybak@post.pl>
+Architecture: all
+Depends: libjs-sphinxdoc (>= 1.0)
+Recommends: python-pyopencl, python3-pyopencl
+Description: module to access OpenCL parallel computation API (documentation)
+Homepage: http://mathema.tician.de/software/pyopencl
+Description-md5: 0b1f9cb9c27d466dca495ad8192d962e
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/p/pyopencl/python-pyopencl-doc_2012.1.dfsg-1_all.deb
+Size: 131760
+MD5sum: f72d432aeec6d4196fa8ac5817ca248e
+SHA1: 8224786626ac92d216b5cf91d22a594d58e5411f
+SHA256: b0e9845df8a7ff564c611e1a351464bc4480446faa824b8112d04562c49ccb03
+
+Package: python-pyopencl-headers
+Source: pyopencl
+Version: 2012.1.dfsg-1
+Installed-Size: 119
+Maintainer: Tomasz Rybak <tomasz.rybak@post.pl>
+Architecture: all
+Replaces: python-pyopencl (<< 2011.2+git20120508-1)
+Depends: opencl-icd
+Recommends: python-pyopencl-doc, python-pyopencl, python3-pyopencl
+Breaks: python-pyopencl (<< 2012.1.dfsg-1), python3-pyopencl (<< 2012.1.dfsg-1)
+Description: headers for Python module to access OpenCL parallel computation API
+Homepage: http://mathema.tician.de/software/pyopencl
+Description-md5: 7be8d0f651f61987bba939f95462d9d8
+Section: contrib/python
+Priority: optional
+Filename: pool/contrib/p/pyopencl/python-pyopencl-headers_2012.1.dfsg-1_all.deb
+Size: 29804
+MD5sum: c9afe0ac63659fcce902bc4300a84534
+SHA1: 364b46e7cdf242f74b27002b5293f263c7f3877f
+SHA256: a0d5fe07115d4bb98a8f9629785a1e24b8ec8cb2014cde56d0488e5cbaa3a09a
+
+Package: python-ldap-doc
+Version: 2.3-2.2
+Installed-Size: 323
+Maintainer: Matej Vela <vela@debian.org>
+Architecture: all
+Description: Documentation for the Python LDAP interface module
+Homepage: http://python-ldap.sourceforge.net/
+Description-md5: 2c9055ee7176c916c3b1c16c71bee54d
+Tag: devel::doc, devel::lang:python, made-of::html, role::documentation
+Section: contrib/doc
+Priority: optional
+Filename: pool/contrib/p/python-ldap-doc/python-ldap-doc_2.3-2.2_all.deb
+Size: 43784
+MD5sum: 8e33e3da5396dc3ee1f3d146676842b0
+SHA1: e2045fac1a36f2d4a12ed42842d4f37d08b61a4c
+SHA256: 6806495c0da342ac0e6ab0fbbd46f299603160b875c22dcf5aeeb0166fc4b8cd
+
+Package: qmhandle
+Version: 1.3.2-1
+Installed-Size: 88
+Maintainer: Marcela Tiznado <mlt@debian.org>
+Architecture: all
+Depends: perl
+Description: tool to manage the qmail message queue
+Description-md5: 3fcb68dc4d80dbb716481945432baa11
+Tag: role::program, works-with::mail
+Section: contrib/mail
+Priority: optional
+Filename: pool/contrib/q/qmhandle/qmhandle_1.3.2-1_all.deb
+Size: 19454
+MD5sum: e4a2e9a4ccc1f7e25761bcc3dc9741d9
+SHA1: 8255937688f2e69e2fe08939a2c342a692f1e7ab
+SHA256: 25d6d93b1225c8901af121a82d695c29083c61e6c4fee54194aa9d3a20c0cbad
+
+Package: quake
+Version: 2
+Installed-Size: 179
+Maintainer: David Banks <amoebae@gmail.com>
+Architecture: all
+Depends: quakespasm | quake-engine, quake-registered | quake-shareware | game-data-packager
+Recommends: x11-utils | zenity | kdebase-bin
+Suggests: quake-armagon (>= 29), quake-dissolution (>= 29)
+Description: classic first person shooter
+Description-md5: eccacedb0a50e18702da9e0157526552
+Tag: game::fps, hardware::opengl, implemented-in::c, interface::3d,
+ interface::x11, network::client, role::program, uitoolkit::sdl,
+ use::gameplaying, x11::application
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/q/quake/quake_2_all.deb
+Size: 41664
+MD5sum: 065b698da60f3951d52765b3bfc80ed0
+SHA1: af8c4cacc1b9468543d5b7cde2af8b0a3133f142
+SHA256: f8e1fb1f63212c59e2830c2fa67c7ac6be53a3fb94093bf4aab0adcba61594f7
+
+Package: quake-server
+Source: quake
+Version: 2
+Installed-Size: 76
+Maintainer: David Banks <amoebae@gmail.com>
+Architecture: all
+Depends: adduser, quakespasm | quake-engine-server, quake-registered | quake-shareware | game-data-packager
+Description: classic first person shooter - server and init script
+Description-md5: f2d85a7d1334e2ce66699c546170e8b9
+Tag: game::fps, implemented-in::c, interface::commandline, interface::daemon,
+ network::server, role::program, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/q/quake/quake-server_2_all.deb
+Size: 7580
+MD5sum: dd391098e426fcd161c2a2a7d9ac39f4
+SHA1: 346e5a6d0789bd5d37a67d88043130275e30d36e
+SHA256: b790d22e3424d29ab560f901e024b61a10b3fd5c28021437c508392b7dbe6e92
+
+Package: quake3
+Version: 1.4
+Installed-Size: 249
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: ioquake3, quake3-data | game-data-packager (>= 23)
+Recommends: x11-utils | zenity | kdebase-bin
+Description: Quake III Arena menu entry and launcher scripts
+Homepage: http://www.ioquake3.org/
+Description-md5: abdee6f5a5e239d5825a2a6c01d0cd96
+Tag: game::fps, hardware::opengl, implemented-in::c, interface::3d,
+ interface::x11, network::client, role::program, uitoolkit::sdl,
+ use::gameplaying, x11::application
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/q/quake3/quake3_1.4_all.deb
+Size: 54940
+MD5sum: 6424f4a51eb44235926b86150378f1e3
+SHA1: 54fa8b01c6ad1f0b6ecf002176031fc75472a25d
+SHA256: f40c6e530c924df263343c96229b3a03bf6e8b61f0410650f3277d48f94f3580
+
+Package: quake3-server
+Source: quake3
+Version: 1.4
+Installed-Size: 96
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: adduser, ioquake3-server, quake3-data | game-data-packager (>= 23)
+Description: Quake III Arena dedicated server launcher scripts
+Homepage: http://www.ioquake3.org/
+Description-md5: 8e8297f00432e48c9b838007e87e116d
+Tag: game::fps, implemented-in::c, interface::commandline, network::server,
+ role::program, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/q/quake3/quake3-server_1.4_all.deb
+Size: 10860
+MD5sum: 2271708cbd1963fc7d24c6d2f2bcde40
+SHA1: 203397cc0f08ed8522343ebf7e7abd12b78d9972
+SHA256: 4a6a445bc3c814e1060fe54ac20eb4f3f8631219594e1c0cb78b93e2bbd4220b
+
+Package: raccoon
+Version: 1.0-1
+Installed-Size: 284
+Maintainer: Steffen Moeller <moeller@debian.org>
+Architecture: all
+Depends: python, autodocktools
+Suggests: autodock, autodock-vina, torque
+Description: preparation of in silico drug screening projects
+Homepage: http://autodock.scripps.edu/resources/raccoon
+Description-md5: cd4725a8b4e7cd4796a402535760fb6f
+Section: contrib/science
+Priority: extra
+Filename: pool/contrib/r/raccoon/raccoon_1.0-1_all.deb
+Size: 62366
+MD5sum: f85a52e3cb8de9938639c4c46c9801bf
+SHA1: 4beb7f8ff5d1d9711cb1c651557fefbb98777511
+SHA256: 63535293d6fc2825927cbcf4349a0c5985e1bdfed49b09aa21de3db7652e2a27
+
+Package: redeclipse
+Version: 1.2-3
+Installed-Size: 2788
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: redeclipse-data (>= 1.2), libc6 (>= 2.13-28), libenet1a, libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libsdl-image1.2 (>= 1.2.10), libsdl-mixer1.2, libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.4.0), libx11-6, zlib1g (>= 1:1.2.0)
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: single-player and multi-player first-person ego-shooter
+Homepage: http://www.redeclipse.net
+Description-md5: 5c2008bbe98e70a350dc2e5ff41c2edb
+Tag: game::arcade, game::fps, hardware::input:keyboard,
+ hardware::input:mouse, hardware::opengl, implemented-in::c++,
+ interface::3d, interface::x11, network::client, protocol::irc,
+ role::program, scope::application, uitoolkit::sdl, use::chatting,
+ use::gameplaying, x11::application
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/r/redeclipse/redeclipse_1.2-3_armhf.deb
+Size: 1258046
+MD5sum: bc9166fa54070e53644911957b4cffc6
+SHA1: 66f4a0a46a85da3cb2884cf1556e41aed263317b
+SHA256: 2c75bdc2c43d287d05485d5b2d17ae9262067ade51d7bd46fc1f8fe0f5560180
+
+Package: redeclipse-dbg
+Source: redeclipse
+Version: 1.2-3
+Installed-Size: 13886
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: redeclipse (= 1.2-3)
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: debug symbols for the Red Eclipse FPS game
+Homepage: http://www.redeclipse.net
+Description-md5: 472a3994437308850b2d85085b11423f
+Section: contrib/debug
+Priority: extra
+Filename: pool/contrib/r/redeclipse/redeclipse-dbg_1.2-3_armhf.deb
+Size: 3624668
+MD5sum: 3c9a671f9b60ab595e1c901b053dac4d
+SHA1: 55111a52959d2a4f734d2daf8979d68004019f44
+SHA256: ad637d03308c16ac57dbf2e1702f7efb56f4d518fb4be88f0cc4ceb57d752080
+
+Package: redeclipse-server
+Source: redeclipse
+Version: 1.2-3
+Installed-Size: 598
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libenet1a, libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0), zlib1g (>= 1:1.1.4)
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: server for the Red Eclipse FPS game
+Homepage: http://www.redeclipse.net
+Description-md5: 315338a2439def5a06eb51a250e84e31
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/r/redeclipse/redeclipse-server_1.2-3_armhf.deb
+Size: 233092
+MD5sum: 7deb73ae9b7ff188e8d38f66328b5ab7
+SHA1: 4d4ecc0dcec909ccb9827ff6a20790af8c27c4e6
+SHA256: 3dac65a85ef1f51bab81246e82b5cbfce4434f09e960150ba14c422fb8f80f79
+
+Package: redeclipse-server-dbg
+Source: redeclipse
+Version: 1.2-3
+Installed-Size: 1955
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: redeclipse-server (= 1.2-3)
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: debug symbols for the Red Eclipse dedicated server
+Homepage: http://www.redeclipse.net
+Description-md5: 845a03d775cde2c92ef0a0d918bdbf50
+Section: contrib/debug
+Priority: extra
+Filename: pool/contrib/r/redeclipse/redeclipse-server-dbg_1.2-3_armhf.deb
+Size: 537678
+MD5sum: 0a0f00874d63dc6edd6a512efbb0dba3
+SHA1: 190233a31236e831b9f6dc79b15dea0e26c57917
+SHA256: 1500a10e644f0344e7e4512ecb3a99dbffeaf0a974333bc5c9138863a32e3e49
+
+Package: reminiscence
+Version: 0.2.1-1
+Installed-Size: 211
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.3.0), zlib1g (>= 1:1.1.4), perl
+Description: free implementation of Flashback game engine
+Homepage: http://cyxdown.free.fr/reminiscence/
+Description-md5: 47982cfbc36238f1225d12baaf1e3605
+Tag: role::program, uitoolkit::sdl, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/r/reminiscence/reminiscence_0.2.1-1_armhf.deb
+Size: 105814
+MD5sum: 03904794eaac36eca6673e7c9e12e495
+SHA1: db594561cc1a3d414766d377b611ee2fab0d25b1
+SHA256: 3958a0ff1e484c5fa193bba5ab6439bf270798a541d2552913150b6a9de64077
+
+Package: rocksndiamonds
+Version: 3.3.0.1+dfsg1-2.2
+Installed-Size: 1536
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libsdl-image1.2 (>= 1.2.10), libsdl-mixer1.2, libsdl-net1.2, libsdl1.2debian (>= 1.2.11), perl, perl-modules, p7zip, wget, unzip
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Conflicts: rocks-n-diamonds, rocksndiamonds-data, rocksndiamonds-zelda
+Description: arcade-style game
+Homepage: http://artsoft.org
+Description-md5: c0d7b53fbd994c35c38d16c6742b2857
+Tag: game::arcade, game::puzzle, implemented-in::c, interface::x11,
+ role::program, uitoolkit::sdl, use::gameplaying, x11::application
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/r/rocksndiamonds/rocksndiamonds_3.3.0.1+dfsg1-2.2_armhf.deb
+Size: 466442
+MD5sum: fc287afffbd14ebc4a594a2057b7404f
+SHA1: 4c6efa92caf7e260358826a8d85c901cdd00b8b8
+SHA256: e346e9300882d522b3301309ba4b745395074341ae99254b7c7c13b75d8e83d7
+
+Package: ttf-root-installer
+Source: root-system
+Version: 5.34.00-2
+Installed-Size: 96
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Architecture: all
+Provides: root-ttf
+Depends: debconf (>= 1.2.0), wget (>= 1.9.1-4), xfonts-utils
+Conflicts: ttf-root
+Description: True type fonts for ROOT - installer package
+Homepage: http://root.cern.ch
+Description-md5: 69569a410342cc13bd5a38d27132cb93
+Section: contrib/fonts
+Priority: optional
+Filename: pool/contrib/r/root-system/ttf-root-installer_5.34.00-2_all.deb
+Size: 26594
+MD5sum: d0d26a548b78fa31dc2567aaddd87a5d
+SHA1: cb0ec2193484ca5a6c1b641223f9c0f66feb0eca
+SHA256: 5a6dccfb51b87dbb3d3df3e92b9c58ec8eeea0c8f969e6a59fd3d700fcc6c4a1
+
+Package: rott
+Version: 1.1.2-1
+Installed-Size: 1987
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libsdl-mixer1.2, libsdl1.2debian (>= 1.2.11), rott-data | game-data-packager (>= 24)
+Recommends: freepats, timidity
+Description: SDL-Port of Rise of the Triad
+Homepage: http://icculus.org/rott/
+Description-md5: 33b73fa3a3248365bd54091b7dbb5f4d
+Tag: game::fps, role::program, uitoolkit::sdl, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/r/rott/rott_1.1.2-1_armhf.deb
+Size: 1203028
+MD5sum: 2617e951fcdd2258c22d0f30e9363ed5
+SHA1: b678a392a68dadf6aec90d7297c9525f36a67330
+SHA256: 35c858af1862e5ec2a929d14c8c4ae4e62029d874cf9d9b0a4a79727521e9b19
+
+Package: libgooglecharts-ruby
+Source: ruby-googlecharts
+Version: 1.6.8-2
+Installed-Size: 27
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: ruby-googlecharts
+Description: Transitional package for ruby-googlecharts
+Homepage: http://googlecharts.rubyforge.org/
+Description-md5: 3e56ec22ef68e941aff246dbcce52e90
+Section: contrib/oldlibs
+Priority: extra
+Filename: pool/contrib/r/ruby-googlecharts/libgooglecharts-ruby_1.6.8-2_all.deb
+Size: 3486
+MD5sum: 070302f424cf3735ac3c439547062a2b
+SHA1: 83fa947b2eaadb0ec54748c47cddbb1698e1d5cb
+SHA256: fa0a06c04033aec7371199a5ceb71abd135c111ff1264b047ecc1a26939fea9c
+
+Package: libgooglecharts-ruby1.8
+Source: ruby-googlecharts
+Version: 1.6.8-2
+Installed-Size: 27
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: ruby-googlecharts
+Description: Transitional package for ruby-googlecharts
+Homepage: http://googlecharts.rubyforge.org/
+Description-md5: 3e56ec22ef68e941aff246dbcce52e90
+Tag: role::shared-lib
+Section: contrib/oldlibs
+Priority: extra
+Filename: pool/contrib/r/ruby-googlecharts/libgooglecharts-ruby1.8_1.6.8-2_all.deb
+Size: 3488
+MD5sum: 6e0a790fb38a66863794e3676e5db69d
+SHA1: ef701e1c76a825ee519d08b26af7ef7778c8019b
+SHA256: 2d14fe7ed94c9837c1a635e18e42a62a3d1d22e72a01ea479e6b9bfa87b58d11
+
+Package: ruby-googlecharts
+Version: 1.6.8-2
+Installed-Size: 92
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Architecture: all
+Replaces: libgooglecharts-ruby (<< 1.6.8-1~), libgooglecharts-ruby1.8 (<< 1.6.8-1~)
+Provides: libgooglecharts-ruby, libgooglecharts-ruby1.8
+Depends: ruby | ruby-interpreter
+Breaks: libgooglecharts-ruby (<< 1.6.8-1~), libgooglecharts-ruby1.8 (<< 1.6.8-1~)
+Description: Ruby library to generate charts using Google Chart API
+Homepage: http://googlecharts.rubyforge.org/
+Description-md5: 5a7010693764f607269fd6853c91aafd
+Ruby-Versions: ruby1.8 ruby1.9.1
+Section: contrib/ruby
+Priority: optional
+Filename: pool/contrib/r/ruby-googlecharts/ruby-googlecharts_1.6.8-2_all.deb
+Size: 16728
+MD5sum: 9a0f4fc0feb69cfe5794fc7eada5f39c
+SHA1: e8200414909613d8a110b94cf8b9760b10b29e3f
+SHA256: 8683ef471ec5be0c851011daa65925919a86097875ba4b9b8d09d44831d07356
+
+Package: sabnzbdplus
+Version: 0.6.15-1
+Installed-Size: 2616
+Maintainer: JCF Ploemen (jcfp) <linux@jp.pp.ru>
+Architecture: all
+Depends: python (>= 2.6.6-7~), python-cheetah (>= 2.0.1), python-configobj, python-feedparser, sabnzbdplus-theme-plush (= 0.6.15-1)
+Recommends: python-yenc (>= 0.3), python-openssl (>= 0.6), unzip, par2 (>= 0.4), unrar (>= 3.8.0) | rar (>= 3.8.0), sabnzbdplus-theme-classic, sabnzbdplus-theme-smpl
+Suggests: sabnzbdplus-theme-mobile, python-dbus
+Description: web-based binary newsgrabber with nzb support
+Homepage: http://sabnzbd.org
+Description-md5: 126139c25de3c373f30a582ac0009e7d
+Tag: implemented-in::python, protocol::nntp, role::program
+Section: contrib/net
+Priority: optional
+Filename: pool/contrib/s/sabnzbdplus/sabnzbdplus_0.6.15-1_all.deb
+Size: 949620
+MD5sum: 46281f3b9d2a0995059e65d80e402673
+SHA1: 4d441cd67d9fb557d479958a62c28c05e66c7ab8
+SHA256: 51e250858931ace94edce2cb158816a400a4456c4b65eac8d72ca577b8248d8d
+
+Package: sabnzbdplus-theme-classic
+Source: sabnzbdplus
+Version: 0.6.15-1
+Installed-Size: 300
+Maintainer: JCF Ploemen (jcfp) <linux@jp.pp.ru>
+Architecture: all
+Depends: sabnzbdplus (= 0.6.15-1)
+Enhances: sabnzbdplus
+Description: classic interface templates for the SABnzbd+ binary newsgrabber
+Homepage: http://sabnzbd.org
+Description-md5: 240f336c262a15ec457383a91b6c86b3
+Tag: role::app-data
+Section: contrib/net
+Priority: optional
+Filename: pool/contrib/s/sabnzbdplus/sabnzbdplus-theme-classic_0.6.15-1_all.deb
+Size: 86812
+MD5sum: 77dee99fc3dc083497a6936a122a9607
+SHA1: f6c918f13ba6165c8dc3f27bea5f48125cdb08c6
+SHA256: 9cfb141b3c092212f86e6c5fdd28b8d18edd4b7ffd995a355698c58e648b06aa
+
+Package: sabnzbdplus-theme-iphone
+Source: sabnzbdplus
+Version: 0.6.15-1
+Installed-Size: 110
+Maintainer: JCF Ploemen (jcfp) <linux@jp.pp.ru>
+Architecture: all
+Depends: sabnzbdplus-theme-mobile
+Description: transitional package for migration to sabnzbdplus-theme-mobile
+Homepage: http://sabnzbd.org
+Description-md5: a7210efd91d7a56e8e662ba2d1ec1a19
+Tag: role::app-data, role::dummy
+Section: contrib/oldlibs
+Priority: extra
+Filename: pool/contrib/s/sabnzbdplus/sabnzbdplus-theme-iphone_0.6.15-1_all.deb
+Size: 38524
+MD5sum: 2de76a11243a83e7c167fbb3197ac7e7
+SHA1: 3138ac3f853e75fe6ae5d83b81619c1ca69bdd8b
+SHA256: 178c2012285badf12ef42e86d779ac7d7dc1edfc119cf193a27ce32b34628822
+
+Package: sabnzbdplus-theme-mobile
+Source: sabnzbdplus
+Version: 0.6.15-1
+Installed-Size: 333
+Maintainer: JCF Ploemen (jcfp) <linux@jp.pp.ru>
+Architecture: all
+Depends: sabnzbdplus (= 0.6.15-1)
+Enhances: sabnzbdplus
+Description: mobile interface templates for the SABnzbd+ binary newsgrabber
+Homepage: http://sabnzbd.org
+Description-md5: a72a6c97cef4e866ae9191e8e0f87a2f
+Tag: role::app-data
+Section: contrib/net
+Priority: optional
+Filename: pool/contrib/s/sabnzbdplus/sabnzbdplus-theme-mobile_0.6.15-1_all.deb
+Size: 100628
+MD5sum: d06f4546444167f455f67c27b021983c
+SHA1: e938be33d63b466d18fd40dbad2004c722958cf6
+SHA256: dcbc1177163e02c0d12f8fe3bafcad8052200eb73b72ecd1cb59f35f875055df
+
+Package: sabnzbdplus-theme-plush
+Source: sabnzbdplus
+Version: 0.6.15-1
+Installed-Size: 735
+Maintainer: JCF Ploemen (jcfp) <linux@jp.pp.ru>
+Architecture: all
+Recommends: sabnzbdplus
+Description: plush interface templates for the SABnzbd+ binary newsgrabber
+Homepage: http://sabnzbd.org
+Description-md5: f1fa8c6572cfd8d8a9733537d1053d21
+Tag: role::app-data
+Section: contrib/net
+Priority: optional
+Filename: pool/contrib/s/sabnzbdplus/sabnzbdplus-theme-plush_0.6.15-1_all.deb
+Size: 233192
+MD5sum: 98d8be409aa52d25a238a16f78caa840
+SHA1: 2cd2b6a07e12dab3e64f90090b9a13bb93a9c219
+SHA256: 4ff8d4c56c5e63dc61b59da1e3d1dec379af21961d8d8d993e5e9037d14c9ab0
+
+Package: sabnzbdplus-theme-smpl
+Source: sabnzbdplus
+Version: 0.6.15-1
+Installed-Size: 412
+Maintainer: JCF Ploemen (jcfp) <linux@jp.pp.ru>
+Architecture: all
+Depends: libjs-mochikit (>= 1.4), libjs-excanvas, sabnzbdplus (= 0.6.15-1)
+Enhances: sabnzbdplus
+Description: smpl interface templates for the SABnzbd+ binary newsgrabber
+Homepage: http://sabnzbd.org
+Description-md5: 1867aade30a2c9e5a9a2255b5672e6cd
+Tag: role::app-data
+Section: contrib/net
+Priority: optional
+Filename: pool/contrib/s/sabnzbdplus/sabnzbdplus-theme-smpl_0.6.15-1_all.deb
+Size: 111596
+MD5sum: 9337aa20bdfb17ab7c9ab29ec67df03e
+SHA1: 817863a3deb8c12f9d81489fecb9f4743aa5a7ec
+SHA256: 83823972b99b6a668579a197d9064c01726ef544c3c00360dae7977448e5e31e
+
+Package: sandboxgamemaker
+Version: 2.7.1+dfsg-2
+Installed-Size: 7247
+Maintainer: Scott Howard <showard@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libenet1a, libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libsdl-image1.2 (>= 1.2.10), libsdl-mixer1.2, libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.4.0), libwxbase2.8-0 (>= 2.8.12.1), libwxgtk2.8-0 (>= 2.8.12.1), libx11-6, zlib1g (>= 1:1.2.0), debconf (>= 0.5) | debconf-2.0
+Recommends: libsmpeg0, mikmod, timidity
+Description: 3D game maker and 3D game design program
+Homepage: http://sandboxgamemaker.com/
+Description-md5: 194fa673f2b9fefe0141ff80a9efa114
+Tag: game::adventure, game::mud, implemented-in::c++, role::program,
+ uitoolkit::sdl, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/s/sandboxgamemaker/sandboxgamemaker_2.7.1+dfsg-2_armhf.deb
+Size: 4588636
+MD5sum: 869d11952f525bfd254d8d4db0c34ecf
+SHA1: a81744bbc7e1b2557541bc85fedcb9727a5b9c0b
+SHA256: 2eb5640ecab868038077149b42d7f827628725100260ae0d3c4064508d154f58
+
+Package: sapgui-package
+Version: 0.0.10
+Installed-Size: 72
+Maintainer: Guido Günther <agx@sigxcpu.org>
+Architecture: all
+Depends: cdbs, fakeroot, dpkg-dev, openjdk-6-jre | java5-runtime, python, python-support (>= 0.90.0)
+Description: utility to build SAP GUI related Debian packages
+Homepage: https://honk.sigxcpu.org/piki/projects/sapgui-package/
+Description-md5: 60d9bd52742bcb52b483f3f1595bf031
+Tag: admin::package-management, role::program, scope::utility
+Section: contrib/misc
+Priority: extra
+Filename: pool/contrib/s/sapgui-package/sapgui-package_0.0.10_all.deb
+Size: 7060
+MD5sum: f6f4c7ada3d0b8f57894ca469c535f51
+SHA1: 34ebe59f6a76dfe0d57b7cfd99e0f7c8f2ba83f3
+SHA256: 56438d882810607449205a459e0041a8ace2be18b301bc81ede0e623386b2969
+
+Package: sauerbraten
+Version: 0.0.20100728.dfsg+repack-3
+Installed-Size: 1422
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libsdl-image1.2 (>= 1.2.10), libsdl-mixer1.2, libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.4.0), libx11-6, zlib1g (>= 1:1.2.0), sauerbraten-data (>= 0.0.20100728)
+Recommends: sauerbraten-wake6
+Description: 3D first-person game engine
+Homepage: http://sauerbraten.org/
+Description-md5: f0c79c5e12ab065007640fdfe59f0907
+Tag: game::demos, game::fps, hardware::input:keyboard, hardware::input:mouse,
+ hardware::opengl, implemented-in::c++, interface::3d, interface::x11,
+ role::program, uitoolkit::sdl, use::editing, use::gameplaying,
+ x11::application
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/s/sauerbraten/sauerbraten_0.0.20100728.dfsg+repack-3_armhf.deb
+Size: 881188
+MD5sum: c1f5528bc31d93e69b3991b7a68fc212
+SHA1: 4f723e86e7a244f8522825b590683656c4d313dc
+SHA256: 45fa9507c89b57fa4a757afec739bcceb6389e97be76e0a2cc0b449e43824623
+
+Package: sauerbraten-dbg
+Source: sauerbraten
+Version: 0.0.20100728.dfsg+repack-3
+Installed-Size: 8625
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: sauerbraten (= 0.0.20100728.dfsg+repack-3)
+Description: Debug symbols for the Sauerbraten game engine
+Homepage: http://sauerbraten.org/
+Description-md5: b98a45e19f2f54b9a0a0776c448c903d
+Tag: role::debug-symbols
+Section: contrib/debug
+Priority: extra
+Filename: pool/contrib/s/sauerbraten/sauerbraten-dbg_0.0.20100728.dfsg+repack-3_armhf.deb
+Size: 3275638
+MD5sum: 81cb97ea0f01ffd6595e16618d3b8d82
+SHA1: 1f3897967d46266571dafbb6d2be8ed85b43bb6b
+SHA256: dd9e4f84856848a946678a3fdecfac013bedb63fe9e8b68cc4965b1433248596
+
+Package: sauerbraten-server
+Source: sauerbraten
+Version: 0.0.20100728.dfsg+repack-3
+Installed-Size: 234
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0), zlib1g (>= 1:1.1.4)
+Suggests: sauerbraten
+Description: Standalone server for the Sauerbraten game
+Homepage: http://sauerbraten.org/
+Description-md5: 3f9cca1f317ffbef6128cb03d1ba041f
+Tag: implemented-in::c++, network::server, role::program, use::gameplaying
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/s/sauerbraten/sauerbraten-server_0.0.20100728.dfsg+repack-3_armhf.deb
+Size: 116036
+MD5sum: 84c76b89f15f53c05fd5bae780cf29d6
+SHA1: 39fb25f304604a8f3f66b4e64d867d629b620941
+SHA256: 8221a243868093862513c734b51a399c2f5b74dfd19d10d30844ec1eb1704ee5
+
+Package: sauerbraten-wake6
+Version: 1.0-1.1
+Installed-Size: 347
+Maintainer: Gürkan Sengün <gurkan@phys.ethz.ch>
+Architecture: all
+Depends: sauerbraten
+Description: Small but dodgy deathmatch/instagib map for the Sauerbraten game
+Homepage: http://wakeup.rundumbonn.de/wscm/mapping/wake6.html
+Description-md5: da07c16a773ba22b48f3af0c47053edf
+Tag: game::arcade, game::fps, interface::3d, role::app-data, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/s/sauerbraten-wake6/sauerbraten-wake6_1.0-1.1_all.deb
+Size: 268894
+MD5sum: b6ca0e70c95e2c754cd80adb484efa59
+SHA1: b04e6729a33d1435fd5aaff1e0fe010fe899ce4a
+SHA256: 063e516bc149efad085842f8eba454e723da15f7297041d5d8938df8528c0415
+
+Package: sdic
+Version: 2.1.3-22
+Installed-Size: 200
+Maintainer: Taku YASUI <tach@debian.org>
+Architecture: all
+Depends: dpkg (>= 1.15.4) | install-info, emacs23-nox | emacsen, bsdmainutils
+Suggests: sdic-gene95, sdic-edict, sdic-eijiro
+Description: Emacs interface for Japanese dictionaries
+Homepage: http://namazu.org/~tsuchiya/sdic/
+Description-md5: c32066e6d5c0a373d39bffefd6fee063
+Tag: works-with::dictionary
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/s/sdic/sdic_2.1.3-22_all.deb
+Size: 48636
+MD5sum: d3ffcde03e9265ebdaebb865fd3352ab
+SHA1: e7bbce06dd78c89ec318bb55b95f0981cd3b227b
+SHA256: b24938fd1a7e76e0f850064599bf2953208a68a9d084597f03b585ac1d5e89fc
+
+Package: sdic-edict
+Source: sdic
+Version: 2.1.3-22
+Installed-Size: 75
+Maintainer: Taku YASUI <tach@debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, perl, edict
+Recommends: sdic, sufary
+Description: installer for EDICT dictionaries for sdic
+Homepage: http://namazu.org/~tsuchiya/sdic/
+Description-md5: 23247b0ef12299c39dbd64aa2e509ac7
+Tag: role::app-data
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/s/sdic/sdic-edict_2.1.3-22_all.deb
+Size: 16296
+MD5sum: 259426d7ca2778246be4397c39277c1a
+SHA1: e40050e889bead4e43b1afc041a0af4fb8f8bf95
+SHA256: ce430cf30667828c1cfea26e63adf21547d5141f5e9ad12b9c2c12e2c3e43738
+
+Package: sdic-eijiro
+Source: sdic
+Version: 2.1.3-22
+Installed-Size: 61
+Maintainer: Taku YASUI <tach@debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, perl, nkf
+Recommends: sdic, sufary
+Description: installer for EIJIRO dictionaries for sdic
+Homepage: http://namazu.org/~tsuchiya/sdic/
+Description-md5: c5ed8332c9c4a1c37d0fbe7262902a0a
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/s/sdic/sdic-eijiro_2.1.3-22_all.deb
+Size: 13080
+MD5sum: fb8b7b2b2c098729ce343e5f4de8c4f2
+SHA1: 99b5a655e22a6db7873077838cc2aa6a3dba854d
+SHA256: dadf916f5f0f50732e9afb82ea507f5cb4693b6ba2434b901ee61b666ee3d42e
+
+Package: sdic-gene95
+Source: sdic
+Version: 2.1.3-22
+Installed-Size: 85
+Maintainer: Taku YASUI <tach@debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, perl, wget, nkf, netcat-traditional | netcat, bzip2
+Recommends: sdic, sufary
+Suggests: kakasi
+Description: installer for GENE95 dictionaries for sdic
+Homepage: http://namazu.org/~tsuchiya/sdic/
+Description-md5: 035741d096d575682945260c99859497
+Tag: works-with::dictionary
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/s/sdic/sdic-gene95_2.1.3-22_all.deb
+Size: 20862
+MD5sum: 067b8e6cc09b1c025aa0e65f03337523
+SHA1: 66e9e3e3f0a9c67c31bc29992fa5aa882534fdd5
+SHA256: 994b3518b830fbe38296acc47f48f741deab618b37664fdca282ff64c476eff2
+
+Package: series60-remote
+Version: 0.4.0+dfsg.1-1
+Installed-Size: 11900
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: all
+Depends: python (>= 2.5), python-support (>= 0.90.0), python-qt4, python-qt4-sql, python-bluez, libqt4-sql-sqlite | libqt4-sql-mysql
+Recommends: python-obexftp, python-matplotlib
+Description: S60 mobile phone management application
+Homepage: http://series60-remote.sourceforge.net/
+Description-md5: eebf21ad9331a885004be77a99723ec9
+Python-Version: 2.5, 2.6
+Tag: admin::hardware, hardware::modem, implemented-in::python,
+ interface::x11, role::program, scope::application, uitoolkit::qt,
+ use::synchronizing, use::transmission, works-with::pim,
+ x11::application
+Section: contrib/comm
+Priority: extra
+Filename: pool/contrib/s/series60-remote/series60-remote_0.4.0+dfsg.1-1_all.deb
+Size: 2550932
+MD5sum: a762906330d4e38c9f620b56c3c2713e
+SHA1: 13fc810761dbf725742f49935f8e3f9fad66e5fc
+SHA256: e3b715703f12838f715aa8cb4ae51f6e1f1cc3110d6778721c9552b16c214a88
+
+Package: sixpack
+Version: 1:0.68-1
+Installed-Size: 812
+Maintainer: Carlo Segre <segre@debian.org>
+Architecture: all
+Depends: python2.6 | python2.7, python (>= 2.6.6-7~), python (<< 2.8), ifeffit, python-tk, python-pmw, tix, python-ifeffit, python-numpy, blt, python-scientific
+Description: full-featured package for XAS analysis
+Homepage: http://www-ssrl.slac.stanford.edu/~swebb/sixpack.htm
+Description-md5: 8af26fa87bb68c081d0e11d95ceb90e4
+Python-Version: 2.6, 2.7
+Tag: implemented-in::python, role::program
+Section: contrib/science
+Priority: optional
+Filename: pool/contrib/s/sixpack/sixpack_0.68-1_all.deb
+Size: 163968
+MD5sum: 0ae57154842999694fcc203935a9fc87
+SHA1: 2818bc0338362df5f70e78e234c78c2e1d4a3d35
+SHA256: 4fe5aa6da0dfed4d51e83e6ea059c662f1956c2e9e0921f4ab86008135ef31b7
+
+Package: spectemu-common
+Source: spectemu
+Version: 0.94a-15
+Installed-Size: 169
+Maintainer: Colin Watson <cjwatson@debian.org>
+Architecture: armhf
+Replaces: xspectemu
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.1.1)
+Suggests: spectemu-x11
+Description: Fast 48k ZX Spectrum Emulator (common files)
+Description-md5: 26bc6bd9e66de9535a2d1d86848d0e2c
+Tag: hardware::emulation, role::app-data
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/s/spectemu/spectemu-common_0.94a-15_armhf.deb
+Size: 61424
+MD5sum: 3554d4883dabf679335e25b2c9331b10
+SHA1: 68c70a3eca0c2aca27ef0cb0409930524ef5a8fc
+SHA256: f5c155a6c9f9485da00ccffba44f6cddb9e6e524664b311cd4648b09065a8fc0
+
+Package: spectemu-x11
+Source: spectemu
+Version: 0.94a-15
+Installed-Size: 172
+Maintainer: Colin Watson <cjwatson@debian.org>
+Architecture: armhf
+Replaces: xspectemu
+Provides: xspectemu
+Depends: spectemu-common (= 0.94a-15), spectrum-roms, libc6 (>= 2.13-28), libreadline6 (>= 6.0), libx11-6, libxext6
+Conflicts: xspectemu
+Description: Fast 48k ZX Spectrum Emulator for X11
+Description-md5: 0bf9dc39a82ac7415decd677a04bcf9b
+Tag: hardware::emulation, implemented-in::c, role::program, scope::utility,
+ uitoolkit::ncurses, use::gameplaying
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/s/spectemu/spectemu-x11_0.94a-15_armhf.deb
+Size: 62214
+MD5sum: a0510aede006f960a4c68de6eea3ce5c
+SHA1: a34deed4d66e1d68272cec151db193dcfa8fa62d
+SHA256: cebd292c63756f5940971e304a22619c162a27b50e0b86cc5109093f75385c03
+
+Package: sqldeveloper-package
+Version: 0.2.4
+Installed-Size: 78
+Maintainer: Lazarus Long <lazarus.long@bigfoot.com>
+Architecture: all
+Depends: bzip2, devscripts, fakeroot, file, unzip, tofrodos, imagemagick
+Description: Oracle SQL Developer Debian package builder
+Description-md5: 7fabc3fa20df18b43a17959dd66a466c
+Section: contrib/misc
+Priority: optional
+Filename: pool/contrib/s/sqldeveloper-package/sqldeveloper-package_0.2.4_all.deb
+Size: 17598
+MD5sum: 3f3776dba5b93f47e789019ce163c9af
+SHA1: 819d248af6caecb74d13acc3a7678a4c1c70dd1d
+SHA256: 289db413af5862bac18b9e5385cc20ea784226fbaab5ed333aba3102dcb595a2
+
+Package: sugar-etoys-activity
+Version: 116-3
+Installed-Size: 73
+Maintainer: Debian OLPC <debian-olpc-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: etoys
+Recommends: sugar-session-0.88 | sugar-session, sugar-presence-service-0.90 | sugar-presence-service
+Description: Sugar wrapper around the Squeak Etoys programming language
+Homepage: http://wiki.laptop.org/go/Etoys
+Description-md5: fc76d3df6d970ec1ea0666d73d6a859d
+Section: contrib/x11
+Priority: optional
+Filename: pool/contrib/s/sugar-etoys-activity/sugar-etoys-activity_116-3_all.deb
+Size: 16348
+MD5sum: 4af7d0667cc37c62c90cfb016dd10fa6
+SHA1: 4f1349003dcef3949219588e428d24dae69ca063
+SHA256: 4ae6e189a6ad6018832e1df75df108961df82acfb2e453d43267a5c7c68fb74c
+
+Package: susv2
+Version: 1.1
+Installed-Size: 48
+Maintainer: Jeff Bailey <jbailey@raspberryginger.com>
+Architecture: all
+Depends: wget, bzip2
+Description: Fetch and install SUSv2 documentation
+Description-md5: e71c3733172de1459ae52be681da8a92
+Tag: implemented-in::shell, role::program, scope::utility, use::downloading
+Section: contrib/doc
+Priority: extra
+Filename: pool/contrib/s/susv2/susv2_1.1_all.deb
+Size: 2278
+MD5sum: 642970f69b890f9f999976e0590d7e2e
+SHA1: abceba6c52cb615a466641f7d0e68c5be1e0abe4
+SHA256: 4618d00ea779aadafe6a1a78cae980b949a4e74bb876619a482385d95d0e439e
+
+Package: susv3
+Version: 6.1
+Installed-Size: 48
+Maintainer: Jeff Bailey <jbailey@raspberryginger.com>
+Architecture: all
+Depends: wget, bzip2
+Description: Fetch and install SUSv3 documentation
+Description-md5: cb214078d15f1e4eaaaf199824e8d480
+Tag: implemented-in::shell, role::program, scope::utility, use::downloading
+Section: contrib/doc
+Priority: extra
+Filename: pool/contrib/s/susv3/susv3_6.1_all.deb
+Size: 2282
+MD5sum: 3b6fe02e60aaadc0e6a643226baa7a5d
+SHA1: 1b5b503ce8569f297943674ed6cd60a011159ff9
+SHA256: 422dfe21b616e1d7ab224695e1b45d6ccec14561eb1a469649f1717e59ee5931
+
+Package: tightvnc-java
+Version: 1.2.7-8
+Installed-Size: 204
+Maintainer: Ola Lundqvist <opal@debian.org>
+Architecture: all
+Provides: vnc-viewer
+Suggests: tightvncserver
+Description: TightVNC java applet and command line program
+Description-md5: 4982dc58a7417498b393af72026124af
+Tag: network::client, role::program, use::login
+Section: contrib/java
+Priority: optional
+Filename: pool/contrib/t/tightvnc-java/tightvnc-java_1.2.7-8_all.deb
+Size: 104042
+MD5sum: 8bd93c31b42f0d2c6fbfcfbcee1b4e7f
+SHA1: af6c3ffb662a153c54230574977ae828f52914bb
+SHA256: 54a087c4d9d50608cee9183c7ccbe6662c98777a9caa81f5590309f19b0cfd5e
+
+Package: uae
+Version: 0.8.29-7
+Installed-Size: 1631
+Maintainer: Stephan Sürken <absurd@debian.org>
+Architecture: armhf
+Depends: libasound2 (>> 1.0.24.1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.0), libsdl1.2debian (>= 1.2.10-1)
+Description: The Ubiquitous Amiga Emulator
+Homepage: http://uae.coresystems.de/
+Description-md5: d6e4bc43dd87eca9edee94e9f6c55e4f
+Tag: hardware::emulation, role::program, uitoolkit::gtk
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/u/uae/uae_0.8.29-7_armhf.deb
+Size: 706294
+MD5sum: 2e8243697b79c90fbc6fd950c74b00fc
+SHA1: 1c4a4f7064968cb884bc35c118ce9790563eddf1
+SHA256: adf33f2a3d2602502465f3a043988827ad911c25ea608a5fd6daf6814913437c
+
+Package: uae-dbg
+Source: uae
+Version: 0.8.29-7
+Installed-Size: 424
+Maintainer: Stephan Sürken <absurd@debian.org>
+Architecture: armhf
+Depends: uae (= 0.8.29-7)
+Description: The Ubiquitous Amiga Emulator (debugging)
+Homepage: http://uae.coresystems.de/
+Description-md5: 4a8a0a7a4bfe14cc135b0ab8a36f4543
+Tag: hardware::emulation, role::debug-symbols
+Section: contrib/debug
+Priority: extra
+Filename: pool/contrib/u/uae/uae-dbg_0.8.29-7_armhf.deb
+Size: 170028
+MD5sum: 367af237742b3a781b2069ab28c58771
+SHA1: ee20587d5c2101902ee4e8dae818fba2a5f6f74f
+SHA256: b72a8403efb0ad47ad3865d1dce5e2122cd175561ece8eb375882d3c1f015dcf
+
+Package: uqm
+Version: 0.6.2.dfsg-9
+Installed-Size: 915
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Architecture: armhf
+Replaces: uqm-content
+Depends: libc6 (>= 2.4), libgl1-mesa-glx | libgl1, libmikmod2 (>= 3.1.10), libogg0 (>= 1.0rc3), libsdl-image1.2 (>= 1.2.10), libsdl1.2debian (>= 1.2.10-1), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), zlib1g (>= 1:1.1.4), uqm-content (>= 0.6.0)
+Recommends: uqm-music (>= 0.4)
+Suggests: uqm-voice (>= 0.4)
+Description: The Ur-Quan Masters - An inter-galatic adventure game
+Homepage: http://sc2.sourceforge.net/
+Description-md5: 92850de3b6d3bf1ba70856541228b32b
+Tag: game::strategy, role::program, uitoolkit::sdl, use::gameplaying
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/u/uqm/uqm_0.6.2.dfsg-9_armhf.deb
+Size: 558110
+MD5sum: e2358d07a0316ed228033dda90ce470b
+SHA1: c25e868208009353b5bee7c29de1fc49a30e62c5
+SHA256: a3926c78a41e806321381332cbfc0beb3d035fc6e4c767d8e7a51b3efddcc4cd
+
+Package: uqm-russian
+Version: 1.0.2-5
+Installed-Size: 1496
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Architecture: all
+Depends: uqm (>= 0.6.2.dfsg-5)
+Description: Russian addon for 'The Ur-Quan Masters' game
+Homepage: http://uqm-rus.uvw.ru
+Description-md5: 267ce4366adc55d3942d0f2c8c1c723a
+Tag: culture::russian, role::app-data
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/u/uqm-russian/uqm-russian_1.0.2-5_all.deb
+Size: 1046348
+MD5sum: 695a77c9af42d5b0aa3f8ecab1463d7c
+SHA1: 5daaadcebf5afb377000fe592faff4a66e80d640
+SHA256: 7c27d3b7d8a0c22df2caa7eeff66ce062fb7248c48915550298800a554fb2018
+
+Package: vice
+Version: 2.3.dfsg-4
+Installed-Size: 13611
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.hu>
+Architecture: armhf
+Depends: libasound2 (>= 1.0.18), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.13-28), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.24.0), libglu1-mesa | libglu1, libgtk2.0-0 (>= 2.24.0), libgtkglext1, libice6 (>= 1:1.0.0), libieee1284-3, libjpeg8 (>= 8c), libpango1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), libreadline6 (>= 6.0), libsm6, libstdc++6 (>= 4.1.1), libx11-6, libxmu6, libxrandr2 (>= 4.3), libxt6, zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
+Description: Versatile Commodore Emulator
+Homepage: http://vice-emu.sourceforge.net/
+Description-md5: 08c1a2e701ce8fd760ff934904ea4135
+Tag: hardware::emulation, role::program, uitoolkit::gtk
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/v/vice/vice_2.3.dfsg-4_armhf.deb
+Size: 6256546
+MD5sum: f63b299b883af93d029c71e8116d6332
+SHA1: a4e738168752a6abbf7a8c65950a47aecc39a6dc
+SHA256: 78c4cf7bce2e71f7b13ec4593cd19c10176b75b969b8232883f5d27faf0a6aaf
+
+Package: libviennacl-dev
+Source: viennacl
+Version: 1.2.0-2
+Installed-Size: 1689
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: opencl-headers, libopencl1
+Suggests: libeigen2-dev, libboost-dev, libviennacl-doc
+Description: Scientific computing library written in C++ based on OpenCL
+Homepage: http://viennacl.sourceforge.net
+Description-md5: a27fa308bc2bf6d90a053f635ae4a276
+Tag: devel::library, role::devel-lib
+Section: contrib/libdevel
+Priority: extra
+Filename: pool/contrib/v/viennacl/libviennacl-dev_1.2.0-2_all.deb
+Size: 200134
+MD5sum: 6cc772550997f7d6dbe5a21895f519e4
+SHA1: d76e20391e36fe88af5e54ad0334e7f3e90b2706
+SHA256: 3f26d3ef64888e007877283de679fbbb5dcb847c98c34dc1c09275ccc8698df3
+
+Package: libviennacl-doc
+Source: viennacl
+Version: 1.2.0-2
+Installed-Size: 14140
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Architecture: all
+Suggests: libviennacl-dev
+Description: ViennaCL API and user documentation
+Homepage: http://viennacl.sourceforge.net
+Description-md5: 4293ec3da7d14fb3b2a1c3f988fa1e7a
+Section: contrib/doc
+Priority: extra
+Filename: pool/contrib/v/viennacl/libviennacl-doc_1.2.0-2_all.deb
+Size: 1872604
+MD5sum: a176c8e56085b564d307077300ef8b62
+SHA1: faeca7b4928e43f6b72068d6197d17a3baab6bae
+SHA256: 45a60d38af934126fddbd119078538378498bb4dc608bd22892363ffa0ae1ed3
+
+Package: vmware-manager
+Version: 0.2.0-3
+Installed-Size: 116
+Maintainer: Alexander Zangerl <az@debian.org>
+Architecture: all
+Depends: perl (>= 5.10.0), libconfig-inifiles-perl, libnumber-format-perl, libterm-readkey-perl, libtext-glob-perl, libdata-dump-perl
+Description: utility to manage VMware virtual machines
+Homepage: https://github.com/hash-bang/VMM
+Description-md5: 93b9e2dacfd37f155d09c0bc2e477782
+Tag: admin::virtualization, interface::commandline, role::program
+Section: contrib/admin
+Priority: extra
+Filename: pool/contrib/v/vmware-manager/vmware-manager_0.2.0-3_all.deb
+Size: 33874
+MD5sum: 6c1a866049f1cb79f49901e0c06c3746
+SHA1: 6058be5425766a11cc10caa8b0e631392f6ee666
+SHA256: 69221489f6fbb126b964fc39d009730eeeea346314cc5d71929f760419c9a446
+
+Package: vnc-java
+Version: 3.3.3r2-8
+Installed-Size: 160
+Maintainer: Ola Lundqvist <opal@debian.org>
+Architecture: all
+Provides: vnc-viewer
+Suggests: vncserver
+Conflicts: vncserver (<< 3.3.3r2-14)
+Description: VNC java applet and command line program
+Description-md5: 6f1af57027ca77988433f035134473fa
+Tag: devel::lang:java, role::plugin
+Section: contrib/java
+Priority: optional
+Filename: pool/contrib/v/vnc-java/vnc-java_3.3.3r2-8_all.deb
+Size: 65800
+MD5sum: 65e25c1d1ddf2600d98672394cdf58cf
+SHA1: 26b5e8359a4a84046abeb19d1e4bf153104f70f1
+SHA256: e0807b9837c8d8e63a2c1b76e4aa18b1a6f2596b72260b52dac547e7b066e32e
+
+Package: vor
+Version: 0.5.5-2
+Installed-Size: 316
+Maintainer: Davide Governale <magellanino@gmail.com>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libsdl-image1.2 (>= 1.2.10), libsdl-mixer1.2, libsdl1.2debian (>= 1.2.10-1)
+Description: fast-pace, difficult and addictive rocks dodging game
+Homepage: http://jasonwoof.org/vor
+Description-md5: 297ce1e6d20a2df2df79372991aa4e65
+Tag: game::arcade, implemented-in::c, interface::x11, role::program,
+ uitoolkit::sdl, use::gameplaying, x11::application
+Section: contrib/games
+Priority: optional
+Filename: pool/contrib/v/vor/vor_0.5.5-2_armhf.deb
+Size: 188462
+MD5sum: 58faf33d364ef269437a2051e44efa48
+SHA1: fc4eadd0ebc0617d1ce76ca92dbdfb34c4abe852
+SHA256: 1b3f41eb2130cd43ce336fc02b5ec55d91ccc3afc1a61d4c0caecd6949f6a9ff
+
+Package: vusb-analyzer
+Version: 1.1-3
+Installed-Size: 292
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Depends: python, python-support (>= 0.90.0), python-gtk2
+Recommends: python-gnome2, python-psyco
+Description: tool for visualizing logs of USB packets
+Homepage: http://vusb-analyzer.sourceforge.net/
+Description-md5: 864ef140415154328998c99a8199b2cb
+Tag: hardware::usb, role::program, use::viewing
+Section: contrib/utils
+Priority: optional
+Filename: pool/contrib/v/vusb-analyzer/vusb-analyzer_1.1-3_all.deb
+Size: 50772
+MD5sum: 71a5f28993180a25e9ebc7f99c7a57a5
+SHA1: fb1f814e8e1917e281f93c812930a376416405e8
+SHA256: cc5cff2b66efd2a5b706dc71987af1e0dd87f008faa53a13f7a2c0631a1714fb
+
+Package: wdq2wav
+Version: 0.8.3-2
+Installed-Size: 67
+Maintainer: Kevin M. Rosenberg <kmr@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0)
+Description: Converts a WinDAQ channel to sound .wav file
+Homepage: http://files.b9.com/wdq2wav/
+Description-md5: bb5df72836bb6620b3380cb6182d33a7
+Tag: implemented-in::c++, role::program, use::converting, works-with::audio
+Section: contrib/utils
+Priority: extra
+Filename: pool/contrib/w/wdq2wav/wdq2wav_0.8.3-2_armhf.deb
+Size: 19672
+MD5sum: b347b1b360b38d84d68aa47411077125
+SHA1: a83107caea571a36cef444a9dbb04691547172ce
+SHA256: 35c41997a47ad0160d24766414386226894e1e23d4e8c203ec81208dd05bc710
+
+Package: winetricks
+Version: 0.0+20121030+svn918-1
+Installed-Size: 721
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Architecture: all
+Depends: wine | wine-unstable, wget, cabextract, unzip, p7zip
+Recommends: zenity | kdebase-bin, xdg-utils, sudo | gksu
+Description: package manager for WINE to install software easily
+Homepage: http://code.google.com/p/winetricks
+Description-md5: b921451b12283cfe5587b85f48d836dd
+Tag: admin::package-management, implemented-in::shell, role::program
+Section: contrib/otherosfs
+Priority: optional
+Filename: pool/contrib/w/winetricks/winetricks_0.0+20121030+svn918-1_all.deb
+Size: 170368
+MD5sum: 6ba1a74c644b132b24b971d6019d2595
+SHA1: dd90043b0d3cf862343fd31c65aa8edd9ad951c7
+SHA256: 36e4f18d7ac7ea206030b477651d811237d4e6072f3b043a8c82cd89f10b8d30
+
+Package: wnn7egg
+Version: 1.02-8
+Installed-Size: 680
+Maintainer: ISHIKAWA Mutsumi <ishikawa@debian.org>
+Architecture: all
+Replaces: wnn7-elisp
+Depends: emacs23 | emacs23-lucid | emacs23-nox | emacs-snapshot-gtk | emacs-snapshot | emacs-snapshot-nonx | xemacs21-mule | xemacs21-mule-canna-wnn | xemacs21-gnome-mule | xemacs21-gnome-mule-canna-wnn
+Conflicts: wnn7-elisp
+Description: Wnn-nana-tamago -- EGG Input Method with Wnn7 for Emacsen
+Description-md5: 7918444a5374084c8d0ad79a7e5c2c6a
+Tag: culture::japanese, suite::emacs, use::editing
+Section: contrib/utils
+Priority: extra
+Filename: pool/contrib/w/wnn7egg/wnn7egg_1.02-8_all.deb
+Size: 132736
+MD5sum: da56c09ae540fecf695962e0a8dd2632
+SHA1: 560b4bfe862bd2ac941e384a97e9bd389b92adcc
+SHA256: 2ac9a48edd4ea81296fd28e89349fca5092c12af425978cf7f74acbb1ebd1329
+
+Package: wolf4sdl
+Version: 1.7+svn262+dfsg1-1
+Installed-Size: 1269
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libsdl-mixer1.2, libsdl1.2debian (>= 1.2.10-1), wolf3d-data | game-data-packager (>= 27)
+Description: SDL-Port of Wolfenstein 3-D and Spear of Destiny
+Homepage: http://www.chaos-software.de.vu/
+Description-md5: beea9093882e5fbed23b790bd8645f99
+Tag: uitoolkit::sdl
+Section: contrib/games
+Priority: extra
+Filename: pool/contrib/w/wolf4sdl/wolf4sdl_1.7+svn262+dfsg1-1_armhf.deb
+Size: 630148
+MD5sum: 9f7b3d54123bd3d62d3bd9266000acde
+SHA1: 8abdfdbfaf661e9b806939eecd53b694ebaa41cf
+SHA256: 5910967af5772491cca0be1fd597b60b0dc07938d182cffe98dd757ac1ac35bb
+
+Package: x-pgp-sig-el
+Version: 1.3.5.1-4.1
+Installed-Size: 236
+Maintainer: Takuo KITAME <kitame@northeye.org>
+Architecture: all
+Depends: emacsen, pgp
+Description: X-PGP-Sig mail and news header utility for Emacs
+Description-md5: 214cdf9353479a671953b953d50730f6
+Tag: suite::emacs, use::editing
+Section: contrib/lisp
+Priority: optional
+Filename: pool/contrib/x/x-pgp-sig-el/x-pgp-sig-el_1.3.5.1-4.1_all.deb
+Size: 57472
+MD5sum: 1e8eabaab3cbe1c41c56266ed121b9ad
+SHA1: 8c6b2d1f5c0a9f2bed18873cecd85b50ec8036d0
+SHA256: a13063d8eee3edbd7aabe2632cbda0a4f66ce5ed9ab55ffbeabf97e99724453d
+
+Package: xtrs
+Version: 4.9c-3.4
+Installed-Size: 911
+Maintainer: Branden Robinson <branden@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.7), libreadline6 (>= 6.0), libx11-6, debconf (>= 0.5) | debconf-2.0
+Description: emulator for TRS-80 Model I/III/4/4P computers
+Description-md5: 5d43233a12cabde2d61c0558e315c632
+Tag: hardware::emulation, hardware::input:joystick, role::program,
+ scope::utility, uitoolkit::ncurses, use::gameplaying
+Section: contrib/otherosfs
+Priority: extra
+Filename: pool/contrib/x/xtrs/xtrs_4.9c-3.4_armhf.deb
+Size: 334892
+MD5sum: 961501fc68a5ec79ad5359f6c8d35ad7
+SHA1: c4b2692d8d110d753ac5acaa94a1b639932c305b
+SHA256: a8f7e06e6fc6183669e3b82a513c95b11ef2ff48af8ba4940ee33ae370bf2502
+
+Package: ydpdict
+Version: 1.0.0-2
+Installed-Size: 103
+Maintainer: Marcin Owsiany <porridge@debian.org>
+Architecture: armhf
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.4), libncursesw5 (>= 5.6+20070908), libtinfo5, libydpdict2 (>= 1.0.0)
+Description: interface for Collins and Langenscheidt dictionaries
+Homepage: http://toxygen.net/ydpdict/
+Description-md5: 1d8b03ebcd291c2d6c1dc8caf4e40e25
+Tag: culture::british, culture::german, culture::polish, implemented-in::c,
+ interface::text-mode, role::program, scope::application,
+ uitoolkit::ncurses, use::learning, use::viewing, works-with::dictionary
+Section: contrib/text
+Priority: optional
+Filename: pool/contrib/y/ydpdict/ydpdict_1.0.0-2_armhf.deb
+Size: 26818
+MD5sum: 4e5a098eab69b912af01f260656cc925
+SHA1: be565c5a012661ec465c45826546b5159e42ba45
+SHA256: 0841ce7381b016c12d0ffab6fbe83abc74a5cb677a9a093aaceaafc457e85f8c
+

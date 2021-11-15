@@ -1,0 +1,536 @@
+Package: c-icap
+Version: 1:0.1.6-1.1+deb7u2
+Installed-Size: 173
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libdb5.1, libicapapi0 (= 1:0.1.6-1.1+deb7u2), adduser, lsb-base (>= 3.0-6)
+Suggests: squid3, libc-icap-mod-urlcheck, libc-icap-mod-clamav | libc-icap-mod-squidclamav
+Description: ICAP server implementation
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: ce1673122e166084e89b7209b44f629c
+Tag: implemented-in::c, interface::daemon, network::server, role::program,
+ security::antivirus, use::proxying, works-with::network-traffic
+Section: net
+Priority: extra
+Filename: pool/main/c/c-icap/c-icap_0.1.6-1.1+deb7u2_armhf.deb
+Size: 85316
+MD5sum: 1bd8c6e94f2dce5638ced0a6ac2982bc
+SHA1: 649372a8be08a1cd62b78e47bd6b447302455b3f
+SHA256: 6d763158f96d22699407f9cd6ecbda59efbc3e5bc0a0ca92fbabc41bbee92c43
+
+Package: libicapapi-dev
+Source: c-icap
+Version: 1:0.1.6-1.1+deb7u2
+Installed-Size: 127
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: armhf
+Depends: libicapapi0 (= 1:0.1.6-1.1+deb7u2)
+Description: ICAP API library development files
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: 0468504cdc570c3fa58d88e986f5a982
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib
+Section: libdevel
+Priority: extra
+Filename: pool/main/c/c-icap/libicapapi-dev_0.1.6-1.1+deb7u2_armhf.deb
+Size: 30300
+MD5sum: 9b778dad3457def230e575a76d7cdc5a
+SHA1: 3253b9e7d19f908e7105fa25aa1a1c5f6370a496
+SHA256: ae79aad20f72023102d7d93f8e9e2c529c06512531f28ba0e618d4e751da1d11
+
+Package: libicapapi0
+Source: c-icap
+Version: 1:0.1.6-1.1+deb7u2
+Installed-Size: 114
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), zlib1g (>= 1:1.1.4)
+Description: ICAP API library
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: 76204bbe41341be1228e943b75b4bf88
+Tag: implemented-in::c, role::shared-lib
+Section: libs
+Priority: extra
+Filename: pool/main/c/c-icap/libicapapi0_0.1.6-1.1+deb7u2_armhf.deb
+Size: 57730
+MD5sum: 4c895a2335204384c81a82a2568a89c0
+SHA1: eab29904f956bfecf2dd2408cdab22213b5efb95
+SHA256: f638956a6b46feb7cc566494e4398f47819b3af7d57ae9591f6ce400693ab624
+
+Package: libicapapi0-dbg
+Source: c-icap
+Version: 1:0.1.6-1.1+deb7u2
+Installed-Size: 611
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: armhf
+Depends: libicapapi0 (= 1:0.1.6-1.1+deb7u2)
+Description: ICAP API library debug symbols
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: 8ba6157c7697c611fbb06006e2f0a3d5
+Tag: implemented-in::c, role::debug-symbols
+Section: debug
+Priority: extra
+Filename: pool/main/c/c-icap/libicapapi0-dbg_0.1.6-1.1+deb7u2_armhf.deb
+Size: 250230
+MD5sum: 57f3ac45b88b5f2d04a50021c63af029
+SHA1: 82bc2df0058008ba91119de0edc115546f6bab2b
+SHA256: 27a72420ac6939fae25461492a0b910595e7323cf7f50990f715ddacdae5d363
+
+Package: libc-icap-mod-clamav
+Source: c-icap-modules (1:0.1.6-1)
+Version: 1:0.1.6-1+b1
+Installed-Size: 34
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: armhf
+Replaces: c-icap
+Depends: libc6 (>= 2.13-28), libclamav7 (>= 0.99~rc1), clamav, c-icap (>= 1:0.1.4-1)
+Breaks: c-icap (<< 1:0.1.3-1)
+Description: C-ICAP Antivirus Service for c-icap (libclamav)
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: 583ee58fc6121778c2e38c946e462cfe
+Tag: implemented-in::c, role::shared-lib, security::antivirus, use::scanning
+Section: net
+Priority: extra
+Filename: pool/main/c/c-icap-modules/libc-icap-mod-clamav_0.1.6-1+b1_armhf.deb
+Size: 17968
+MD5sum: 9516305673e585dcdab8bbcae0738e68
+SHA1: d6699a39bfa68ea56692b04a42ee2b79c3eecd70
+SHA256: 406a5db395fa10af654b623a04e73c79f050e9917510369a5c11066071cd8c5e
+
+Package: libc-icap-mod-urlcheck
+Source: c-icap-modules (1:0.1.6-1)
+Version: 1:0.1.6-1+b1
+Installed-Size: 20
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: armhf
+Replaces: c-icap
+Depends: libc6 (>= 2.13-28), c-icap (>= 1:0.1.4-1)
+Breaks: c-icap (<< 1:0.1.3-1)
+Description: C-ICAP URL Check Service for c-icap
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: 7a046e3618670b6996798e4fdbf37b06
+Tag: implemented-in::c, role::shared-lib, use::filtering
+Section: net
+Priority: extra
+Filename: pool/main/c/c-icap-modules/libc-icap-mod-urlcheck_0.1.6-1+b1_armhf.deb
+Size: 11262
+MD5sum: f2ef263157fa7941711e4248cbd2729c
+SHA1: 8ecbaa6c9b9b25b279c70a2f8d325be73b880835
+SHA256: f8a7cd159b8f24aa48c51c33947d9c547ac87796e31931cdd6ac9991ba5c61fd
+
+Package: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 644
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: clamav-freshclam (>= 0.99+dfsg) | clamav-data, libc6 (>= 2.13-28), libclamav7 (>= 0.99~rc1), libcurl3 (>= 7.16.2), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.3.3)
+Recommends: clamav-base
+Suggests: clamav-docs
+Description: anti-virus utility for Unix - command-line interface
+Multi-Arch: foreign
+Homepage: http://www.clamav.net/
+Description-md5: fb7be82d5591a0f3facf827f0a60c5d6
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, security::antivirus, use::scanning, works-with::file,
+ works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav_0.99+dfsg-0+deb7u2_armhf.deb
+Size: 405164
+MD5sum: 3ec9a426432e978f037f01743100473f
+SHA1: d6155ccc3661be6c1b4e4dcd7f9851d1737854fe
+SHA256: 034079d79cecbff7ad4d9632aa472dbbc600f142cebef4675ae6da69aec7efd2
+
+Package: clamav-base
+Source: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 382
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: adduser, logrotate, ucf, debconf (>= 0.5) | debconf-2.0
+Recommends: clamav
+Description: anti-virus utility for Unix - base package
+Homepage: http://www.clamav.net/
+Description-md5: 701912f0a2cc626b57570094858a5b1d
+Tag: interface::commandline, role::app-data, security::antivirus,
+ use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-base_0.99+dfsg-0+deb7u2_all.deb
+Size: 288376
+MD5sum: 2150601e9ccdf290a762a761efa8d6ea
+SHA1: b59975978be0bc9d07e26964e7b0aa563fd69e70
+SHA256: a1aed870d8b3850dd0ebb4a1866ad434ad02b2d3e087f841f3b8f1f635ead436
+
+Package: clamav-daemon
+Source: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 937
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: armhf
+Replaces: clamav-base (<< 0.98.1+dfsg-6)
+Depends: adduser, clamav-base (= 0.99+dfsg-0+deb7u2), clamav-freshclam (>= 0.99+dfsg) | clamav-data, dpkg (>= 1.16.1), lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.13-28), libclamav7 (>= 0.99~rc1), libncurses5 (>= 5.5-5~), libssl1.0.0 (>= 1.0.0), libtinfo5, zlib1g (>= 1:1.2.0.2)
+Suggests: apparmor, clamav-docs, daemon
+Breaks: clamav-base (<< 0.98.1+dfsg-6)
+Description: anti-virus utility for Unix - scanner daemon
+Homepage: http://www.clamav.net/
+Description-md5: dc258511e9e1f62ef33172c190a0fad6
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ mail::filters, network::server, role::program, security::antivirus,
+ use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-daemon_0.99+dfsg-0+deb7u2_armhf.deb
+Size: 536650
+MD5sum: 955e9deb0d0da3d88d78d199117f9524
+SHA1: b32f73f2e537d9447b48d8c2d9adfc0cea2a936f
+SHA256: 4b0052ef0962b537e37e6c69cc0fb862533d542ef16b3d11bfcfd909aa447031
+
+Package: clamav-dbg
+Source: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 7501
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: clamav (= 0.99+dfsg-0+deb7u2), libclamav7
+Description: debug symbols for ClamAV
+Homepage: http://www.clamav.net/
+Description-md5: b161fcac7822f321b1f9101d061dd53c
+Tag: implemented-in::c, role::debug-symbols
+Section: debug
+Priority: extra
+Filename: pool/main/c/clamav/clamav-dbg_0.99+dfsg-0+deb7u2_armhf.deb
+Size: 3109248
+MD5sum: 7c4bb2af1ce89257a03f89f67d384f9d
+SHA1: ec6e2898b600df67ab9c9a433db29b1c6553dfc8
+SHA256: f516495e4e7955caa32bad21d283a697b430566bbaf27ac0d4772936f36e1c4a
+
+Package: clamav-docs
+Source: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 1504
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - documentation
+Homepage: http://www.clamav.net/
+Description-md5: af78818bbdf8851b6358c15693a31419
+Tag: made-of::html, made-of::pdf, mail::filters, role::documentation,
+ security::antivirus, works-with::file, works-with::mail
+Section: doc
+Priority: optional
+Filename: pool/main/c/clamav/clamav-docs_0.99+dfsg-0+deb7u2_all.deb
+Size: 1246814
+MD5sum: f311306e831fc87f4ff98e760907e2c4
+SHA1: abfb6ad67ef510e00dd7d115e1759ad97bb7c524
+SHA256: d305ae7fab4c8f9b6d15b6a669b1343a1ad74d551dba1be45738fe63b40097bd
+
+Package: clamav-freshclam
+Source: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 530
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: armhf
+Provides: clamav-data
+Depends: clamav-base (>= 0.99+dfsg-0+deb7u2), dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.13-28), libclamav7 (>= 0.99~rc1), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.3.3)
+Suggests: apparmor, clamav-docs
+Conflicts: clamav-data, libclamav2, libclamav3
+Description: anti-virus utility for Unix - virus database update utility
+Homepage: http://www.clamav.net/
+Description-md5: 82c68e4f7c984e3d6bdc720ae842fca8
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ role::program, scope::utility, security::antivirus, use::downloading,
+ works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-freshclam_0.99+dfsg-0+deb7u2_armhf.deb
+Size: 354464
+MD5sum: 027db54e89b45745baef536bd23a2838
+SHA1: 11d9e235c566102e3fb1b46ed604e488ea264d09
+SHA256: 471146168c3a09b4bf958e357a2705e6e442b1bd5f273e32edb33d3eb817997a
+
+Package: clamav-milter
+Source: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 601
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: adduser, clamav-base (>= 0.99+dfsg-0+deb7u2), clamav-freshclam (>= 0.99+dfsg) | clamav-data, dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.13-28), libmilter1.0.1, libssl1.0.0 (>= 1.0.0)
+Recommends: clamav-daemon
+Suggests: clamav-docs, daemon
+Description: anti-virus utility for Unix - sendmail integration
+Homepage: http://www.clamav.net/
+Description-md5: e47a1194215b5fbde13fb9217c44d83f
+Tag: implemented-in::c, interface::daemon, mail::filters, network::server,
+ role::program, security::antivirus, use::scanning, works-with::mail
+Section: utils
+Priority: extra
+Filename: pool/main/c/clamav/clamav-milter_0.99+dfsg-0+deb7u2_armhf.deb
+Size: 386710
+MD5sum: 9253f95e24bbb3fbc93fa4aba94dc720
+SHA1: 6298bfcab0989984e481e75708afb46ff8f4a968
+SHA256: 9216ef5a3126bc8ccf5714798ac817c29119be7c0ce1fe2a419faf203509f513
+
+Package: clamav-testfiles
+Source: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 6759
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - test files
+Homepage: http://www.clamav.net/
+Description-md5: 29437a0b8c82cc8179b64405688f062e
+Tag: devel::testing-qa, interface::commandline, role::app-data,
+ security::antivirus, use::checking
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-testfiles_0.99+dfsg-0+deb7u2_all.deb
+Size: 5293764
+MD5sum: 03c05779cedd45718f1d775c30561f5a
+SHA1: f1f1b232803deb27c073f5d73624925c70314d70
+SHA256: 3d99e1fb6b40ddbcce90401efef94c0e194c6203866854a4edd98b84cf6ac103
+
+Package: libclamav-dev
+Source: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 289
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libbz2-dev, libc6-dev | libc-dev, libclamav7 (= 0.99+dfsg-0+deb7u2), libidn11-dev, libssl-dev, libtommath-dev, zlib1g-dev
+Description: anti-virus utility for Unix - development files
+Homepage: http://www.clamav.net/
+Description-md5: 3dc197b6ebfb15522a4b7913ea796763
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib,
+ security::antivirus, use::scanning
+Section: libdevel
+Priority: optional
+Filename: pool/main/c/clamav/libclamav-dev_0.99+dfsg-0+deb7u2_armhf.deb
+Size: 249062
+MD5sum: 1c11ee1d4205667073ae642939030a77
+SHA1: c9559a6d192fb2c3de8cbdd28239817bbf783770
+SHA256: 7ea0b114db2d2c79a1ca4323b95d342f7757882d8071803b7490f22e70919a7b
+
+Package: libclamav7
+Source: clamav
+Version: 0.99+dfsg-0+deb7u2
+Installed-Size: 1991
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libbz2-1.0, libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libjson0 (>= 0.10), libltdl7 (>= 2.4.2), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.3.3)
+Suggests: libclamunrar7
+Description: anti-virus utility for Unix - library
+Homepage: http://www.clamav.net/
+Description-md5: bf2e797d0e7e410776d9200761e01bd6
+Section: libs
+Priority: optional
+Filename: pool/main/c/clamav/libclamav7_0.99+dfsg-0+deb7u2_armhf.deb
+Size: 1231322
+MD5sum: a23abf65cd16fa0bcb3ab3a49ed4e810
+SHA1: 93589742fd1926aa3a649c241a56ed044b5a1774
+SHA256: 56488c5e9959c2d04ac62dbe8c51a5abb9cde1b33a7696e5f6d776bec8309560
+
+Package: dansguardian
+Source: dansguardian (2.10.1.1-5)
+Version: 2.10.1.1-5+b1
+Installed-Size: 1178
+Maintainer: Alexander Wirt <formorer@debian.org>
+Architecture: armhf
+Depends: adduser, clamav (>= 0.80), perl, libc6 (>= 2.13-28), libclamav7 (>= 0.99~rc1), libgcc1 (>= 1:4.4.0), libpcre3 (>= 8.10), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
+Suggests: clamav-freshclam, squid
+Description: Web content filtering
+Description-md5: e49d916232fc830dd2aaeb359bd27098
+Tag: interface::daemon, mail::filters, network::server, protocol::http,
+ role::program, use::proxying, web::server
+Section: web
+Priority: optional
+Filename: pool/main/d/dansguardian/dansguardian_2.10.1.1-5+b1_armhf.deb
+Size: 438886
+MD5sum: b23475b17307b0fcb51d85229f6a969e
+SHA1: 866812d25e74caa37c4bc007804be263f8dc63ff
+SHA256: bb5c00edcfe1b1aa05bb64313ce8bdd49f7d06b59b6fa8f2dce7dbb9520fb33b
+
+Package: libdatetime-timezone-perl
+Version: 1:1.58-1+2016d
+Installed-Size: 6475
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: perl, libclass-load-perl, libclass-singleton-perl, libparams-validate-perl
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: framework exposing the Olson time zone database to Perl
+Homepage: http://datetime.perl.org/
+Description-md5: 49fff32146b7c0ac14d7bcca1f92bfe6
+Tag: devel::lang:perl, devel::library, implemented-in::perl, use::timekeeping
+Section: perl
+Priority: optional
+Filename: pool/main/libd/libdatetime-timezone-perl/libdatetime-timezone-perl_1.58-1+2016d_all.deb
+Size: 268328
+MD5sum: f9a860f97963bb34e3db6aa0d2a6af24
+SHA1: 3a33381b2db7d835f2b6a71e8903026afb492950
+SHA256: e5a3364005380169ff1838e3e8a554ae17a7359ddf496f9649e12ec40ac615c3
+
+Package: open-vm-dkms
+Source: open-vm-tools
+Version: 2:8.8.0+2012.05.21-724730-1+nmu2+deb7u1
+Installed-Size: 5700
+Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: all
+Depends: dkms (>= 2.1.0.0), make
+Recommends: open-vm-tools
+Suggests: open-vm-toolbox
+Description: Source for VMware guest systems driver (DKMS)
+Homepage: http://open-vm-tools.sourceforge.net/
+Description-md5: 8a2d753ada147c1a7cb97561da0092bf
+Tag: admin::kernel, admin::virtualization, implemented-in::c, role::source
+Section: kernel
+Priority: extra
+Filename: pool/main/o/open-vm-tools/open-vm-dkms_8.8.0+2012.05.21-724730-1+nmu2+deb7u1_all.deb
+Size: 1223924
+MD5sum: c1af9b5e6e96d70fca6a5598d051c441
+SHA1: d4f304ad509f4c74e00b9f55a089146533670e83
+SHA256: 1b8a74b1922bf1c9a393fca7526f767c8172c770d71ed369e97f32afc06b8b9c
+
+Package: open-vm-tools-dev
+Source: open-vm-tools
+Version: 2:8.8.0+2012.05.21-724730-1+nmu2+deb7u1
+Installed-Size: 847
+Maintainer: Bernd Zeimetz <bzed@debian.org>
+Architecture: all
+Description: tools and components for VMware guest systems (development)
+Homepage: http://open-vm-tools.sourceforge.net/
+Description-md5: 216649bda1987378aefcc5b7b26e7585
+Section: devel
+Priority: extra
+Filename: pool/main/o/open-vm-tools/open-vm-tools-dev_8.8.0+2012.05.21-724730-1+nmu2+deb7u1_all.deb
+Size: 181042
+MD5sum: 92b0ae3d7dfa3518155c2745f9f23efa
+SHA1: 8b2caf4daf34a7894be42b1f3c82a3c5196650fa
+SHA256: e81ccd24653185ab75c08c6952b72397920c0535ce2fd3127aa0d94e647a37bc
+
+Package: policyd-weight
+Version: 0.1.15.2-5+wheezy2
+Installed-Size: 146
+Maintainer: Werner Detter <werner@aloah-from-hell.de>
+Architecture: all
+Depends: perl, adduser, lsb-base, libnet-dns-perl, libnet-ip-perl
+Recommends: libsys-syslog-perl
+Description: Perl policy daemon for the Postfix MTA
+Homepage: http://www.policyd-weight.org/
+Description-md5: b49f51c6147d3c38b7e7ac0a66df6758
+Tag: implemented-in::perl, interface::daemon, mail::filters, role::plugin,
+ use::checking, works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/p/policyd-weight/policyd-weight_0.1.15.2-5+wheezy2_all.deb
+Size: 55080
+MD5sum: 12c5beea57125a535b7cf69b801e014d
+SHA1: ef312e4f2ed7e43c26cff75f6971d91ef0904b42
+SHA256: 2d88eb78b17f094c37b21335cd9f9e47f8bde1b9e0e5665647c4bc1566a93d96
+
+Package: python-pyclamav
+Source: python-clamav (0.4.1-7)
+Version: 0.4.1-7+b1
+Installed-Size: 34
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Architecture: armhf
+Replaces: python-clamav (<< 0.4.1-4~)
+Provides: python-clamav
+Depends: libc6 (>= 2.13-28), libclamav7 (>= 0.99~rc1), python (>= 2.6), python (<< 2.8), clamav-freshclam
+Breaks: python-clamav (<< 0.4.1-4~)
+Description: Python bindings to ClamAV
+Homepage: http://xael.org/norman/python/pyclamav/index.html
+Description-md5: ca502c4caa9aef15df928f6d524ffb35
+Tag: security::antivirus
+Section: python
+Priority: optional
+Filename: pool/main/p/python-clamav/python-pyclamav_0.4.1-7+b1_armhf.deb
+Size: 17072
+MD5sum: 272bb453a2193a8bbd0a057395f463a9
+SHA1: 9570584ddd5d04596b4e2176fc38906300c32adc
+SHA256: 3fad811c1198939245210c004d17ac413cccb54c6c77e31c4df1e134506a2b1c
+
+Package: spamassassin
+Version: 3.3.2-5+deb7u3
+Installed-Size: 3388
+Maintainer: Noah Meyerhans <noahm@debian.org>
+Architecture: all
+Provides: libmail-spamassassin-perl
+Depends: perl (>= 5.8.0), libhtml-parser-perl (>= 3.43), libsocket6-perl, libsys-hostname-long-perl, libarchive-tar-perl, libwww-perl, libnet-dns-perl (>= 0.34), libnetaddr-ip-perl, perl-modules (>= 5.10) | libio-zlib-perl (>= 1.04), adduser
+Recommends: spamc (>= 2.30), libmail-spf-perl, re2c, libsys-syslog-perl, gnupg, gcc, libc6-dev, make, libio-socket-inet6-perl
+Suggests: razor (>= 2.361-2), libnet-ident-perl, libio-socket-ssl-perl, libdbi-perl, pyzor, libcompress-zlib-perl, libmail-dkim-perl
+Conflicts: gotmail (<= 0.8.1-1), spamass-milter (<< 0.2.0-7)
+Description: Perl-based spam filter using text analysis
+Homepage: http://www.spamassassin.org/
+Description-md5: dc09f4668ebbf8e10ef779ed26e5716c
+Tag: implemented-in::perl, interface::daemon, mail::filters, network::server,
+ protocol::smtp, role::program, use::checking, use::filtering,
+ use::scanning, works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/s/spamassassin/spamassassin_3.3.2-5+deb7u3_all.deb
+Size: 1270542
+MD5sum: 251d03ab4fd5b81e53a75cd37f138ddd
+SHA1: 3e5b20dbdff72213c0bf3c344b1517d6a81c8a74
+SHA256: e69071039d68896c8cfabb58cf781ba0297b2e3755c6701d30e4ea499f00ceb2
+
+Package: spamc
+Source: spamassassin
+Version: 3.3.2-5+deb7u3
+Installed-Size: 125
+Maintainer: Noah Meyerhans <noahm@debian.org>
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Suggests: spamassassin
+Conflicts: spamassassin (<< 2.30-2)
+Description: Client for SpamAssassin spam filtering daemon
+Homepage: http://www.spamassassin.org/
+Description-md5: b2e3d1db161689a544d73b142bacbe57
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ mail::filters, network::client, protocol::smtp, role::program,
+ use::scanning, works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/s/spamassassin/spamc_3.3.2-5+deb7u3_armhf.deb
+Size: 73864
+MD5sum: 78e4cdfb6505671543a02eea346840a4
+SHA1: 972a69237deac83f8b57ea061784c720d9ddc5c9
+SHA256: b2574e59245e637571df47eff30c77af93e1e47d3f8cb7f505e147cec25bc36d
+
+Package: tzdata
+Version: 2016d-0+deb7u1
+Installed-Size: 1625
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Replaces: libc0.1, libc0.3, libc6, libc6.1
+Provides: tzdata-wheezy
+Depends: debconf (>= 0.5) | debconf-2.0
+Description: time zone and daylight-saving time data
+Multi-Arch: foreign
+Homepage: http://www.iana.org/time-zones
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Tag: role::app-data, use::timekeeping
+Section: localization
+Priority: required
+Filename: pool/main/t/tzdata/tzdata_2016d-0+deb7u1_all.deb
+Size: 452692
+MD5sum: dea6b0036bf054e4817b0a9e69e47a3c
+SHA1: 3473a0369be47feeb863846b85077e8d4fba12ed
+SHA256: a37fc3f4b89fadd358ee0c46ca1653a9b042ab90c01048d602d1e0075dd3cd85
+
+Package: tzdata-java
+Source: tzdata
+Version: 2016d-0+deb7u1
+Installed-Size: 357
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Depends: tzdata (= 2016d-0+deb7u1)
+Description: time zone and daylight-saving time data for use by java runtimes
+Multi-Arch: foreign
+Homepage: http://www.iana.org/time-zones
+Description-md5: 811cf395ae4cc676283711d9bc20443f
+Tag: field::geography, implemented-in::java, role::app-data, use::timekeeping
+Section: java
+Priority: optional
+Filename: pool/main/t/tzdata/tzdata-java_2016d-0+deb7u1_all.deb
+Size: 135764
+MD5sum: c96a2da83693dbff24559d201088a773
+SHA1: c1eb9bd0ae375a74f30734f35357d91883d0e50d
+SHA256: 99a923fe0d67463cafe38afa8c71996e3def3fc675c5e9665b11553dd080674b
+

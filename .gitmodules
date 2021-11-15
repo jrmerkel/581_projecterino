@@ -1,0 +1,6 @@
+[submodule "rsd/rsd-arm-linux/linux-xlnx"]
+	path = rsd/rsd-arm-linux/linux-xlnx
+	url = git@github.com:jrmerkel/linux-xlnx.git
+[submodule "rsd/rsd-arm-linux/u-boot-xlnx"]
+	path = rsd/rsd-arm-linux/u-boot-xlnx
+	url = git@github.com:jrmerkel/u-boot-xlnx.git

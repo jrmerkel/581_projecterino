@@ -1,6 +1,0 @@
-Package: unrar
-Description-md5: 363f696bb115028ffafb265ccc9f32fb
-Description-en: Unarchiver for .rar files (non-free version)
- Unrar can extract files from .rar archives. If you want to create .rar
- archives, install package rar.
-

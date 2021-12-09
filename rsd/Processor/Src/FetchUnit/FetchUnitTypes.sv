@@ -89,8 +89,9 @@ endfunction
 
 localparam BRANCH_GLOBAL_HISTORY_BIT_WIDTH = CONF_BRANCH_GLOBAL_HISTORY_BIT_WIDTH;
 typedef logic [BRANCH_GLOBAL_HISTORY_BIT_WIDTH-1 : 0] BranchGlobalHistoryPath;
-
-
+// GHT
+localparam GHT_ENTRY_NUM = (1 << BRANCH_GLOBAL_HISTORY_BIT_WIDTH);
+typedef logic [BRANCH_GLOBAL_HISTORY_BIT_WIDTH-1:0] GHT_IndexPath;
 //
 // PHT
 //

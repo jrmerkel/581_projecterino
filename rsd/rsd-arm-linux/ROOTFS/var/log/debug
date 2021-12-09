@@ -1,8 +1,0 @@
-Jan  1 00:00:12 debian-armhf kernel: On node 0 totalpages: 65536
-Jan  1 00:00:12 debian-armhf kernel: free_area_init_node: node 0, pgdat c0938d80, node_mem_map cedf0000
-Jan  1 00:00:12 debian-armhf kernel:  Normal zone: 512 pages used for memmap
-Jan  1 00:00:12 debian-armhf kernel:  Normal zone: 0 pages reserved
-Jan  1 00:00:12 debian-armhf kernel:  Normal zone: 65536 pages, LIFO batch:15
-Jan  1 00:00:12 debian-armhf kernel: pcpu-alloc: s19776 r8192 d21184 u49152 alloc=12*4096
-Jan  1 00:00:12 debian-armhf kernel: pcpu-alloc: [0] 0 [0] 1 
-Jan  1 00:00:12 debian-armhf kernel: PCI: CLS 0 bytes, default 64

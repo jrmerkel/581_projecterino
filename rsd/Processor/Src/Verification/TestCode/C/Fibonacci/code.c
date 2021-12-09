@@ -13,6 +13,6 @@ int Fibonacci ( int loop ) {
 
 int main() {
 	int ret;
-	ret = Fibonacci(20);
+	ret = Fibonacci(1000);
 	return ret+1;
 }

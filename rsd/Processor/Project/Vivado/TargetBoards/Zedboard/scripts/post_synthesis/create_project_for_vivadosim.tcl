@@ -279,6 +279,7 @@ if {[string equal [get_filesets -quiet sources_1] ""]} {
 # Set 'sources_1' fileset object
 set obj [get_filesets sources_1]
 set files [list \
+ [file normalize "${origin_dir}/../../../../Src/MicroArchConf.sv"] \
  [file normalize "${origin_dir}/../../../../Src/BasicTypes.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Memory/MemoryMapTypes.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Cache/CacheSystemTypes.sv"] \
@@ -377,6 +378,7 @@ set files [list \
  [file normalize "${origin_dir}/../../../../Src/FetchUnit/BranchPredictor.sv"] \
  [file normalize "${origin_dir}/../../../../Src/FetchUnit/Gshare.sv"] \
  [file normalize "${origin_dir}/../../../../Src/FetchUnit/Bimodal.sv"] \
+ [file normalize "${origin_dir}/../../../../Src/FetchUnit/GAg.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Scheduler/SchedulerIF.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Scheduler/IssueQueue.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Scheduler/ReplayQueue.sv"] \
@@ -394,8 +396,9 @@ set files [list \
  [file normalize "${origin_dir}/../../../../Src/Cache/DCache.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Cache/DCacheIF.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Cache/ICache.sv"] \
- [file normalize "${origin_dir}/../../../../Src/Cache/CachePrimitives.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Cache/MemoryAccessController.sv"] \
+ [file normalize "${origin_dir}/../../../../Src/Cache/CacheFlushManager.sv"] \
+ [file normalize "${origin_dir}/../../../../Src/Cache/CacheFlushManagerIF.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Memory/Memory.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Recovery/RecoveryManager.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Recovery/RecoveryManagerIF.sv"] \
@@ -417,8 +420,8 @@ set files [list \
  [file normalize "${origin_dir}/../../../../Src/Primitives/Divider.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Debug/Debug.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Debug/DebugIF.sv"] \
- [file normalize "${origin_dir}/../../../../Src/Debug/HardwareCounter.sv"] \
- [file normalize "${origin_dir}/../../../../Src/Debug/HardwareCounterIF.sv"] \
+ [file normalize "${origin_dir}/../../../../Src/Debug/PerformanceCounter.sv"] \
+ [file normalize "${origin_dir}/../../../../Src/Debug/PerformanceCounterIF.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Memory/Axi4LiteControlRegisterIF.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Memory/Axi4LiteControlRegister.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Memory/ControlQueue.sv"] \
@@ -426,7 +429,7 @@ set files [list \
  [file normalize "${origin_dir}/../../../../Src/Memory/Axi4MemoryIF.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Memory/MemoryReadReqQueue.sv"] \
  [file normalize "${origin_dir}/../../../../Src/Memory/MemoryWriteDataQueue.sv"] \
- [file normalize "${origin_dir}/../../../../Src/Memory/MemoryRequestQueue.sv"] \
+ [file normalize "${origin_dir}/../../../../Src/Memory/MemoryLatencySimulator.sv"] \
  [file normalize "${origin_dir}/../../../../Src/BasicMacros.sv"] \
  [file normalize "${origin_dir}/../../../../Src/SysDeps/SynthesisMacros.svh"] \
  [file normalize "${origin_dir}/../../../../Src/SysDeps/XilinxMacros.vh"] \
@@ -435,6 +438,11 @@ set files [list \
 add_files -norecurse -fileset $obj $files
 
 # Set 'sources_1' fileset file properties for remote files
+set file "$origin_dir/../../../../Src/MicroArchConf.sv"
+set file [file normalize $file]
+set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
+set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
+
 set file "$origin_dir/../../../../Src/BasicTypes.sv"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
@@ -925,6 +933,11 @@ set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
 
+set file "$origin_dir/../../../../Src/FetchUnit/GAg.sv"
+set file [file normalize $file]
+set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
+set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
+
 set file "$origin_dir/../../../../Src/Scheduler/SchedulerIF.sv"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
@@ -1010,12 +1023,17 @@ set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
 
-set file "$origin_dir/../../../../Src/Cache/CachePrimitives.sv"
+set file "$origin_dir/../../../../Src/Cache/MemoryAccessController.sv"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
 
-set file "$origin_dir/../../../../Src/Cache/MemoryAccessController.sv"
+set file "$origin_dir/../../../../Src/Cache/CacheFlushManager.sv"
+set file [file normalize $file]
+set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
+set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
+
+set file "$origin_dir/../../../../Src/Cache/CacheFlushManagerIF.sv"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
@@ -1125,12 +1143,12 @@ set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
 
-set file "$origin_dir/../../../../Src/Debug/HardwareCounter.sv"
+set file "$origin_dir/../../../../Src/Debug/PerformanceCounter.sv"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
 
-set file "$origin_dir/../../../../Src/Debug/HardwareCounterIF.sv"
+set file "$origin_dir/../../../../Src/Debug/PerformanceCounterIF.sv"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
@@ -1170,7 +1188,7 @@ set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -objects $file_obj -value "SystemVerilog"
 
-set file "$origin_dir/../../../../Src/Memory/MemoryRequestQueue.sv"
+set file "$origin_dir/../../../../Src/Memory/MemoryLatencySimulator.sv"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -objects $file_obj -value "SystemVerilog"

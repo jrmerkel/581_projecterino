@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec  6 22:03:11 2021
+# Process ID: 438910
+# Current directory: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard
+# Command line: vivado -mode batch -source scripts/post_synthesis/sim_post_synthesis.tcl -tclargs post-implementation timing
+# Log file: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/vivado.log
+# Journal file: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/vivado.jou
+#-----------------------------------------------------------
+source scripts/post_synthesis/sim_post_synthesis.tcl
+# open_project $env(RSD_ROOT)/Processor/Project/Vivado/TargetBoards/Zedboard/rsd_post_synthesis/rsd_post_synthesis.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd_post_synthesis/rsd_post_synthesis.srcs/sources_1'.
+# launch_simulation -mode [lindex $argv 0] -type [lindex $argv 1]
+Command: launch_simulation -mode post-implementation -type timing
+INFO: [Vivado 12-5682] Launching post-implementation timing simulation in '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd_post_synthesis/rsd_post_synthesis.sim/sim_1/impl/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+WARNING: [Vivado 12-628] No current design set.
+INFO: [SIM-utils-31] Writing simulation netlist file for design ''...
+INFO: [SIM-utils-32] write_verilog -mode timesim -nolib -sdf_anno true -force -file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd_post_synthesis/rsd_post_synthesis.sim/sim_1/impl/timing/xsim/TestMain_time_impl.v"
+ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command.
+
+    while executing
+"write_verilog -mode timesim -nolib -sdf_anno true -force -file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zed..."
+    ("eval" body line 1)
+    invoked from within
+"eval "write_verilog $wv_args""
+    invoked from within
+"if { {.v} == $extn } {
+        send_msg_id SIM-utils-032 INFO "write_verilog $wv_args"
+        eval "write_verilog $wv_args"
+      } else {
+        se..."
+    ("post_impl_sim" arm line 36)
+    invoked from within
+"switch -regexp -- $s_simulation_flow {
+    {post_synth_sim} {
+      if { {RTL} == $design_mode } {
+        if { [get_param "project.checkRunResultsFor..."
+    (procedure "xcs_write_design_netlist" line 25)
+    invoked from within
+"xcs_write_design_netlist $a_sim_vars(s_simset)           $a_sim_vars(s_simulation_flow)  $a_sim_vars(s_type)             $a_sim_vars(s_sim_top)       ..."
+    (procedure "usf_xsim_setup_simulation" line 32)
+    invoked from within
+"usf_xsim_setup_simulation"
+    invoked from within
+"if { [usf_xsim_setup_simulation] } {
+    return 1
+  }"
+    (procedure "tclapp::xilinx::xsim::setup" line 19)
+    invoked from within
+"tclapp::xilinx::xsim::setup { -simset sim_1 -mode post-implementation -type timing -run_dir /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Pro..."
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command.
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  6 22:03:19 2021...

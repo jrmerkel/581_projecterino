@@ -22,8 +22,8 @@ INFO: [Project 1-454] Reading design checkpoint '/home/jrmerkel/Documents/School
 INFO: [Project 1-454] Reading design checkpoint '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0.dcp' for cell 'design_1_i/axi_interconnect_0/xbar'
 INFO: [Project 1-454] Reading design checkpoint '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp' for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_pc'
 INFO: [Project 1-454] Reading design checkpoint '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp' for cell 'design_1_i/axi_interconnect_1/s00_couplers/auto_pc'
-Netlist sorting complete. Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.29 . Memory (MB): peak = 2116.504 ; gain = 0.000 ; free physical = 5937 ; free virtual = 12509
-INFO: [Netlist 29-17] Analyzing 2206 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.28 . Memory (MB): peak = 2115.484 ; gain = 0.000 ; free physical = 4986 ; free virtual = 6830
+INFO: [Netlist 29-17] Analyzing 2191 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2020.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -51,7 +51,7 @@ Finished Sourcing Tcl File [/tools/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/
 Sourcing Tcl File [/tools/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
 Finished Sourcing Tcl File [/tools/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2300.469 ; gain = 0.000 ; free physical = 5797 ; free virtual = 12370
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2299.438 ; gain = 0.000 ; free physical = 4832 ; free virtual = 6691
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1067 instances were transformed.
   RAM128X1D => RAM128X1D (MUXF7(x2), RAMD64E(x4)): 12 instances
@@ -63,7 +63,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 16 Infos, 3 Warnings, 3 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2300.469 ; gain = 184.090 ; free physical = 5796 ; free virtual = 12370
+link_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2299.438 ; gain = 184.090 ; free physical = 4832 ; free virtual = 6691
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -74,57 +74,57 @@ INFO: [DRC 23-27] Running DRC with 8 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2300.469 ; gain = 0.000 ; free physical = 5785 ; free virtual = 12358
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2299.438 ; gain = 0.000 ; free physical = 4825 ; free virtual = 6684
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Ending Cache Timing Information Task | Checksum: 1d2efe6a0
+Ending Cache Timing Information Task | Checksum: 1d0752b40
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2638.445 ; gain = 337.977 ; free physical = 5358 ; free virtual = 11945
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2639.391 ; gain = 339.953 ; free physical = 4367 ; free virtual = 6244
 
 Starting Logic Optimization Task
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 189d27717
+Phase 1 Retarget | Checksum: 1d5afc21a
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2804.352 ; gain = 0.000 ; free physical = 5228 ; free virtual = 11816
-INFO: [Opt 31-389] Phase Retarget created 6 cells and removed 82 cells
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2806.297 ; gain = 0.000 ; free physical = 4259 ; free virtual = 6137
+INFO: [Opt 31-389] Phase Retarget created 6 cells and removed 78 cells
 INFO: [Opt 31-1021] In phase Retarget, 25 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
-Phase 2 Constant propagation | Checksum: 1559681bd
+Phase 2 Constant propagation | Checksum: 1e88ccc04
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2804.352 ; gain = 0.000 ; free physical = 5228 ; free virtual = 11816
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2806.297 ; gain = 0.000 ; free physical = 4259 ; free virtual = 6137
 INFO: [Opt 31-389] Phase Constant propagation created 18 cells and removed 357 cells
 INFO: [Opt 31-1021] In phase Constant propagation, 25 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 3 Sweep
-Phase 3 Sweep | Checksum: 103f55d2e
+Phase 3 Sweep | Checksum: 17e9383e3
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2804.352 ; gain = 0.000 ; free physical = 5223 ; free virtual = 11811
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2806.297 ; gain = 0.000 ; free physical = 4256 ; free virtual = 6133
 INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 336 cells
 INFO: [Opt 31-1021] In phase Sweep, 97 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 4 BUFG optimization
-Phase 4 BUFG optimization | Checksum: 103f55d2e
+Phase 4 BUFG optimization | Checksum: 17e9383e3
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2804.352 ; gain = 0.000 ; free physical = 5223 ; free virtual = 11812
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2806.297 ; gain = 0.000 ; free physical = 4256 ; free virtual = 6133
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
-Phase 5 Shift Register Optimization | Checksum: 103f55d2e
+Phase 5 Shift Register Optimization | Checksum: 17e9383e3
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2804.352 ; gain = 0.000 ; free physical = 5223 ; free virtual = 11812
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2806.297 ; gain = 0.000 ; free physical = 4256 ; free virtual = 6133
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
-Phase 6 Post Processing Netlist | Checksum: 103f55d2e
+Phase 6 Post Processing Netlist | Checksum: 17e9383e3
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2804.352 ; gain = 0.000 ; free physical = 5225 ; free virtual = 11813
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2806.297 ; gain = 0.000 ; free physical = 4257 ; free virtual = 6134
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 INFO: [Opt 31-1021] In phase Post Processing Netlist, 34 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 Opt_design Change Summary
@@ -134,7 +134,7 @@ Opt_design Change Summary
 -------------------------------------------------------------------------------------------------------------------------
 |  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
 -------------------------------------------------------------------------------------------------------------------------
-|  Retarget                     |               6  |              82  |                                             25  |
+|  Retarget                     |               6  |              78  |                                             25  |
 |  Constant propagation         |              18  |             357  |                                             25  |
 |  Sweep                        |               0  |             336  |                                             97  |
 |  BUFG optimization            |               0  |               0  |                                              0  |
@@ -146,10 +146,10 @@ Opt_design Change Summary
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2804.352 ; gain = 0.000 ; free physical = 5225 ; free virtual = 11813
-Ending Logic Optimization Task | Checksum: 18b6bcf5f
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2806.297 ; gain = 0.000 ; free physical = 4257 ; free virtual = 6134
+Ending Logic Optimization Task | Checksum: 18d173841
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2804.352 ; gain = 0.000 ; free physical = 5225 ; free virtual = 11813
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2806.297 ; gain = 0.000 ; free physical = 4257 ; free virtual = 6134
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -165,33 +165,33 @@ Starting PowerOpt Patch Enables Task
 INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 30 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 2 WE to EN ports
 Number of BRAM Ports augmented: 0 newly gated: 2 Total Ports: 60
-Ending PowerOpt Patch Enables Task | Checksum: 17174adb9
+Ending PowerOpt Patch Enables Task | Checksum: 1a96f13e0
 
-Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.18 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5161 ; free virtual = 11754
-Ending Power Optimization Task | Checksum: 17174adb9
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.18 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4185 ; free virtual = 6068
+Ending Power Optimization Task | Checksum: 1a96f13e0
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 3219.289 ; gain = 414.938 ; free physical = 5185 ; free virtual = 11777
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 3226.203 ; gain = 419.906 ; free physical = 4195 ; free virtual = 6079
 
 Starting Final Cleanup Task
-Ending Final Cleanup Task | Checksum: 17174adb9
+Ending Final Cleanup Task | Checksum: 1a96f13e0
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5185 ; free virtual = 11777
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4195 ; free virtual = 6079
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5185 ; free virtual = 11777
-Ending Netlist Obfuscation Task | Checksum: 1bd628929
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4195 ; free virtual = 6079
+Ending Netlist Obfuscation Task | Checksum: 14c8e5b50
 
-Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5185 ; free virtual = 11777
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4195 ; free virtual = 6079
 INFO: [Common 17-83] Releasing license: Implementation
 42 Infos, 3 Warnings, 3 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:18 . Memory (MB): peak = 3219.289 ; gain = 918.820 ; free physical = 5185 ; free virtual = 11777
+opt_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:18 . Memory (MB): peak = 3226.203 ; gain = 926.766 ; free physical = 4196 ; free virtual = 6079
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5177 ; free virtual = 11772
+Write XDEF Complete: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4190 ; free virtual = 6076
 INFO: [Common 17-1381] The checkpoint '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/impl_1/design_1_wrapper_opt.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
 Command: report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
@@ -209,14 +209,14 @@ Running DRC as a precondition to command place_design
 INFO: [DRC 23-27] Running DRC with 8 threads
 WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1839 rule limit reached: 20 violations have been found.
 WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1840 rule limit reached: 20 violations have been found.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_27) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_26) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_25) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[13] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_24) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_31) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_30) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_29) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_28) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][7]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][8]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][9]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[13] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][10]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRBWRADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/genblk1[1].array/writeWayIndex[4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRBWRADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/genblk1[1].array/writeWayIndex[5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRBWRADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/genblk1[1].array/writeWayIndex[6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
@@ -232,23 +232,23 @@ WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[7]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[8]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[13] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[9]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[4] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[0]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[5] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[1]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[2]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[0]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[1]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[2]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[13] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[4] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[1]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[5] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[2]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[7]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[8]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[4] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[0]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[5] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[1]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[2]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ENARDEN (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg_1) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[1].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[1].rBank/array_reg/ADDRARDADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[1].rBank/array_reg_5[8]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 42 Warnings
 INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
 
@@ -258,44 +258,44 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5162 ; free virtual = 11764
-Phase 1.1 Placer Initialization Netlist Sorting | Checksum: fbdcd0cb
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4194 ; free virtual = 6091
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 107c2213e
 
-Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5163 ; free virtual = 11764
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5163 ; free virtual = 11764
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4194 ; free virtual = 6091
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4194 ; free virtual = 6091
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: de5e6632
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: de4c0f33
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5122 ; free virtual = 11727
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4150 ; free virtual = 6051
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: 159b3638a
+Phase 1.3 Build Placer Netlist Model | Checksum: 13274858a
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5078 ; free virtual = 11684
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4102 ; free virtual = 6005
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: 159b3638a
+Phase 1.4 Constrain Clocks/Macros | Checksum: 13274858a
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5078 ; free virtual = 11684
-Phase 1 Placer Initialization | Checksum: 159b3638a
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4102 ; free virtual = 6005
+Phase 1 Placer Initialization | Checksum: 13274858a
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5075 ; free virtual = 11682
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4100 ; free virtual = 6004
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
-Phase 2.1 Floorplanning | Checksum: 1985f991a
+Phase 2.1 Floorplanning | Checksum: 1b5dd3a0a
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5033 ; free virtual = 11640
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4059 ; free virtual = 5963
 
 Phase 2.2 Global Placement Core
 
 Phase 2.2.1 Physical Synthesis In Placer
-INFO: [Physopt 32-1035] Found 4 LUTNM shape to break, 1238 LUT instances to create LUTNM shape
-INFO: [Physopt 32-1044] Break lutnm for timing: one critical 2, two critical 2, total 4, new lutff created 0
-INFO: [Physopt 32-775] End 1 Pass. Optimized 565 nets or cells. Created 4 new cells, deleted 561 existing cells and moved 0 existing cell
+INFO: [Physopt 32-1035] Found 12 LUTNM shape to break, 1179 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 8, two critical 4, total 12, new lutff created 0
+INFO: [Physopt 32-775] End 1 Pass. Optimized 532 nets or cells. Created 12 new cells, deleted 520 existing cells and moved 0 existing cell
 INFO: [Physopt 32-65] No nets found for high-fanout optimization.
 INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
@@ -311,7 +311,7 @@ INFO: [Physopt 32-846] No candidate cells for URAM register optimization found i
 INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-949] No candidate nets found for HD net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5006 ; free virtual = 11616
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4039 ; free virtual = 5946
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -320,7 +320,7 @@ Summary of Physical Synthesis Optimizations
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|  LUT Combining                                    |            4  |            561  |                   565  |           0  |           1  |  00:00:02  |
+|  LUT Combining                                    |           12  |            520  |                   532  |           0  |           1  |  00:00:02  |
 |  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
@@ -328,59 +328,64 @@ Summary of Physical Synthesis Optimizations
 |  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
-|  Total                                            |            4  |            561  |                   565  |           0  |           8  |  00:00:02  |
+|  Total                                            |           12  |            520  |                   532  |           0  |           8  |  00:00:02  |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Phase 2.2.1 Physical Synthesis In Placer | Checksum: 194dd2b72
+Phase 2.2.1 Physical Synthesis In Placer | Checksum: ccca6d9f
 
-Time (s): cpu = 00:01:01 ; elapsed = 00:00:23 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5004 ; free virtual = 11613
-Phase 2.2 Global Placement Core | Checksum: 173185511
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:22 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4035 ; free virtual = 5942
+Phase 2.2 Global Placement Core | Checksum: 151b4e66a
 
-Time (s): cpu = 00:01:04 ; elapsed = 00:00:23 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4999 ; free virtual = 11609
-Phase 2 Global Placement | Checksum: 173185511
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:23 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4030 ; free virtual = 5938
+Phase 2 Global Placement | Checksum: 151b4e66a
 
-Time (s): cpu = 00:01:04 ; elapsed = 00:00:23 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5010 ; free virtual = 11620
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:23 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4042 ; free virtual = 5949
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 1d6ccd3ca
+Phase 3.1 Commit Multi Column Macros | Checksum: 11f448377
 
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:24 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5004 ; free virtual = 11615
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:24 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4035 ; free virtual = 5942
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 18c6c58ab
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: e5894099
 
-Time (s): cpu = 00:01:19 ; elapsed = 00:00:28 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5002 ; free virtual = 11612
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:27 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4038 ; free virtual = 5946
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 1b8eb6bc6
+Phase 3.3 Area Swap Optimization | Checksum: 125816edf
 
-Time (s): cpu = 00:01:19 ; elapsed = 00:00:28 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5000 ; free virtual = 11611
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:27 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4038 ; free virtual = 5946
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 13871ee5c
+Phase 3.4 Pipeline Register Optimization | Checksum: da1b2571
 
-Time (s): cpu = 00:01:19 ; elapsed = 00:00:28 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5000 ; free virtual = 11611
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:28 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4038 ; free virtual = 5946
 
-Phase 3.5 Small Shape Detail Placement
-Phase 3.5 Small Shape Detail Placement | Checksum: 201964d62
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 127ec7121
 
-Time (s): cpu = 00:01:26 ; elapsed = 00:00:34 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4979 ; free virtual = 11590
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:29 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4035 ; free virtual = 5943
 
-Phase 3.6 Re-assign LUT pins
-Phase 3.6 Re-assign LUT pins | Checksum: 1bb4c5300
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 16749d5c7
 
-Time (s): cpu = 00:01:27 ; elapsed = 00:00:35 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4981 ; free virtual = 11592
+Time (s): cpu = 00:01:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4012 ; free virtual = 5920
 
-Phase 3.7 Pipeline Register Optimization
-Phase 3.7 Pipeline Register Optimization | Checksum: 10d0e3356
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: b9c65669
 
-Time (s): cpu = 00:01:27 ; elapsed = 00:00:35 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4981 ; free virtual = 11592
-Phase 3 Detail Placement | Checksum: 10d0e3356
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:36 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4014 ; free virtual = 5922
 
-Time (s): cpu = 00:01:27 ; elapsed = 00:00:36 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4981 ; free virtual = 11592
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: f66a2b8b
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:36 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4013 ; free virtual = 5922
+Phase 3 Detail Placement | Checksum: f66a2b8b
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:00:36 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4013 ; free virtual = 5922
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -388,7 +393,7 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-Post Placement Optimization Initialization | Checksum: e899853e
+Post Placement Optimization Initialization | Checksum: 1a1cb68b8
 
 Phase 4.1.1.1 BUFG Insertion
 
@@ -396,64 +401,64 @@ Starting Physical Synthesis Task
 
 Phase 1 Physical Synthesis Initialization
 INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
-INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.671 | TNS=-143.505 |
-Phase 1 Physical Synthesis Initialization | Checksum: 1a4e0eaa1
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.212 | TNS=-2.087 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1c186fd21
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.57 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4978 ; free virtual = 11589
-INFO: [Place 46-33] Processed net design_1_i/RSD_0/inst/main/main/rstController/p_0_in, BUFG insertion was skipped due to placement/routing conflicts.
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.56 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4005 ; free virtual = 5914
+INFO: [Place 46-33] Processed net design_1_i/RSD_0/inst/main/main/rstController/pipeReg4_out, BUFG insertion was skipped due to placement/routing conflicts.
 INFO: [Place 46-33] Processed net design_1_i/RSD_0/inst/main/main/rstController/rst0, BUFG insertion was skipped due to placement/routing conflicts.
 INFO: [Place 46-56] BUFG insertion identified 2 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 2, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
-Ending Physical Synthesis Task | Checksum: 1732a77f0
+Ending Physical Synthesis Task | Checksum: 10d0f2592
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.93 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4976 ; free virtual = 11588
-Phase 4.1.1.1 BUFG Insertion | Checksum: e899853e
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.91 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4004 ; free virtual = 5913
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1a1cb68b8
 
-Time (s): cpu = 00:01:41 ; elapsed = 00:00:40 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4976 ; free virtual = 11588
+Time (s): cpu = 00:01:45 ; elapsed = 00:00:40 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4006 ; free virtual = 5915
 INFO: [Place 30-746] Post Placement Timing Summary WNS=0.656. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 18ddf4cfc
+Phase 4.1.1 Post Placement Optimization | Checksum: 1bf8e9057
 
-Time (s): cpu = 00:01:43 ; elapsed = 00:00:41 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4974 ; free virtual = 11585
-Phase 4.1 Post Commit Optimization | Checksum: 18ddf4cfc
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:43 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4004 ; free virtual = 5913
+Phase 4.1 Post Commit Optimization | Checksum: 1bf8e9057
 
-Time (s): cpu = 00:01:43 ; elapsed = 00:00:42 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4973 ; free virtual = 11585
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:43 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4004 ; free virtual = 5913
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 18ddf4cfc
+Phase 4.2 Post Placement Cleanup | Checksum: 1bf8e9057
 
-Time (s): cpu = 00:01:44 ; elapsed = 00:00:42 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4974 ; free virtual = 11585
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:43 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4006 ; free virtual = 5915
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 18ddf4cfc
+Phase 4.3 Placer Reporting | Checksum: 1bf8e9057
 
-Time (s): cpu = 00:01:44 ; elapsed = 00:00:42 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4975 ; free virtual = 11586
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:43 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4005 ; free virtual = 5914
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4975 ; free virtual = 11586
-Phase 4.4 Final Placement Cleanup | Checksum: 1acb9e7d7
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4005 ; free virtual = 5914
+Phase 4.4 Final Placement Cleanup | Checksum: 1e0e83ec0
 
-Time (s): cpu = 00:01:44 ; elapsed = 00:00:42 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4974 ; free virtual = 11586
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1acb9e7d7
+Time (s): cpu = 00:01:49 ; elapsed = 00:00:43 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4005 ; free virtual = 5914
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1e0e83ec0
 
-Time (s): cpu = 00:01:44 ; elapsed = 00:00:42 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4974 ; free virtual = 11586
-Ending Placer Task | Checksum: 14d82d189
+Time (s): cpu = 00:01:49 ; elapsed = 00:00:43 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4005 ; free virtual = 5914
+Ending Placer Task | Checksum: 144ac094a
 
-Time (s): cpu = 00:01:44 ; elapsed = 00:00:42 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4974 ; free virtual = 11586
+Time (s): cpu = 00:01:49 ; elapsed = 00:00:43 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4005 ; free virtual = 5914
 INFO: [Common 17-83] Releasing license: Implementation
 83 Infos, 45 Warnings, 3 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:01:47 ; elapsed = 00:00:44 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 5009 ; free virtual = 11621
+place_design: Time (s): cpu = 00:01:51 ; elapsed = 00:00:45 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4042 ; free virtual = 5951
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4950 ; free virtual = 11605
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 3980 ; free virtual = 5932
 INFO: [Common 17-1381] The checkpoint '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/impl_1/design_1_wrapper_placed.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_io -file design_1_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4988 ; free virtual = 11611
+report_io: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4054 ; free virtual = 5976
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_placed.rpt -pb design_1_wrapper_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4995 ; free virtual = 11618
+report_control_sets: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.18 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 4063 ; free virtual = 5985
 Command: phys_opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -467,7 +472,7 @@ Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4909 ; free virtual = 11575
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 3976 ; free virtual = 5942
 INFO: [Common 17-1381] The checkpoint '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/impl_1/design_1_wrapper_physopt.dcp' has been generated.
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
@@ -480,160 +485,125 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
-Checksum: PlaceDB: 8241ca17 ConstDB: 0 ShapeSum: cb410772 RouteDB: 0
+Checksum: PlaceDB: 8020150a ConstDB: 0 ShapeSum: c48bf440 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: b4eff6c6
+Phase 1 Build RT Design | Checksum: ceea564a
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4789 ; free virtual = 11436
-Post Restoration Checksum: NetGraph: 78dcfd39 NumContArr: 3c12f98d Constraints: 0 Timing: 0
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 3878 ; free virtual = 5813
+Post Restoration Checksum: NetGraph: 4f0197df NumContArr: 7fe8be6b Constraints: 0 Timing: 0
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: b4eff6c6
+Phase 2.1 Create Timer | Checksum: ceea564a
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4795 ; free virtual = 11443
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 3886 ; free virtual = 5821
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: b4eff6c6
+Phase 2.2 Fix Topology Constraints | Checksum: ceea564a
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4759 ; free virtual = 11407
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 3849 ; free virtual = 5784
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: b4eff6c6
+Phase 2.3 Pre Route Cleanup | Checksum: ceea564a
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4759 ; free virtual = 11407
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 3849 ; free virtual = 5784
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 1bbf846f4
+Phase 2.4 Update Timing | Checksum: 238842e05
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4742 ; free virtual = 11390
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.066  | TNS=0.000  | WHS=-0.238 | THS=-235.101|
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 3829 ; free virtual = 5766
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.052  | TNS=0.000  | WHS=-0.210 | THS=-206.832|
 
-Phase 2 Router Initialization | Checksum: 20b4af21b
+Phase 2 Router Initialization | Checksum: 215e1c31a
 
-Time (s): cpu = 00:00:39 ; elapsed = 00:00:17 . Memory (MB): peak = 3219.289 ; gain = 0.000 ; free physical = 4738 ; free virtual = 11386
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:17 . Memory (MB): peak = 3226.203 ; gain = 0.000 ; free physical = 3827 ; free virtual = 5764
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.0040903 %
-  Global Horizontal Routing Utilization  = 0.00287356 %
+  Global Vertical Routing Utilization    = 0.00253702 %
+  Global Horizontal Routing Utilization  = 0.0115788 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
-  Number of Failed Nets               = 27463
+  Number of Failed Nets               = 27297
     (Failed Nets is the sum of unrouted and partially routed nets)
-  Number of Unrouted Nets             = 27448
+  Number of Unrouted Nets             = 27282
   Number of Partially Routed Nets     = 15
-  Number of Node Overlaps             = 12
+  Number of Node Overlaps             = 13
 
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 19d6571a9
+Phase 3 Initial Routing | Checksum: 2aaf69c2d
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:20 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4726 ; free virtual = 11374
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:20 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3811 ; free virtual = 5749
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 5132
- Number of Nodes with overlaps = 689
- Number of Nodes with overlaps = 217
- Number of Nodes with overlaps = 110
- Number of Nodes with overlaps = 67
- Number of Nodes with overlaps = 28
- Number of Nodes with overlaps = 8
- Number of Nodes with overlaps = 4
- Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 5124
+ Number of Nodes with overlaps = 840
+ Number of Nodes with overlaps = 337
+ Number of Nodes with overlaps = 164
+ Number of Nodes with overlaps = 58
+ Number of Nodes with overlaps = 24
+ Number of Nodes with overlaps = 5
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.832 | TNS=-1.704 | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.219  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 16276684e
+Phase 4.1 Global Iteration 0 | Checksum: 18efd6216
 
-Time (s): cpu = 00:01:34 ; elapsed = 00:00:38 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4728 ; free virtual = 11376
+Time (s): cpu = 00:01:41 ; elapsed = 00:00:39 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3811 ; free virtual = 5749
 
 Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 781
- Number of Nodes with overlaps = 385
- Number of Nodes with overlaps = 149
- Number of Nodes with overlaps = 77
- Number of Nodes with overlaps = 34
- Number of Nodes with overlaps = 16
- Number of Nodes with overlaps = 5
- Number of Nodes with overlaps = 3
- Number of Nodes with overlaps = 3
- Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.156 | TNS=-0.156 | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.219  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.2 Global Iteration 1 | Checksum: 154eb64ca
+Phase 4.2 Global Iteration 1 | Checksum: 15c4bcf6e
 
-Time (s): cpu = 00:01:55 ; elapsed = 00:00:49 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4781 ; free virtual = 11431
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:40 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3814 ; free virtual = 5752
+Phase 4 Rip-up And Reroute | Checksum: 15c4bcf6e
 
-Phase 4.3 Global Iteration 2
- Number of Nodes with overlaps = 534
- Number of Nodes with overlaps = 217
- Number of Nodes with overlaps = 75
- Number of Nodes with overlaps = 53
- Number of Nodes with overlaps = 18
- Number of Nodes with overlaps = 8
- Number of Nodes with overlaps = 3
- Number of Nodes with overlaps = 1
- Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.076 | TNS=-0.076 | WHS=N/A    | THS=N/A    |
-
-Phase 4.3 Global Iteration 2 | Checksum: 187ca710b
-
-Time (s): cpu = 00:02:12 ; elapsed = 00:00:58 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4783 ; free virtual = 11433
-Phase 4 Rip-up And Reroute | Checksum: 187ca710b
-
-Time (s): cpu = 00:02:12 ; elapsed = 00:00:58 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4783 ; free virtual = 11433
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:40 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3814 ; free virtual = 5752
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 15c4bcf6e
 
-Phase 5.1.1 Update Timing
-Phase 5.1.1 Update Timing | Checksum: c9721371
-
-Time (s): cpu = 00:02:15 ; elapsed = 00:00:59 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4783 ; free virtual = 11433
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.039  | TNS=0.000  | WHS=N/A    | THS=N/A    |
-
-Phase 5.1 Delay CleanUp | Checksum: c9721371
-
-Time (s): cpu = 00:02:15 ; elapsed = 00:00:59 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4781 ; free virtual = 11431
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:40 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3814 ; free virtual = 5752
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: c9721371
+Phase 5.2 Clock Skew Optimization | Checksum: 15c4bcf6e
 
-Time (s): cpu = 00:02:15 ; elapsed = 00:00:59 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4781 ; free virtual = 11431
-Phase 5 Delay and Skew Optimization | Checksum: c9721371
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:40 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3814 ; free virtual = 5752
+Phase 5 Delay and Skew Optimization | Checksum: 15c4bcf6e
 
-Time (s): cpu = 00:02:15 ; elapsed = 00:01:00 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4781 ; free virtual = 11431
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:40 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3814 ; free virtual = 5752
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 18faa07fa
+Phase 6.1.1 Update Timing | Checksum: d2fe923a
 
-Time (s): cpu = 00:02:19 ; elapsed = 00:01:01 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4780 ; free virtual = 11430
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.039  | TNS=0.000  | WHS=0.030  | THS=0.000  |
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:41 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3813 ; free virtual = 5751
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.232  | TNS=0.000  | WHS=0.021  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 1280258ea
+Phase 6.1 Hold Fix Iter | Checksum: 16234241b
 
-Time (s): cpu = 00:02:19 ; elapsed = 00:01:01 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4780 ; free virtual = 11430
-Phase 6 Post Hold Fix | Checksum: 1280258ea
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:41 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3813 ; free virtual = 5751
+Phase 6 Post Hold Fix | Checksum: 16234241b
 
-Time (s): cpu = 00:02:19 ; elapsed = 00:01:01 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4780 ; free virtual = 11430
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:41 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3813 ; free virtual = 5751
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 9.79694 %
-  Global Horizontal Routing Utilization  = 12.5194 %
+  Global Vertical Routing Utilization    = 9.44227 %
+  Global Horizontal Routing Utilization  = 12.0923 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -643,44 +613,44 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 1793227fc
+Phase 7 Route finalize | Checksum: 10810adb9
 
-Time (s): cpu = 00:02:20 ; elapsed = 00:01:01 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4779 ; free virtual = 11429
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:41 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3813 ; free virtual = 5751
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 1793227fc
+Phase 8 Verifying routed nets | Checksum: 10810adb9
 
-Time (s): cpu = 00:02:20 ; elapsed = 00:01:01 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4779 ; free virtual = 11429
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:41 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3812 ; free virtual = 5750
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 23f0e1645
+Phase 9 Depositing Routes | Checksum: 1251233a9
 
-Time (s): cpu = 00:02:21 ; elapsed = 00:01:03 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4780 ; free virtual = 11431
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:43 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3810 ; free virtual = 5748
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=0.039  | TNS=0.000  | WHS=0.030  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.232  | TNS=0.000  | WHS=0.021  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 23f0e1645
+Phase 10 Post Router Timing | Checksum: 1251233a9
 
-Time (s): cpu = 00:02:21 ; elapsed = 00:01:03 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4781 ; free virtual = 11431
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:43 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3815 ; free virtual = 5753
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:02:21 ; elapsed = 00:01:03 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4832 ; free virtual = 11482
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:43 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3863 ; free virtual = 5802
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-109 Infos, 45 Warnings, 3 Critical Warnings and 0 Errors encountered.
+107 Infos, 45 Warnings, 3 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:02:25 ; elapsed = 00:01:05 . Memory (MB): peak = 3240.613 ; gain = 21.324 ; free physical = 4832 ; free virtual = 11482
+route_design: Time (s): cpu = 00:01:51 ; elapsed = 00:00:45 . Memory (MB): peak = 3233.652 ; gain = 7.449 ; free physical = 3863 ; free virtual = 5802
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 3248.617 ; gain = 0.000 ; free physical = 4762 ; free virtual = 11466
+Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 3241.656 ; gain = 0.000 ; free physical = 3789 ; free virtual = 5781
 INFO: [Common 17-1381] The checkpoint '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/impl_1/design_1_wrapper_routed.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
 Command: report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
@@ -694,7 +664,7 @@ INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 8 threads
 INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/impl_1/design_1_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
-report_methodology: Time (s): cpu = 00:00:23 ; elapsed = 00:00:06 . Memory (MB): peak = 3473.840 ; gain = 99.223 ; free physical = 4778 ; free virtual = 11443
+report_methodology: Time (s): cpu = 00:00:22 ; elapsed = 00:00:06 . Memory (MB): peak = 3441.730 ; gain = 69.504 ; free physical = 3812 ; free virtual = 5766
 INFO: [runtcl-4] Executing : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 Command: report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
@@ -703,9 +673,9 @@ Running Vector-less Activity Propagation...
 Finished Running Vector-less Activity Propagation
 WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
-121 Infos, 46 Warnings, 3 Critical Warnings and 0 Errors encountered.
+119 Infos, 46 Warnings, 3 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 3505.859 ; gain = 32.020 ; free physical = 4750 ; free virtual = 11425
+report_power: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 3497.773 ; gain = 56.043 ; free physical = 3780 ; free virtual = 5744
 INFO: [runtcl-4] Executing : report_route_status -file design_1_wrapper_route_status.rpt -pb design_1_wrapper_route_status.pb
 INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file design_1_wrapper_timing_summary_routed.rpt -pb design_1_wrapper_timing_summary_routed.pb -rpx design_1_wrapper_timing_summary_routed.rpx -warn_on_violation 
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
@@ -731,14 +701,14 @@ WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/RSD_0/inst/main/mai
 WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/RSD_0/inst/main/main/core/mulDivUnit/BlockMulUnit[0].mulUnit/mul/pipeReg_reg[0] multiplier stage design_1_i/RSD_0/inst/main/main/core/mulDivUnit/BlockMulUnit[0].mulUnit/mul/pipeReg_reg[0]/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
 WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/RSD_0/inst/main/main/core/mulDivUnit/BlockMulUnit[0].mulUnit/mul/pipeReg_reg[0]__0 multiplier stage design_1_i/RSD_0/inst/main/main/core/mulDivUnit/BlockMulUnit[0].mulUnit/mul/pipeReg_reg[0]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
 WARNING: [DRC PDRC-153] Gated clock check: Net design_1_i/RSD_0/inst/main/main/core/ifStage/p_7_out is a gated clock net sourced by a combinational pin design_1_i/RSD_0/inst/main/main/core/ifStage/isFlushed_reg[1]_i_1/O, cell design_1_i/RSD_0/inst/main/main/core/ifStage/isFlushed_reg[1]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_27) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_26) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_25) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[13] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_24) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_31) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_30) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_29) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/ifStage_n_28) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][7]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][8]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][9]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[13] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][10]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRARDADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/npStageIF\\.icNextReadAddrIn[addr][6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRBWRADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/genblk1[1].array/writeWayIndex[4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRBWRADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/genblk1[1].array/writeWayIndex[5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0 has an input control pin design_1_i/RSD_0/inst/main/main/core/genblk1[0].array/tagValidArray/array_reg_0/ADDRBWRADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/genblk1[1].array/writeWayIndex[6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
@@ -754,24 +724,24 @@ WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/RSD
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[7]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[8]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[13] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[9]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[4] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[0]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[5] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[1]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[2]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRARDADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRARDADDR[5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[0]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[1]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[2]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[13] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[4] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[1]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[5] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[2]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/raBank[0]_15[6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC RTSTAT-10] No routable loads: 34 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/RSD_0/inst/main/debugRegister, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[2:0], design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[2:0]... and (the first 15 of 22 listed).
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[10] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[6]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[11] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[7]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[8]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[4] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[0]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[5] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[1]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[6] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[2]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[7] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[3]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[8] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[4]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ADDRBWRADDR[9] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/ADDRBWRADDR[5]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg/ENARDEN (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[0].rBank/array_reg_1) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[1].rBank/array_reg has an input control pin design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[1].rBank/array_reg/ADDRARDADDR[12] (net: design_1_i/RSD_0/inst/main/main/core/brPred/predictor/pht/rBank/genblk2[1].rBank/array_reg_5[8]) which is driven by a register (design_1_i/RSD_0/inst/main/main/rstController/rst_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC RTSTAT-10] No routable loads: 34 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/RSD_0/inst/main/debugRegister, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[2:0], design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[2:0]... and (the first 15 of 22 listed).
 INFO: [Vivado 12-3199] DRC finished with 0 Errors, 50 Warnings
 INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
 INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
@@ -784,9 +754,9 @@ Creating bitstream...
 Writing bitstream ./design_1_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Sun Nov 14 19:52:59 2021. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-186] '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Mon Dec  6 21:40:12 2021. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
-141 Infos, 96 Warnings, 3 Critical Warnings and 0 Errors encountered.
+139 Infos, 96 Warnings, 3 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 3648.242 ; gain = 142.383 ; free physical = 4689 ; free virtual = 11377
-INFO: [Common 17-206] Exiting Vivado at Sun Nov 14 19:52:59 2021...
+write_bitstream: Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 3640.719 ; gain = 142.945 ; free physical = 3711 ; free virtual = 5690
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  6 21:40:12 2021...

@@ -120,8 +120,9 @@ MODULES = \
 	Decoder/DecodedBranchResolver.sv \
 	FetchUnit/BTB.sv \
 	FetchUnit/BranchPredictor.sv \
-	FetchUnit/Gshare.sv \
 	FetchUnit/Bimodal.sv \
+	FetchUnit/GAg.sv \
+	FetchUnit/Gshare.sv \
 	Scheduler/SchedulerIF.sv \
 	Scheduler/IssueQueue.sv \
 	Scheduler/ReplayQueue.sv \

@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Sun Nov 14 19:49:03 2021
-# Process ID: 143866
+# Start of session at: Mon Dec  6 21:36:36 2021
+# Process ID: 390869
 # Current directory: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1
 # Command line: vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/design_1_wrapper.vds
@@ -20,44 +20,44 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 143906
+INFO: [Synth 8-7075] Helper process launched with PID 390875
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2115.445 ; gain = 0.000 ; free physical = 5631 ; free virtual = 12201
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2106.543 ; gain = 0.000 ; free physical = 4685 ; free virtual = 6523
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_RSD_0_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_RSD_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_RSD_0_0' (1#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_RSD_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_RSD_0_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_RSD_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_RSD_0_0' (1#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_RSD_0_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'design_1_axi_interconnect_0_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:585]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1CA5Z32' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:1527]
 INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1CA5Z32' (2#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:1527]
 INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_I4GRPB' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:1596]
 INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_I4GRPB' (3#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:1596]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_O7FAN0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:2160]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (4#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (4#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_auto_pc_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_O7FAN0' (5#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:2160]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (6#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (6#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_xbar_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_interconnect_0_0' (7#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:585]
 INFO: [Synth 8-6157] synthesizing module 'design_1_axi_interconnect_1_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:1102]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_HS4N6K' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:1742]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (8#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (8#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_auto_pc_1_stub.v:6]
 WARNING: [Synth 8-7071] port 'm_axi_awuser' of module 'design_1_auto_pc_1' is unconnected for instance 'auto_pc' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:2073]
 WARNING: [Synth 8-7071] port 'm_axi_wuser' of module 'design_1_auto_pc_1' is unconnected for instance 'auto_pc' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:2073]
 WARNING: [Synth 8-7071] port 'm_axi_aruser' of module 'design_1_auto_pc_1' is unconnected for instance 'auto_pc' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:2073]
 WARNING: [Synth 8-7023] instance 'auto_pc' of module 'design_1_auto_pc_1' has 87 connections declared, but only 84 given [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:2073]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_HS4N6K' (9#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:1742]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_interconnect_1_0' (10#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:1102]
-INFO: [Synth 8-6157] synthesizing module 'design_1_proc_sys_reset_0_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_proc_sys_reset_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_proc_sys_reset_0_0' (11#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_proc_sys_reset_0_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_proc_sys_reset_0_0' (11#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_proc_sys_reset_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:470]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:470]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:470]
 WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'design_1_proc_sys_reset_0_0' has 10 connections declared, but only 7 given [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:470]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (12#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-143866-jrmerkel-MS-7C02/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (12#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/.Xil/Vivado-390869-jrmerkel-MS-7C02/realtime/design_1_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'TTC0_WAVE0_OUT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:478]
 WARNING: [Synth 8-7071] port 'TTC0_WAVE1_OUT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:478]
 WARNING: [Synth 8-7071] port 'TTC0_WAVE2_OUT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:478]
@@ -71,18 +71,18 @@ WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_proc
 INFO: [Synth 8-6155] done synthesizing module 'design_1' (13#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/synth/design_1.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (14#1) [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2115.445 ; gain = 0.000 ; free physical = 5729 ; free virtual = 12300
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2106.543 ; gain = 0.000 ; free physical = 4776 ; free virtual = 6617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2115.445 ; gain = 0.000 ; free physical = 5727 ; free virtual = 12297
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2115.312 ; gain = 8.770 ; free physical = 4773 ; free virtual = 6613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2115.445 ; gain = 0.000 ; free physical = 5727 ; free virtual = 12297
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2115.312 ; gain = 8.770 ; free physical = 4773 ; free virtual = 6613
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2115.445 ; gain = 0.000 ; free physical = 5720 ; free virtual = 12291
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2115.312 ; gain = 0.000 ; free physical = 4767 ; free virtual = 6607
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -112,20 +112,20 @@ Parsing XDC File [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project
 Finished Parsing XDC File [/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2218.070 ; gain = 0.000 ; free physical = 5628 ; free virtual = 12199
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2220.062 ; gain = 0.000 ; free physical = 4673 ; free virtual = 6515
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2218.070 ; gain = 0.000 ; free physical = 5628 ; free virtual = 12199
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2220.062 ; gain = 0.000 ; free physical = 4673 ; free virtual = 6515
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2218.070 ; gain = 102.625 ; free physical = 5702 ; free virtual = 12273
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4748 ; free virtual = 6591
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2218.070 ; gain = 102.625 ; free physical = 5702 ; free virtual = 12273
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4748 ; free virtual = 6591
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -400,10 +400,10 @@ Applied set_property DONT_TOUCH = true for design_1_i/axi_interconnect_1. (const
 Applied set_property DONT_TOUCH = true for design_1_i/proc_sys_reset_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2218.070 ; gain = 102.625 ; free physical = 5701 ; free virtual = 12273
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4748 ; free virtual = 6591
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2218.070 ; gain = 102.625 ; free physical = 5699 ; free virtual = 12272
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4747 ; free virtual = 6590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -425,25 +425,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 2218.070 ; gain = 102.625 ; free physical = 5687 ; free virtual = 12262
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4735 ; free virtual = 6581
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2218.070 ; gain = 102.625 ; free physical = 5565 ; free virtual = 12140
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4615 ; free virtual = 6461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2218.070 ; gain = 102.625 ; free physical = 5565 ; free virtual = 12140
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4615 ; free virtual = 6461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2218.070 ; gain = 102.625 ; free physical = 5564 ; free virtual = 12139
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4613 ; free virtual = 6459
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -461,37 +461,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2219.023 ; gain = 103.578 ; free physical = 5563 ; free virtual = 12139
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4612 ; free virtual = 6459
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2219.023 ; gain = 103.578 ; free physical = 5563 ; free virtual = 12139
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4612 ; free virtual = 6459
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2219.023 ; gain = 103.578 ; free physical = 5563 ; free virtual = 12139
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4612 ; free virtual = 6459
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2219.023 ; gain = 103.578 ; free physical = 5563 ; free virtual = 12139
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4612 ; free virtual = 6459
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2219.023 ; gain = 103.578 ; free physical = 5563 ; free virtual = 12139
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4612 ; free virtual = 6459
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2219.023 ; gain = 103.578 ; free physical = 5563 ; free virtual = 12139
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4612 ; free virtual = 6459
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -521,23 +521,23 @@ Report Cell Usage:
 |7     |OBUF                          |     8|
 +------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2219.023 ; gain = 103.578 ; free physical = 5563 ; free virtual = 12139
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4612 ; free virtual = 6459
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2219.023 ; gain = 0.953 ; free physical = 5619 ; free virtual = 12195
-Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2219.031 ; gain = 103.578 ; free physical = 5619 ; free virtual = 12195
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2220.062 ; gain = 8.770 ; free physical = 4670 ; free virtual = 6516
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2220.062 ; gain = 113.520 ; free physical = 4670 ; free virtual = 6516
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2219.031 ; gain = 0.000 ; free physical = 5691 ; free virtual = 12266
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2220.062 ; gain = 0.000 ; free physical = 4740 ; free virtual = 6587
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2227.930 ; gain = 0.000 ; free physical = 5631 ; free virtual = 12206
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2228.922 ; gain = 0.000 ; free physical = 4680 ; free virtual = 6527
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 44 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2227.930 ; gain = 112.609 ; free physical = 5760 ; free virtual = 12336
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2228.922 ; gain = 122.516 ; free physical = 4809 ; free virtual = 6656
 INFO: [Common 17-1381] The checkpoint '/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/Vivado/TargetBoards/Zedboard/rsd/rsd.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Nov 14 19:49:33 2021...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  6 21:37:07 2021...

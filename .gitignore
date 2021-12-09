@@ -1,0 +1,4 @@
+rsd/rsd-arm-linux/ROOTFS/*
+rsd/Processor/Project/Vivado/TargetBoards/Zedboard_gshare/rsd/rsd.runs/*
+rsd/Processor/Project/Vivado/TargetBoards/Zedboard_gshare/rsd/rsd.srcs/sources_1/bd/design_1/design_1.bd
+rsd/rsd-arm-linux/ROOTFS/var/cache/ldconfig/*

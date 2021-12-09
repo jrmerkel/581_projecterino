@@ -9,16 +9,19 @@
 import BasicTypes::*;
 import FetchUnitTypes::*;
 
-`define USE_GSHARE
+//`define USE_GSHARE
+`define USE_GAG_PRED
 
 module BranchPredictor(
     NextPCStageIF.BranchPredictor port,
     FetchStageIF.BranchPredictor next,
     ControllerIF.BranchPredictor ctrl
 );
-
-`ifdef USE_GSHARE
-    Gshare predictor( port, next, ctrl );
+//USE_GSHARE
+//     Gshare predictor( port, next, ctrl );
+// `elsif
+`ifdef USE_GAG_PRED
+    GAg predictor( port, next, ctrl );
 `else
     Bimodal predictor( port, next );
 `endif

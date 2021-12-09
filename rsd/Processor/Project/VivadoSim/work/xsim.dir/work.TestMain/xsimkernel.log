@@ -1,0 +1,7 @@
+Running: xsim.dir/work.TestMain/xsimk -runall -simmode gui -testplusarg MAX_TEST_CYCLES=10000 -testplusarg TEST_CODE=/home/jrmerkel/Documents/School/581/proj/rsd//Processor/Src/Verification/TestCode/C/Fibonacci -testplusarg DUMMY_DATA_FILE=/home/jrmerkel/Documents/School/581/proj/rsd//Processor/Src/Verification/DummyData.hex -testplusarg ENABLE_PC_GOAL=1 -testplusarg SHOW_SERIAL_OUT=1 -testplusarg RSD_LOG_FILE=RSD.log -wdb work.TestMain.wdb -simrunnum 0 -socket 60649
+Design successfully loaded
+Design Loading Memory Usage: 30964 KB (Peak: 30972 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 190988 KB (Peak: 190988 KB)
+Simulation CPU Usage: 9160 ms

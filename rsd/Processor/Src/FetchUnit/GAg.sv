@@ -229,7 +229,7 @@ module GAg(
             end
 
             // To avoid writing to the same bank (avoid error message)
-            ghtRA[0] = 0;
+            ghtRA[0] = nextBrGlobalHistory;
 
             pushPhtQueue = FALSE;
             popPhtQueue = FALSE;

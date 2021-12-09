@@ -92,6 +92,9 @@ typedef logic [BRANCH_GLOBAL_HISTORY_BIT_WIDTH-1 : 0] BranchGlobalHistoryPath;
 // GHT
 localparam GHT_ENTRY_NUM = (1 << BRANCH_GLOBAL_HISTORY_BIT_WIDTH);
 typedef logic [BRANCH_GLOBAL_HISTORY_BIT_WIDTH-1:0] GHT_IndexPath;
+
+
+
 //
 // PHT
 //
@@ -99,6 +102,12 @@ typedef logic [BRANCH_GLOBAL_HISTORY_BIT_WIDTH-1:0] GHT_IndexPath;
 localparam PHT_ENTRY_NUM = CONF_PHT_ENTRY_NUM;
 localparam PHT_ENTRY_NUM_BIT_WIDTH = $clog2(PHT_ENTRY_NUM);
 typedef logic [PHT_ENTRY_NUM_BIT_WIDTH-1:0] PHT_IndexPath;
+
+//GAp
+localparam PHT_GAP_BITS = PHT_ENTRY_NUM_BIT_WIDTH - BRANCH_GLOBAL_HISTORY_BIT_WIDTH;
+//GAs
+localparam GAS_OFFSET = $clog2(256);
+
 
 localparam PHT_ENTRY_WIDTH = 2;
 localparam PHT_ENTRY_MAX = (1 << PHT_ENTRY_WIDTH) - 1;

@@ -158,6 +158,10 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/Scho
 INFO: [VRFC 10-311] analyzing module Bimodal
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/GAg.sv" into library work
 INFO: [VRFC 10-311] analyzing module GAg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/GAp.sv" into library work
+INFO: [VRFC 10-311] analyzing module GAp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/GAs.sv" into library work
+INFO: [VRFC 10-311] analyzing module GAs
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/Gshare.sv" into library work
 INFO: [VRFC 10-311] analyzing module Gshare
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/Scheduler/SchedulerIF.sv" into library work

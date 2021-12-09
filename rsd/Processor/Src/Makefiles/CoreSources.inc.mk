@@ -122,6 +122,8 @@ MODULES = \
 	FetchUnit/BranchPredictor.sv \
 	FetchUnit/Bimodal.sv \
 	FetchUnit/GAg.sv \
+	FetchUnit/GAp.sv \
+	FetchUnit/GAs.sv \
 	FetchUnit/Gshare.sv \
 	Scheduler/SchedulerIF.sv \
 	Scheduler/IssueQueue.sv \

@@ -1,6 +1,6 @@
 //
 // Gshare Branch Predictor modified to index into counters only using the global history
-//
+// TODO 
 // For per-set history schemes, we use the branch ad-
 // dress to classify branches into sets. The branches
 // in a block of lK bytes (256 instructions) are mem-

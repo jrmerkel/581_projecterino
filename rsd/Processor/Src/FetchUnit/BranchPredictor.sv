@@ -9,8 +9,7 @@
 import BasicTypes::*;
 import FetchUnitTypes::*;
 
-// `define USE_GSHARE
-`define USE_GAS_PRED
+
 
 module BranchPredictor(
     NextPCStageIF.BranchPredictor port,
@@ -23,8 +22,12 @@ module BranchPredictor(
     GAg predictor( port, next, ctrl );
 `elsif USE_GAP_PRED
     GAp predictor( port, next, ctrl );
-`elsif USE_GAP_PRED
+`elsif USE_GAS_PRED
     GAs predictor( port, next, ctrl );
+`elsif USE_PAP_PRED
+    PAp predictor( port, next, ctrl );
+`elsif USE_PAS_PRED
+    PAs predictor( port, next, ctrl );
 `else
     Bimodal predictor( port, next );
 `endif

@@ -124,6 +124,8 @@ MODULES = \
 	FetchUnit/GAg.sv \
 	FetchUnit/GAp.sv \
 	FetchUnit/GAs.sv \
+	FetchUnit/PAp.sv \
+	FetchUnit/PAs.sv \
 	FetchUnit/Gshare.sv \
 	Scheduler/SchedulerIF.sv \
 	Scheduler/IssueQueue.sv \

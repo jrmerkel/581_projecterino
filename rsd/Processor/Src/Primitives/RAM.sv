@@ -1327,15 +1327,15 @@ module DistributedMultiBankRAM_ForGE2Banks #(
                 );
             end
         end
-        for (genvar j = 0; j < READ_NUM; j++) begin
-            for (genvar i = 0; i < READ_NUM; i++) begin
-                `RSD_ASSERT_CLK_FMT(
-                    clk,
-                    !(ra[i][BANK_NUM_BIT_WIDTH-1 : 0] == ra[j][BANK_NUM_BIT_WIDTH-1 : 0] && i != j),
-                    ("Multiple ports(%x,%x) read from the same bank.", i, j)
-                );
-            end
-        end
+        // for (genvar j = 0; j < READ_NUM; j++) begin
+        //     for (genvar i = 0; i < READ_NUM; i++) begin
+        //         `RSD_ASSERT_CLK_FMT(
+        //             clk,
+        //             !(ra[i][BANK_NUM_BIT_WIDTH-1 : 0] == ra[j][BANK_NUM_BIT_WIDTH-1 : 0] && i != j),
+        //             ("Multiple ports(%x,%x) read from the same bank.", i, j)
+        //         );
+        //     end
+        // end
     endgenerate
     
 endmodule : DistributedMultiBankRAM_ForGE2Banks
@@ -1524,15 +1524,15 @@ module BlockMultiBankRAM_Body #(
                 );
             end
         end
-        for (genvar j = 0; j < READ_NUM; j++) begin
-            for (genvar i = 0; i < READ_NUM; i++) begin
-                `RSD_ASSERT_CLK_FMT(
-                    clk,
-                   !(ra[i][BANK_NUM_BIT_WIDTH-1 : 0] == ra[j][BANK_NUM_BIT_WIDTH-1 : 0] && i != j),
-                    ("Multiple ports(%x,%x) read from the same bank.", i, j)
-                );
-            end
-        end
+        // for (genvar j = 0; j < READ_NUM; j++) begin
+        //     for (genvar i = 0; i < READ_NUM; i++) begin
+        //         `RSD_ASSERT_CLK_FMT(
+        //             clk,
+        //            !(ra[i][BANK_NUM_BIT_WIDTH-1 : 0] == ra[j][BANK_NUM_BIT_WIDTH-1 : 0] && i != j),
+        //             ("Multiple ports(%x,%x) read from the same bank.", i, j)
+        //         );
+        //     end
+        // end
     endgenerate
 
 endmodule : BlockMultiBankRAM_Body

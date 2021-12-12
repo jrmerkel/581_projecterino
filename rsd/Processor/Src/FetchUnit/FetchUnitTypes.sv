@@ -105,6 +105,8 @@ typedef logic [PHT_ENTRY_NUM_BIT_WIDTH-1:0] PHT_IndexPath;
 
 //GAp
 localparam PHT_GAP_BITS = PHT_ENTRY_NUM_BIT_WIDTH - BRANCH_GLOBAL_HISTORY_BIT_WIDTH;
+localparam PHT_PAP_BITS = PHT_ENTRY_NUM_BIT_WIDTH - BRANCH_GLOBAL_HISTORY_BIT_WIDTH - 1;
+localparam PHT_PAP_ENTRY_NUM = (1 << PHT_PAP_BITS);
 //GAs
 localparam GAS_OFFSET = $clog2(256);
 
@@ -113,6 +115,22 @@ localparam PHT_ENTRY_WIDTH = 2;
 localparam PHT_ENTRY_MAX = (1 << PHT_ENTRY_WIDTH) - 1;
 typedef logic [PHT_ENTRY_WIDTH-1:0] PHT_EntryPath;
 
+localparam PAP_COUNTERS_NUM = 32;
+typedef logic [PAP_COUNTERS_NUM-1 : 0] BranchPatternHistoryPath;
+typedef logic [PHT_PAP_BITS-1:0] PAP_PHT_IndexPath;
+typedef PHT_EntryPath [PAP_COUNTERS_NUM-1 : 0] PHT_COUNTERS;
+//PA
+typedef struct packed {
+    PHT_COUNTERS Counters;
+    //PAP_PHT_IndexPath History;
+} PAP_PHT_ENTRY;
+
+typedef struct packed {
+    PAP_PHT_ENTRY Entries;
+    PAP_PHT_IndexPath History;
+    AddrPath Address;
+}
+PAP_PHT_ENTRY_INDEX;
 
 localparam PHT_QUEUE_SIZE = 32;
 localparam PHT_QUEUE_SIZE_BIT_WIDTH = $clog2(PHT_QUEUE_SIZE);
@@ -124,6 +142,16 @@ typedef struct packed // struct PhtQueueEntry
     PHT_EntryPath phtWV;                        // result of bpred
 } PhtQueueEntry;
 
+
+localparam PAP_PHT_QUEUE_SIZE = 32;
+localparam PAP_PHT_QUEUE_SIZE_BIT_WIDTH = $clog2(PHT_QUEUE_SIZE);
+typedef logic [PAP_PHT_QUEUE_SIZE_BIT_WIDTH-1:0] PAPPhtQueuePointerPath;
+
+typedef struct packed // struct PhtQueueEntry
+{
+    AddrPath phtWA;            // Write Address
+    PAP_PHT_ENTRY phtWV;                        // result of bpred
+} PAPPhtQueueEntry;
 
 //
 // Result/prediction
@@ -140,7 +168,12 @@ typedef struct packed // struct BranchResult
     logic valid;        // Whether this result is valid or not.
 
     BranchGlobalHistoryPath globalHistory;  // The global history of branches.
+`ifdef  USE_TWOLVL
+    PAP_PHT_ENTRY_INDEX phtPrevValue;
+`else
     PHT_EntryPath phtPrevValue;             // PHT's counter value
+`endif
+    
 } BranchResult;
 
 typedef struct packed // struct BranchPred
@@ -149,7 +182,11 @@ typedef struct packed // struct BranchPred
     logic predTaken;                        // result of bpred
     
     BranchGlobalHistoryPath globalHistory;  // The global history of branches.
+`ifdef  USE_TWOLVL
+    PAP_PHT_ENTRY_INDEX phtPrevValue;
+`else
     PHT_EntryPath phtPrevValue;             // PHT's counter value
+`endif
 } BranchPred;
 
 endpackage : FetchUnitTypes

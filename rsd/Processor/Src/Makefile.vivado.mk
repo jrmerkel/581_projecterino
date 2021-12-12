@@ -5,7 +5,7 @@
 MAX_TEST_CYCLES = 10000
 SHOW_SERIAL_OUT = 1
 ENABLE_PC_GOAL  = 1
-TEST_CODE       = $(SOURCE_ROOT)Verification/TestCode/C/Fibonacci
+TEST_CODE       = $(SOURCE_ROOT)Verification/TestCode/C/581
 DUMMY_DATA_FILE = $(SOURCE_ROOT)Verification/DummyData.hex
 
 

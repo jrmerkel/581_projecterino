@@ -28,6 +28,10 @@ module BranchPredictor(
     PAp predictor( port, next, ctrl );
 `elsif USE_PAS_PRED
     PAs predictor( port, next, ctrl );
+`elsif USE_SAP_PRED
+    SAp predictor( port, next, ctrl );
+`elsif USE_SAS_PRED
+    SAs predictor( port, next, ctrl );
 `else
     Bimodal predictor( port, next );
 `endif

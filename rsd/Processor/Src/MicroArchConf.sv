@@ -4,7 +4,7 @@
 
 package MicroArchConf;
 // `define USE_GSHARE
-`define USE_PAS_PRED
+`define USE_SAS_PRED
 `define USE_TWOLVL
 // `define USE_GAXbits
 

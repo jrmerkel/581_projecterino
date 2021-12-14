@@ -8,18 +8,18 @@ import FetchUnitTypes::*;
 
 //Use the bottom x bits appended to Global history to index into counters
 //bank width problems force instruction to be at the bottom
-function automatic PAP_PHT_IndexPath SAPToPHT_Index_Global(AddrPath addr);
+function automatic PAP_PHT_IndexPath SASToPHT_Index_Global(AddrPath addr);
     PAP_PHT_IndexPath phtIndex;
     phtIndex = 
         addr[
-            PHT_PAP_BITS - 1 + INSN_ADDR_BIT_WIDTH:
-            INSN_ADDR_BIT_WIDTH 
+            PHT_PAP_BITS - 1 + INSN_ADDR_BIT_WIDTH + GAS_OFFSET:
+            INSN_ADDR_BIT_WIDTH  + GAS_OFFSET
         ];
    // phtIndex[PHT_ENTRY_NUM_BIT_WIDTH - 1 : PHT_ENTRY_NUM_BIT_WIDTH - BRANCH_GLOBAL_HISTORY_BIT_WIDTH] = gh;
     return phtIndex;
 endfunction
 
-function automatic PAP_PHT_IndexPath SAPToHIST_Index_Global(AddrPath addr);
+function automatic PAP_PHT_IndexPath SASToHIST_Index_Global(AddrPath addr);
     PAP_PHT_IndexPath phtIndex;
     phtIndex = 
         addr[
@@ -30,7 +30,7 @@ function automatic PAP_PHT_IndexPath SAPToHIST_Index_Global(AddrPath addr);
     return phtIndex;
 endfunction
 
-module SAp(
+module SAs(
     NextPCStageIF.BranchPredictor port,
     FetchStageIF.BranchPredictor next,
     ControllerIF.BranchPredictor ctrl
@@ -156,10 +156,10 @@ module SAp(
         for (int i = 0; i < INT_ISSUE_WIDTH; i++) begin
             // Counter's value.
             phtPrevValue[i] = port.brResult[i].phtPrevValue; 
-            phtWA[i] =  SAPToPHT_Index_Global(
+            phtWA[i] =  SASToPHT_Index_Global(
                 port.brResult[i].brAddr
             );
-            histWA[i+2] =  SAPToHIST_Index_Global(
+            histWA[i+2] =  SASToHIST_Index_Global(
                 port.brResult[i].brAddr
             );
         end      
@@ -214,7 +214,7 @@ module SAp(
                  // Discard the result of previous cycle
         for (int i = 0; i < INT_ISSUE_WIDTH; i++) begin
             // Counter's value.
-            histRA[i] =  SAPToHIST_Index_Global(
+            histRA[i] =  SASToHIST_Index_Global(
                 port.brResult[i].brAddr
             );
         end   
@@ -279,7 +279,7 @@ module SAp(
 
         for (int i = 0; i < FETCH_WIDTH; i++) begin
             // Read PHT entry for next cycle 
-            phtRA[i] = SAPToPHT_Index_Global(
+            phtRA[i] = SASToPHT_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH);
         end
 
@@ -300,11 +300,11 @@ module SAp(
             // To avoid writing to the same bank (avoid error message)
             for (int i = 0; i < FETCH_WIDTH; i++) begin
             // Read PHT entry for next cycle 
-            phtRA[i] = SAPToPHT_Index_Global(
+            phtRA[i] = SASToPHT_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH
             );
             end
         end
     end
 
-endmodule : SAp
+endmodule : SAs

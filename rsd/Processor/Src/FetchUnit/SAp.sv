@@ -19,11 +19,11 @@ function automatic PAP_PHT_IndexPath SAPToPHT_Index_Global(AddrPath addr);
     return phtIndex;
 endfunction
 
-function automatic PAP_PHT_IndexPath SAPToHIST_Index_Global(AddrPath addr);
-    PAP_PHT_IndexPath phtIndex;
+function automatic SAX_HIST_IndexPath SAPToHIST_Index_Global(AddrPath addr);
+    SAX_HIST_IndexPath phtIndex;
     phtIndex = 
         addr[
-            PHT_PAP_BITS - 1 + INSN_ADDR_BIT_WIDTH + GAS_OFFSET: 
+            HIST_SAX_BITS - 1 + INSN_ADDR_BIT_WIDTH + GAS_OFFSET: 
             INSN_ADDR_BIT_WIDTH + GAS_OFFSET
         ];
    // phtIndex[PHT_ENTRY_NUM_BIT_WIDTH - 1 : PHT_ENTRY_NUM_BIT_WIDTH - BRANCH_GLOBAL_HISTORY_BIT_WIDTH] = gh;
@@ -48,7 +48,7 @@ module SAp(
     logic histWE[INT_ISSUE_WIDTH + 2];
 
     PAP_PHT_IndexPath phtWA[INT_ISSUE_WIDTH];
-    PAP_PHT_IndexPath histWA[INT_ISSUE_WIDTH + 2];
+    SAX_HIST_IndexPath histWA[INT_ISSUE_WIDTH + 2];
 
     PAP_PHT_ENTRY phtWV[INT_ISSUE_WIDTH];
     PAP_PHT_IndexPath histWV[INT_ISSUE_WIDTH + 2];
@@ -56,7 +56,7 @@ module SAp(
 
     // Read port need for branch predict and update counter.
     PAP_PHT_IndexPath phtRA[FETCH_WIDTH];
-    PAP_PHT_IndexPath histRA[FETCH_WIDTH];
+    SAX_HIST_IndexPath histRA[FETCH_WIDTH];
     PAP_PHT_ENTRY phtRV[FETCH_WIDTH];
     PAP_PHT_IndexPath histRV[FETCH_WIDTH];
    
@@ -90,7 +90,7 @@ module SAp(
     //Per address history updated speculatively
     generate
         BlockMultiPortRAM #(
-            .ENTRY_NUM( PHT_PAP_ENTRY_NUM ), 
+            .ENTRY_NUM( HIST_SAX_ENTRY_NUM ), 
             .ENTRY_BIT_SIZE( $bits( PAP_PHT_IndexPath ) ), //2 bits per entty
             .READ_NUM( FETCH_WIDTH ), 
             .WRITE_NUM( INT_ISSUE_WIDTH + 2) 
@@ -298,7 +298,7 @@ module SAp(
             phtRA[i] = SAPToPHT_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH
             );
-            histRA[i] = SAPToHist_Index_Global(
+            histRA[i] = SAPToHIST_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH);
             end
         end

@@ -120,6 +120,10 @@ localparam PAP_COUNTERS_NUM = 32; //TODO BASED on Bits
 typedef logic [PHT_PAP_BITS-1:0] PAP_PHT_IndexPath;
 typedef PHT_EntryPath [PAP_COUNTERS_NUM-1 : 0] PHT_COUNTERS;
 //PA
+//SAx
+localparam HIST_SAX_BITS = 2;
+localparam HIST_SAX_ENTRY_NUM = (1 << HIST_SAX_BITS);
+typedef logic [HIST_SAX_BITS - 1 : 0]SAX_HIST_IndexPath;
 typedef struct packed {
     PHT_COUNTERS Counters;
     //PAP_PHT_IndexPath History;
@@ -127,8 +131,13 @@ typedef struct packed {
 
 typedef struct packed {
     PAP_PHT_ENTRY Entries;
+`ifdef USE_SAX_HIST // TODO REMOVE
+ SAX_HIST_IndexPath History;
+`else
     PAP_PHT_IndexPath History;
+`endif 
     AddrPath Address;
+
 }
 PAP_PHT_ENTRY_INDEX;
 

@@ -48,7 +48,7 @@ module SAs(
     logic histWE[INT_ISSUE_WIDTH + 2];
 
     PAP_PHT_IndexPath phtWA[INT_ISSUE_WIDTH];
-    PAP_PHT_IndexPath histWA[INT_ISSUE_WIDTH + 2];
+    SAX_HIST_IndexPath histWA[INT_ISSUE_WIDTH + 2];
 
     PAP_PHT_ENTRY phtWV[INT_ISSUE_WIDTH];
     PAP_PHT_IndexPath histWV[INT_ISSUE_WIDTH + 2];
@@ -56,7 +56,7 @@ module SAs(
 
     // Read port need for branch predict and update counter.
     PAP_PHT_IndexPath phtRA[FETCH_WIDTH];
-    PAP_PHT_IndexPath histRA[FETCH_WIDTH];
+    SAX_HIST_IndexPath histRA[FETCH_WIDTH];
     PAP_PHT_ENTRY phtRV[FETCH_WIDTH];
     PAP_PHT_IndexPath histRV[FETCH_WIDTH];
    
@@ -90,7 +90,7 @@ module SAs(
     //Per address history updated speculatively
     generate
         BlockMultiPortRAM #(
-            .ENTRY_NUM( PHT_PAP_ENTRY_NUM ), 
+            .ENTRY_NUM( HIST_SAX_ENTRY_NUM ), 
             .ENTRY_BIT_SIZE( $bits( PAP_PHT_IndexPath ) ), //2 bits per entty
             .READ_NUM( FETCH_WIDTH ), 
             .WRITE_NUM( INT_ISSUE_WIDTH + 2) 

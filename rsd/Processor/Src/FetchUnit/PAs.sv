@@ -71,7 +71,7 @@ module PAs(
 
     // Per address counters BRAM updated only after results come in
     generate
-        BlockMultiBankRAM #(
+        BlockMultiPortRAM #(
             .ENTRY_NUM( PHT_PAP_ENTRY_NUM ), 
             .ENTRY_BIT_SIZE( $bits( PAP_PHT_ENTRY ) ), 
             .READ_NUM( FETCH_WIDTH ), 

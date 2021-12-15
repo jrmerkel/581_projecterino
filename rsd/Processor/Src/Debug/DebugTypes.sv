@@ -27,6 +27,7 @@ typedef struct packed { //
     DataPath numLoadMiss;
     DataPath numStoreMiss;
     DataPath numBranchPredMiss;
+    DataPath numBranchPred;
 
     DataPath numBranchPredMissDetectedOnDecode;
     DataPath numStoreLoadForwardingFail;

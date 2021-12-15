@@ -1,1 +1,1 @@
--relax "TestMain" -debug "all" 
+-relax "TestMain" 

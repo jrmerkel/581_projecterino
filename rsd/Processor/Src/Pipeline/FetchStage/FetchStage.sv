@@ -61,6 +61,7 @@ module FetchStage(
 `ifndef RSD_DISABLE_PERFORMANCE_COUNTER
         // Stall can be caused by another reason from an i-cache miss.
         perfCounter.icMiss = beginStall && pipeReg[0].valid && !port.icReadHit[0];
+        perfCounter.brPred = port.brPredTaken;
 `endif
     end
 

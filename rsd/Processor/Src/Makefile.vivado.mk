@@ -2,10 +2,10 @@
 # Makefile for synthesizing on Vivado only (not using Synplify netlist)
 
 # Specify test code and simulation cycles
-MAX_TEST_CYCLES = 10000
+MAX_TEST_CYCLES = 10000000
 SHOW_SERIAL_OUT = 1
 ENABLE_PC_GOAL  = 1
-TEST_CODE       = $(SOURCE_ROOT)Verification/TestCode/C/581
+TEST_CODE       = $(SOURCE_ROOT)Verification/TestCode/C/581_test
 DUMMY_DATA_FILE = $(SOURCE_ROOT)Verification/DummyData.hex
 
 

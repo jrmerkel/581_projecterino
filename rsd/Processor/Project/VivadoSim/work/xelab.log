@@ -1,6 +1,6 @@
 Vivado Simulator 2020.1
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -relax TestMain -debug all 
+Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -relax TestMain 
 Multi-threading is on. Using 10 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer

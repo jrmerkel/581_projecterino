@@ -60,7 +60,7 @@ module PAp(
 
     // Per address counters BRAM updated only after results come in
     generate
-        BlockMultiBankRAM #(
+        BlockMultiPortRAM #(
             .ENTRY_NUM( PHT_PAP_ENTRY_NUM ), 
             .ENTRY_BIT_SIZE( $bits( PAP_PHT_ENTRY ) ), 
             .READ_NUM( FETCH_WIDTH ), 
@@ -78,7 +78,7 @@ module PAp(
     
     //Per address history updated speculatively
     generate
-        BlockMultiBankRAM #(
+        BlockMultiPortRAM #(
             .ENTRY_NUM( PHT_PAP_ENTRY_NUM ), 
             .ENTRY_BIT_SIZE( $bits( PAP_PHT_IndexPath ) ), //2 bits per entty
             .READ_NUM( FETCH_WIDTH ), 
@@ -208,6 +208,9 @@ module PAp(
             phtWE[i] = port.brResult[i].valid;
 
             mispred[i] = port.brResult[i].mispred && port.brResult[i].valid;
+            if(phtWE[0] == phtWE[1] & phtWA[0] == phtWA[1]) begin
+                phtWE[1] = FALSE; //Multibank write
+            end
             // phtWA[i] = PAPToPHT_Index_Global(phtPrevValue[i].Address);
             // Update PHT's counter (saturated up/down counter).
             if (port.brResult[i].execTaken) begin

@@ -115,8 +115,8 @@ localparam PHT_ENTRY_WIDTH = 2;
 localparam PHT_ENTRY_MAX = (1 << PHT_ENTRY_WIDTH) - 1;
 typedef logic [PHT_ENTRY_WIDTH-1:0] PHT_EntryPath;
 
-localparam PAP_COUNTERS_NUM = 32;
-typedef logic [PAP_COUNTERS_NUM-1 : 0] BranchPatternHistoryPath;
+localparam PAP_COUNTERS_NUM = 32; //TODO BASED on Bits
+//typedef logic [PAP_COUNTERS_NUM-1 : 0] BranchPatternHistoryPath;
 typedef logic [PHT_PAP_BITS-1:0] PAP_PHT_IndexPath;
 typedef PHT_EntryPath [PAP_COUNTERS_NUM-1 : 0] PHT_COUNTERS;
 //PA
@@ -131,6 +131,16 @@ typedef struct packed {
     AddrPath Address;
 }
 PAP_PHT_ENTRY_INDEX;
+
+//PAG and SAG
+typedef PHT_EntryPath [PHT_PAP_ENTRY_NUM - 1 : 0] GHT_COUNTERS;
+
+
+typedef struct packed{
+    PHT_EntryPath Counter_Val;
+    PAP_PHT_IndexPath History;
+}
+XAG_ENTRY_HIST;
 
 localparam PHT_QUEUE_SIZE = 32;
 localparam PHT_QUEUE_SIZE_BIT_WIDTH = $clog2(PHT_QUEUE_SIZE);
@@ -170,6 +180,8 @@ typedef struct packed // struct BranchResult
     BranchGlobalHistoryPath globalHistory;  // The global history of branches.
 `ifdef  USE_TWOLVL
     PAP_PHT_ENTRY_INDEX phtPrevValue;
+`elsif USE_XAG
+    XAG_ENTRY_HIST phtPrevValue;
 `else
     PHT_EntryPath phtPrevValue;             // PHT's counter value
 `endif
@@ -184,6 +196,8 @@ typedef struct packed // struct BranchPred
     BranchGlobalHistoryPath globalHistory;  // The global history of branches.
 `ifdef  USE_TWOLVL
     PAP_PHT_ENTRY_INDEX phtPrevValue;
+`elsif USE_XAG
+    XAG_ENTRY_HIST phtPrevValue;
 `else
     PHT_EntryPath phtPrevValue;             // PHT's counter value
 `endif

@@ -1,7 +1,7 @@
-Running: xsim.dir/work.TestMain/xsimk -simmode gui -testplusarg MAX_TEST_CYCLES=10000 -testplusarg TEST_CODE=/home/jrmerkel/Documents/School/581/proj/rsd//Processor/Src/Verification/TestCode/C/581 -testplusarg DUMMY_DATA_FILE=/home/jrmerkel/Documents/School/581/proj/rsd//Processor/Src/Verification/DummyData.hex -testplusarg ENABLE_PC_GOAL=1 -testplusarg SHOW_SERIAL_OUT=1 -testplusarg RSD_LOG_FILE=RSD.log -wdb work.TestMain.wdb -simrunnum 0 -socket 47827
+Running: xsim.dir/work.TestMain/xsimk -simmode gui -testplusarg MAX_TEST_CYCLES=10000 -testplusarg TEST_CODE=/home/jrmerkel/Documents/School/581/proj/rsd//Processor/Src/Verification/TestCode/C/581 -testplusarg DUMMY_DATA_FILE=/home/jrmerkel/Documents/School/581/proj/rsd//Processor/Src/Verification/DummyData.hex -testplusarg ENABLE_PC_GOAL=1 -testplusarg SHOW_SERIAL_OUT=1 -testplusarg RSD_LOG_FILE=RSD.log -wdb work.TestMain.wdb -simrunnum 0 -socket 35423
 Design successfully loaded
-Design Loading Memory Usage: 38340 KB (Peak: 38340 KB)
-Design Loading CPU Usage: 10 ms
+Design Loading Memory Usage: 38300 KB (Peak: 38300 KB)
+Design Loading CPU Usage: 20 ms
 Simulation completed
-Simulation Memory Usage: 205240 KB (Peak: 205240 KB)
-Simulation CPU Usage: 10370 ms
+Simulation Memory Usage: 208564 KB (Peak: 208564 KB)
+Simulation CPU Usage: 10180 ms

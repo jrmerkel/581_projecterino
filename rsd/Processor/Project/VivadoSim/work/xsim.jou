@@ -2,8 +2,8 @@
 # xsim v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon Dec 13 23:14:10 2021
-# Process ID: 23474
+# Start of session at: Tue Dec 14 23:09:53 2021
+# Process ID: 77697
 # Current directory: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/VivadoSim/work
 # Command line: xsim -source {xsim.dir/work.TestMain/xsim_script.tcl}
 # Log file: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/VivadoSim/work/xsim.log
@@ -16,6 +16,5 @@ current_wave_config {Untitled 1}
 add_wave {{/TestMain/main/main/core/brPred/port}} 
 current_wave_config {Untitled 1}
 add_wave {{/TestMain/main/main/core/brPred/next}} 
-restart
 run all
 close_sim

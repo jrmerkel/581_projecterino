@@ -195,13 +195,6 @@ module PAp(
                 end
             end
         end
-                 // Discard the result of previous cycle
-        for (int i = 0; i < INT_ISSUE_WIDTH; i++) begin
-            // Counter's value.
-            histRA[i] =  PAPToPHT_Index_Global(
-                port.brResult[i].brAddr
-            );
-        end   
 
         next.brPredTaken = brPredTaken;
         next.brGlobalHistory = histRV;
@@ -244,6 +237,10 @@ module PAp(
             // Read PHT entry for next cycle 
             phtRA[i] = PAPToPHT_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH);
+                        // Read Hist
+            histRA[i] =  PAPToHIST_Index_Global(
+                pcIn + i*INSN_BYTE_WIDTH
+            );
         end
 
         // In reset sequence, the write port 0 is used for initializing, and 
@@ -264,6 +261,9 @@ module PAp(
             for (int i = 0; i < FETCH_WIDTH; i++) begin
             // Read PHT entry for next cycle 
             phtRA[i] = PAPToPHT_Index_Global(
+                pcIn + i*INSN_BYTE_WIDTH
+            );
+             histRA[i] =  PAPToHIST_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH
             );
             end

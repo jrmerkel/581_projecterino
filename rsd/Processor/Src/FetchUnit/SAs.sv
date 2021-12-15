@@ -211,14 +211,6 @@ module SAs(
                 end
             end
         end
-                 // Discard the result of previous cycle
-        for (int i = 0; i < INT_ISSUE_WIDTH; i++) begin
-            // Counter's value.
-            histRA[i] =  SASToHIST_Index_Global(
-                port.brResult[i].brAddr
-            );
-        end   
-
         next.brPredTaken = brPredTaken;
         next.brGlobalHistory = histRV;
 
@@ -281,6 +273,8 @@ module SAs(
             // Read PHT entry for next cycle 
             phtRA[i] = SASToPHT_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH);
+            histRA[i] = SASToHIST_Index_Global(
+                pcIn + i*INSN_BYTE_WIDTH);
         end
 
         // In reset sequence, the write port 0 is used for initializing, and 
@@ -303,6 +297,8 @@ module SAs(
             phtRA[i] = SASToPHT_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH
             );
+            histRA[i] = SASToHIST_Index_Global(
+                pcIn + i*INSN_BYTE_WIDTH);
             end
         end
     end

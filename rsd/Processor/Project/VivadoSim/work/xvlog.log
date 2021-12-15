@@ -166,10 +166,14 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/Scho
 INFO: [VRFC 10-311] analyzing module PAp
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/PAs.sv" into library work
 INFO: [VRFC 10-311] analyzing module PAs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/PAg.sv" into library work
+INFO: [VRFC 10-311] analyzing module PAg
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/SAp.sv" into library work
 INFO: [VRFC 10-311] analyzing module SAp
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/SAs.sv" into library work
 INFO: [VRFC 10-311] analyzing module SAs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/SAg.sv" into library work
+INFO: [VRFC 10-311] analyzing module SAg
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/FetchUnit/Gshare.sv" into library work
 INFO: [VRFC 10-311] analyzing module Gshare
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/Scheduler/SchedulerIF.sv" into library work

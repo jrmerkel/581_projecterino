@@ -211,13 +211,6 @@ module SAp(
                 end
             end
         end
-                 // Discard the result of previous cycle
-        for (int i = 0; i < INT_ISSUE_WIDTH; i++) begin
-            // Counter's value.
-            histRA[i] =  SAPToHIST_Index_Global(
-                port.brResult[i].brAddr
-            );
-        end   
 
         next.brPredTaken = brPredTaken;
         next.brGlobalHistory = histRV;
@@ -281,6 +274,8 @@ module SAp(
             // Read PHT entry for next cycle 
             phtRA[i] = SAPToPHT_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH);
+            histRA[i] = SAPToHIST_Index_Global(
+                pcIn + i*INSN_BYTE_WIDTH);
         end
 
         // In reset sequence, the write port 0 is used for initializing, and 
@@ -303,6 +298,8 @@ module SAp(
             phtRA[i] = SAPToPHT_Index_Global(
                 pcIn + i*INSN_BYTE_WIDTH
             );
+            histRA[i] = SAPToHist_Index_Global(
+                pcIn + i*INSN_BYTE_WIDTH);
             end
         end
     end

@@ -2,8 +2,8 @@
 # xsim v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon Dec 13 23:14:10 2021
-# Process ID: 23474
+# Start of session at: Tue Dec 14 23:09:53 2021
+# Process ID: 77697
 # Current directory: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/VivadoSim/work
 # Command line: xsim -source {xsim.dir/work.TestMain/xsim_script.tcl}
 # Log file: /home/jrmerkel/Documents/School/581/proj/rsd/Processor/Project/VivadoSim/work/xsim.log
@@ -27,8 +27,6 @@ add_wave {{/TestMain/main/main/core/brPred/port}}
 current_wave_config {Untitled 1}
 Untitled 1
 add_wave {{/TestMain/main/main/core/brPred/next}} 
-restart
-INFO: [Simtcl 6-17] Simulation restarted
 run all
 INIT_HEX_FILE in InitializedBlockRAM is not specified, so no file is read.
 ERROR: No Format provided for this argument
@@ -1427,22 +1425,30 @@ ERROR: No Format provided for this argument
 ERROR: No Format provided for this argument
 ERROR: No Format provided for this argument
 ERROR: No Format provided for this argument
+ERROR: No Format provided for this argument
+ERROR: No Format provided for this argument
+ERROR: No Format provided for this argument
+ERROR: No Format provided for this argument
+ERROR: No Format provided for this argument
+ERROR: No Format provided for this argument
+ERROR: No Format provided for this argument
+ERROR: No Format provided for this argument
 PC reached PC_GOAL: 80001004
-Num of I$ misses:        169
+Num of I$ misses:        165
 Num of D$ load misses:        115
 Num of D$ store misses:        124
 Num of memory dependency prediction misses:          0
 Num of store-load-forwarding misses:          0
-Num of branch prediction misses:         42
-Num of branch prediction misses detected on decode:         53
+Num of branch prediction misses:         41
+Num of branch prediction misses detected on decode:         48
 Num of committed RISC-V-ops:        5056
 Num of committed micro-ops:        5056
-IPC (RISC-V instruction): 0.785947
-IPC (micro-op): 0.785947
-Elapsed cycles:        6433
-$finish called at time : 263102 ns : File "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/Verification/TestMain.sv" Line 330
-run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 10947.820 ; gain = 0.000 ; free physical = 5792 ; free virtual = 12676
+IPC (RISC-V instruction): 0.786926
+IPC (micro-op): 0.786926
+Elapsed cycles:        6425
+$finish called at time : 262974 ns : File "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/Verification/TestMain.sv" Line 330
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 11088.859 ; gain = 0.000 ; free physical = 1792 ; free virtual = 11354
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
 exit
-INFO: [Common 17-206] Exiting xsim at Mon Dec 13 23:16:38 2021...
+INFO: [Common 17-206] Exiting xsim at Tue Dec 14 23:12:37 2021...

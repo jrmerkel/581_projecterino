@@ -33,6 +33,8 @@ interface FetchStageIF( input logic clk, rst, rstStart );
 
 `ifdef  USE_TWOLVL
     PAP_PHT_ENTRY_INDEX phtPrevValue[FETCH_WIDTH];
+`elsif USE_XAG
+    XAG_ENTRY_HIST phtPrevValue[FETCH_WIDTH];
 `else
     PHT_EntryPath phtPrevValue[FETCH_WIDTH];
 `endif

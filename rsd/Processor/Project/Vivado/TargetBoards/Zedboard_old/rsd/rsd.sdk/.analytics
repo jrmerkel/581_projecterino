@@ -1,4 +1,0 @@
-timestamp=[2021-11-14 19:53:12], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.855, duration_ms=1855, data={}
-timestamp=[2021-11-14 19:53:30], mode=APP_CREATION, duration=0:00:17.775, duration_ms=17775, data={name=fsbl, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
-timestamp=[2021-11-14 19:53:51], mode=PLATFORM_GENERATION, duration=0:00:20.829, duration_ms=20829, data={name=design_1_wrapper}
-timestamp=[2021-11-14 19:53:53], mode=BUILD, duration=0:00:01.090, duration_ms=1090, data={name=fsbl, configuration=Release, clean_build=false}

@@ -105,7 +105,10 @@ typedef logic [PHT_ENTRY_NUM_BIT_WIDTH-1:0] PHT_IndexPath;
 
 //GAp
 localparam PHT_GAP_BITS = PHT_ENTRY_NUM_BIT_WIDTH - BRANCH_GLOBAL_HISTORY_BIT_WIDTH;
-localparam PHT_PAP_BITS = PHT_ENTRY_NUM_BIT_WIDTH - BRANCH_GLOBAL_HISTORY_BIT_WIDTH - 1;
+//5
+// localparam PHT_PAP_BITS = PHT_ENTRY_NUM_BIT_WIDTH - BRANCH_GLOBAL_HISTORY_BIT_WIDTH - 1;
+//3
+localparam PHT_PAP_BITS = 5;
 localparam PHT_PAP_ENTRY_NUM = (1 << PHT_PAP_BITS);
 //GAs
 localparam GAS_OFFSET = $clog2(256);
@@ -115,7 +118,7 @@ localparam PHT_ENTRY_WIDTH = 2;
 localparam PHT_ENTRY_MAX = (1 << PHT_ENTRY_WIDTH) - 1;
 typedef logic [PHT_ENTRY_WIDTH-1:0] PHT_EntryPath;
 
-localparam PAP_COUNTERS_NUM = 32; //TODO BASED on Bits
+localparam PAP_COUNTERS_NUM = PHT_PAP_ENTRY_NUM; 
 //typedef logic [PAP_COUNTERS_NUM-1 : 0] BranchPatternHistoryPath;
 typedef logic [PHT_PAP_BITS-1:0] PAP_PHT_IndexPath;
 typedef PHT_EntryPath [PAP_COUNTERS_NUM-1 : 0] PHT_COUNTERS;
@@ -128,6 +131,10 @@ typedef struct packed {
     PHT_COUNTERS Counters;
     //PAP_PHT_IndexPath History;
 } PAP_PHT_ENTRY;
+
+//XAg
+typedef logic [PHT_PAP_BITS*2 -1 : 0] XAG_IndexPath;
+localparam XAG_ENTRY_NUM = (1 << ((PHT_PAP_BITS)*2));
 
 typedef struct packed {
     PAP_PHT_ENTRY Entries;
@@ -145,6 +152,7 @@ PAP_PHT_ENTRY_INDEX;
 typedef PHT_EntryPath [PHT_PAP_ENTRY_NUM - 1 : 0] GHT_COUNTERS;
 
 typedef PAP_PHT_IndexPath [PHT_PAP_ENTRY_NUM - 1: 0] PHT_HIST;
+typedef PAP_PHT_IndexPath [HIST_SAX_ENTRY_NUM - 1: 0] SAX_PHT_HIST;
 
 typedef struct packed{
     PHT_EntryPath Counter_Val;

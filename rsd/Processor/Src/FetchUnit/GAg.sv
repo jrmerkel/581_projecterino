@@ -37,15 +37,8 @@ module GAg(
     // assert when misprediction occured.
     logic mispred;
 
-    logic pushPhtQueue, popPhtQueue;
-    logic full, empty;
-
-    // Queue for multibank pht
-    PhtQueueEntry phtQueue[PHT_QUEUE_SIZE];
-    PhtQueuePointerPath headPtr, tailPtr;
-
     // Check for write number in 1cycle.
-    logic updatePht;
+    // logic updatePht;
 
     // Repurposed code for GHT
     generate
@@ -64,19 +57,6 @@ module GAg(
             .rv(ghtRV)  //Write Address
         );
         
-        QueuePointer #(
-            .SIZE( PHT_QUEUE_SIZE ) //32
-        )
-        phtQueuePointer(
-            .clk(port.clk),
-            .rst(port.rst),
-            .push(pushPhtQueue),
-            .pop(popPhtQueue),
-            .full(full),
-            .empty(empty),
-            .headPtr(headPtr),
-            .tailPtr(tailPtr)    
-        );
     endgenerate
     
     
@@ -98,16 +78,6 @@ module GAg(
         end
         else begin
             regBrGlobalHistory <= nextBrGlobalHistory;
-        end
-
-        // Push Pht Queue
-        if (port.rst) begin
-            phtQueue[resetIndex % PHT_QUEUE_SIZE].phtWA <= '0;
-            phtQueue[resetIndex % PHT_QUEUE_SIZE].phtWV <= PHT_ENTRY_MAX / 2 + 1;
-        end
-        else if (pushPhtQueue) begin
-            phtQueue[headPtr].phtWA <= phtWA[INT_ISSUE_WIDTH-1];
-            phtQueue[headPtr].phtWV <= phtWV[INT_ISSUE_WIDTH-1];
         end
     end
 
@@ -168,18 +138,10 @@ module GAg(
             phtWA[i] =  port.brResult[i].globalHistory; // Just use global history to index
         end
 
-        updatePht = FALSE;
-        pushPhtQueue = FALSE;
-
         for (int i = 0; i < INT_ISSUE_WIDTH; i++) begin
             // When branch instruction is executed, update PHT.
-            if (updatePht) begin
-                pushPhtQueue = port.brResult[i].valid;
-            end
-            else begin
-                phtWE[i] = port.brResult[i].valid;
-                updatePht |= phtWE[i];
-            end
+            phtWE[i] = port.brResult[i].valid;
+
 
             mispred = port.brResult[i].mispred && port.brResult[i].valid;
 
@@ -207,18 +169,6 @@ module GAg(
 
         ghtRA[0] = nextBrGlobalHistory; //Just use global history
 
-
-        // Pop PHT Queue
-        if (!empty && !updatePht) begin
-            popPhtQueue = TRUE;
-            phtWE[0] = TRUE;
-            phtWA[0] = phtQueue[tailPtr].phtWA;
-            phtWV[0] = phtQueue[tailPtr].phtWV;
-        end 
-        else begin
-            popPhtQueue = FALSE;
-        end
-
         // In reset sequence, the write port 0 is used for initializing, and 
         // the other write ports are disabled.
         if (port.rst) begin
@@ -230,9 +180,6 @@ module GAg(
 
             // To avoid writing to the same bank (avoid error message)
             ghtRA[0] = nextBrGlobalHistory;
-
-            pushPhtQueue = FALSE;
-            popPhtQueue = FALSE;
         end
     end
 

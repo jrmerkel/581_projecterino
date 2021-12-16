@@ -144,6 +144,7 @@ PAP_PHT_ENTRY_INDEX;
 //PAG and SAG
 typedef PHT_EntryPath [PHT_PAP_ENTRY_NUM - 1 : 0] GHT_COUNTERS;
 
+typedef PAP_PHT_IndexPath [PHT_PAP_ENTRY_NUM - 1: 0] PHT_HIST;
 
 typedef struct packed{
     PHT_EntryPath Counter_Val;
@@ -159,6 +160,7 @@ typedef struct packed // struct PhtQueueEntry
 {
     AddrPath phtWA;            // Write Address
     PHT_EntryPath phtWV;                        // result of bpred
+    logic phtWE;                        // result of bpred
 } PhtQueueEntry;
 
 

@@ -3,6 +3,11 @@
 
 
 package MicroArchConf;
+// `define USE_GSHARE
+`define USE_PAP_PRED
+`define USE_TWOLVL
+// `define USE_XAG
+// `define USE_GAXbits
 
 // ---- Front-end
 // Fetch width (instructions). This parameter is configurable.
@@ -77,7 +82,13 @@ localparam CONF_STORE_QUEUE_ENTRY_NUM = 16; // The size of a store queue
 // Branch predictor
 localparam CONF_BTB_ENTRY_NUM = 1024;
 localparam CONF_PHT_ENTRY_NUM = 2048;
-localparam CONF_BRANCH_GLOBAL_HISTORY_BIT_WIDTH = 10;   // Global history length for g-share 
+
+`ifdef USE_GAXbits
+localparam CONF_BRANCH_GLOBAL_HISTORY_BIT_WIDTH = 11; 
+`else 
+localparam CONF_BRANCH_GLOBAL_HISTORY_BIT_WIDTH = 5;
+`endif
+  // Global history length for g-share 
 
 // Memory dependency predictor
 localparam CONF_MDT_ENTRY_NUM = 1024;   // The number of prediction table entries.

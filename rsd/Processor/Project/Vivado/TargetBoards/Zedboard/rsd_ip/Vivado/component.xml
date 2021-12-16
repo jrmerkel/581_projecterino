@@ -2651,17 +2651,57 @@
         <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
       </ns0:file>
       <ns0:file>
-        <ns0:name>../../../../../../Src/FetchUnit/Gshare.sv</ns0:name>
-        <ns0:fileType>systemVerilogSource</ns0:fileType>
-        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
-      </ns0:file>
-      <ns0:file>
         <ns0:name>../../../../../../Src/FetchUnit/Bimodal.sv</ns0:name>
         <ns0:fileType>systemVerilogSource</ns0:fileType>
         <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
       </ns0:file>
       <ns0:file>
         <ns0:name>../../../../../../Src/FetchUnit/GAg.sv</ns0:name>
+        <ns0:fileType>systemVerilogSource</ns0:fileType>
+        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
+      </ns0:file>
+      <ns0:file>
+        <ns0:name>../../../../../../Src/FetchUnit/GAp.sv</ns0:name>
+        <ns0:fileType>systemVerilogSource</ns0:fileType>
+        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
+      </ns0:file>
+      <ns0:file>
+        <ns0:name>../../../../../../Src/FetchUnit/GAs.sv</ns0:name>
+        <ns0:fileType>systemVerilogSource</ns0:fileType>
+        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
+      </ns0:file>
+      <ns0:file>
+        <ns0:name>../../../../../../Src/FetchUnit/PAp.sv</ns0:name>
+        <ns0:fileType>systemVerilogSource</ns0:fileType>
+        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
+      </ns0:file>
+      <ns0:file>
+        <ns0:name>../../../../../../Src/FetchUnit/PAs.sv</ns0:name>
+        <ns0:fileType>systemVerilogSource</ns0:fileType>
+        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
+      </ns0:file>
+      <ns0:file>
+        <ns0:name>../../../../../../Src/FetchUnit/PAg.sv</ns0:name>
+        <ns0:fileType>systemVerilogSource</ns0:fileType>
+        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
+      </ns0:file>
+      <ns0:file>
+        <ns0:name>../../../../../../Src/FetchUnit/SAp.sv</ns0:name>
+        <ns0:fileType>systemVerilogSource</ns0:fileType>
+        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
+      </ns0:file>
+      <ns0:file>
+        <ns0:name>../../../../../../Src/FetchUnit/SAs.sv</ns0:name>
+        <ns0:fileType>systemVerilogSource</ns0:fileType>
+        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
+      </ns0:file>
+      <ns0:file>
+        <ns0:name>../../../../../../Src/FetchUnit/SAg.sv</ns0:name>
+        <ns0:fileType>systemVerilogSource</ns0:fileType>
+        <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
+      </ns0:file>
+      <ns0:file>
+        <ns0:name>../../../../../../Src/FetchUnit/Gshare.sv</ns0:name>
         <ns0:fileType>systemVerilogSource</ns0:fileType>
         <ns0:userFileType>IMPORTED_FILE</ns0:userFileType>
       </ns0:file>

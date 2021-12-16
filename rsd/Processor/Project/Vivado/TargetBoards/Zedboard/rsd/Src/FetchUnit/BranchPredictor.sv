@@ -9,19 +9,33 @@
 import BasicTypes::*;
 import FetchUnitTypes::*;
 
-//`define USE_GSHARE
-`define USE_GAG_PRED
+
 
 module BranchPredictor(
     NextPCStageIF.BranchPredictor port,
     FetchStageIF.BranchPredictor next,
     ControllerIF.BranchPredictor ctrl
 );
-
 `ifdef USE_GSHARE
     Gshare predictor( port, next, ctrl );
 `elsif USE_GAG_PRED
     GAg predictor( port, next, ctrl );
+`elsif USE_GAP_PRED
+    GAp predictor( port, next, ctrl );
+`elsif USE_GAS_PRED
+    GAs predictor( port, next, ctrl );
+`elsif USE_PAP_PRED
+    PAp predictor( port, next, ctrl );
+`elsif USE_PAS_PRED
+    PAs predictor( port, next, ctrl );
+`elsif USE_PAG_PRED
+    PAg predictor( port, next, ctrl );
+`elsif USE_SAP_PRED
+    SAp predictor( port, next, ctrl );
+`elsif USE_SAS_PRED
+    SAs predictor( port, next, ctrl );
+`elsif USE_SAG_PRED
+    SAg predictor( port, next, ctrl );
 `else
     Bimodal predictor( port, next );
 `endif

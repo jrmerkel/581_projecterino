@@ -27,9 +27,9 @@ module GAg(
     PHT_EntryPath phtPrevValue[INT_ISSUE_WIDTH];
 
     // Read port need for branch predict and update counter.
-    GHT_IndexPath phtRA[FETCH_WIDTH];
+    GHT_IndexPath ghtRA[1];
+    PHT_EntryPath ghtRV[1];
     PHT_EntryPath phtRV[FETCH_WIDTH];
-
     // Branch history for using predict.
     BranchGlobalHistoryPath nextBrGlobalHistory, regBrGlobalHistory;
     BranchGlobalHistoryPath brGlobalHistory [ FETCH_WIDTH ];
@@ -52,7 +52,7 @@ module GAg(
         BlockMultiBankRAM #(
             .ENTRY_NUM( GHT_ENTRY_NUM ), 
             .ENTRY_BIT_SIZE( $bits( PHT_EntryPath ) ), //2 bits per entty
-            .READ_NUM( FETCH_WIDTH ), //2 reads
+            .READ_NUM( 1 ), //1 read necessary since the global history is the same
             .WRITE_NUM( INT_ISSUE_WIDTH ) //2 writes
         )
         pht( 
@@ -60,8 +60,8 @@ module GAg(
             .we(phtWE), // Write enable
             .wa(phtWA), //Write Address
             .wv(phtWV),// Write Val
-            .ra(phtRA), //Read Address
-            .rv(phtRV)  //Write Address
+            .ra(ghtRA), //Read Address
+            .rv(ghtRV)  //Write Address
         );
         
         QueuePointer #(
@@ -121,6 +121,11 @@ module GAg(
 
         nextBrGlobalHistory = regBrGlobalHistory;
 
+        //pht needs to be size fetch
+        for (int i = 0; i < FETCH_WIDTH; i++) begin
+            phtRV[i] = ghtRV[0];
+        end
+        
         for (int i = 0; i < FETCH_WIDTH; i++) begin
             brPredTaken[i] = FALSE;
             // Output global history to pipeline for recovery.
@@ -200,9 +205,8 @@ module GAg(
             end
         end
 
-        for (int i = 0; i < FETCH_WIDTH; i++) begin
-            phtRA[i] = nextBrGlobalHistory; //Just use global history
-        end
+        ghtRA[0] = nextBrGlobalHistory; //Just use global history
+
 
         // Pop PHT Queue
         if (!empty && !updatePht) begin
@@ -225,9 +229,7 @@ module GAg(
             end
 
             // To avoid writing to the same bank (avoid error message)
-            for (int i = 0; i < FETCH_WIDTH; i++) begin
-                phtRA[i] = i;
-            end
+            ghtRA[0] = nextBrGlobalHistory;
 
             pushPhtQueue = FALSE;
             popPhtQueue = FALSE;

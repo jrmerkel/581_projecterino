@@ -2,7 +2,7 @@
 # Makefile for synthesizing on Vivado only (not using Synplify netlist)
 
 # Specify test code and simulation cycles
-MAX_TEST_CYCLES = 10000000
+MAX_TEST_CYCLES = 1000000
 SHOW_SERIAL_OUT = 1
 ENABLE_PC_GOAL  = 1
 TEST_CODE       = $(SOURCE_ROOT)Verification/TestCode/C/581_test
@@ -55,7 +55,7 @@ XSIM_OPTIONS = \
 	-testplusarg DUMMY_DATA_FILE=$(DUMMY_DATA_FILE) \
 	-testplusarg ENABLE_PC_GOAL=$(ENABLE_PC_GOAL) \
 	-testplusarg SHOW_SERIAL_OUT=$(SHOW_SERIAL_OUT) \
-	-testplusarg RSD_LOG_FILE=$(RSD_LOG_FILE_RTL) \
+	#-testplusarg RSD_LOG_FILE=$(RSD_LOG_FILE_RTL) \
 
 
 all: Makefiles/CoreSources.inc.mk

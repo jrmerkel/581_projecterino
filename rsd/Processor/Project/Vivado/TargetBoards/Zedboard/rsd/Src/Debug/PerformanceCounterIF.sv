@@ -18,7 +18,7 @@ interface PerformanceCounterIF( input logic clk, rst );
     
     // I Cache misses
     logic icMiss;
-
+    logic brPred[FETCH_WIDTH];
     // D cache misses
     logic loadMiss[LOAD_ISSUE_WIDTH];
     logic storeMiss[STORE_ISSUE_WIDTH];
@@ -41,6 +41,7 @@ interface PerformanceCounterIF( input logic clk, rst );
         storeLoadForwardingFail,
         memDepPredMiss,
         branchPredMiss,
+        brPred,
         branchPredMissDetectedOnDecode,
     output
         perfCounter
@@ -48,7 +49,8 @@ interface PerformanceCounterIF( input logic clk, rst );
 
     modport FetchStage(
     output
-        icMiss
+        icMiss,
+        brPred
     );
 
     modport DecodeStage(

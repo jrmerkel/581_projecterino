@@ -1,2 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jrmerkel/Documents/School/581/proj/rsd/Processor/Src/SysDeps/SynthesisMacros.svh" into library xil_defaultlib
-ERROR: [VRFC 10-4982] syntax error near '"Error!' [../../../../../../../../../Src/SysDeps/../SynthesisMacros.sv:119]

@@ -2423,22 +2423,10 @@
       }
     },
     "interface_nets": {
-      "RSD_0_axi4MemoryIF_M_AXI": {
+      "processing_system7_0_DDR": {
         "interface_ports": [
-          "RSD_0/axi4MemoryIF_M_AXI",
-          "axi_interconnect_1/S00_AXI"
-        ]
-      },
-      "processing_system7_0_M_AXI_GP0": {
-        "interface_ports": [
-          "axi_interconnect_0/S00_AXI",
-          "processing_system7_0/M_AXI_GP0"
-        ]
-      },
-      "axi_interconnect_0_M01_AXI": {
-        "interface_ports": [
-          "RSD_0/axi4LitePsToPlControlRegisterIF_S_AXI",
-          "axi_interconnect_0/M01_AXI"
+          "DDR",
+          "processing_system7_0/DDR"
         ]
       },
       "processing_system7_0_FIXED_IO": {
@@ -2453,16 +2441,28 @@
           "processing_system7_0/S_AXI_HP0"
         ]
       },
+      "axi_interconnect_0_M01_AXI": {
+        "interface_ports": [
+          "RSD_0/axi4LitePsToPlControlRegisterIF_S_AXI",
+          "axi_interconnect_0/M01_AXI"
+        ]
+      },
       "axi_interconnect_0_M00_AXI": {
         "interface_ports": [
           "RSD_0/axi4LitePlToPsControlRegisterIF_S_AXI",
           "axi_interconnect_0/M00_AXI"
         ]
       },
-      "processing_system7_0_DDR": {
+      "RSD_0_axi4MemoryIF_M_AXI": {
         "interface_ports": [
-          "DDR",
-          "processing_system7_0/DDR"
+          "RSD_0/axi4MemoryIF_M_AXI",
+          "axi_interconnect_1/S00_AXI"
+        ]
+      },
+      "processing_system7_0_M_AXI_GP0": {
+        "interface_ports": [
+          "axi_interconnect_0/S00_AXI",
+          "processing_system7_0/M_AXI_GP0"
         ]
       }
     },

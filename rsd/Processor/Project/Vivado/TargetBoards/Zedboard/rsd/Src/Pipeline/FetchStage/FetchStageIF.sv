@@ -25,9 +25,19 @@ interface FetchStageIF( input logic clk, rst, rstStart );
     // BranchPredictor
     logic updateBrHistory[FETCH_WIDTH];
     logic brPredTaken[FETCH_WIDTH];
-    BranchGlobalHistoryPath brGlobalHistory[FETCH_WIDTH];
-    PHT_EntryPath phtPrevValue[FETCH_WIDTH];
+    PAP_PHT_IndexPath brGlobalHistory[FETCH_WIDTH];
+    
+    
 
+    
+
+`ifdef  USE_TWOLVL
+    PAP_PHT_ENTRY_INDEX phtPrevValue[FETCH_WIDTH];
+`elsif USE_XAG
+    XAG_ENTRY_HIST phtPrevValue[FETCH_WIDTH];
+`else
+    PHT_EntryPath phtPrevValue[FETCH_WIDTH];
+`endif
     // I-Cache
     logic     icReadHit [ FETCH_WIDTH ];
     logic     icRE;
